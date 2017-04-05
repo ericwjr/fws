@@ -14,6 +14,10 @@ header{
   color:#fff;
   position:relative;
 }
+#header .menu-bar,
+#header .chat{
+  position:absolute !important;
+}
 .nav-menu{
   height:100%;
 }

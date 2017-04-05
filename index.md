@@ -28,7 +28,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   </div>
 </div>
 <div class = 'fulls shows'>
-  <div class = 'flex-in '>
+  <div class = 'flex-in after'>
     <h3>Science Shows</h3>
   </div>
 </div>
@@ -40,7 +40,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 </div>
 
 <div class = 'fulls parties'>
-  <div class = 'flex-in'>
+  <div class = 'flex-in after'>
     <h3>Science Parties</h3>
   </div>
 </div>
@@ -52,7 +52,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 </div>
 
 <div class = 'fulls workshops'>
-  <div class = 'flex-in'>
+  <div class = 'flex-in after'>
     <h3>After School Workshops</h3>
   </div>
 </div>
@@ -64,7 +64,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 </div>
 
 <div class = 'fulls teachers'>
-  <div class = 'flex-in'>
+  <div class = 'flex-in after'>
     <h3>Teacher Workshops</h3>
   </div>
 </div>

@@ -4,7 +4,7 @@ layout: default
 <style>
   .overview{
     position: relative;
-    height:200px;
+    height:360px;
     width:100%;
     background-color:#111;
     background-image:url({{site.baseurl}}/assets/after-school.jpg);

@@ -29,44 +29,44 @@ a.nav-brand{
   max-width:150px;
 }
 .menu-bar{
-    cursor:pointer;
-    position:fixed;
-    top:12.5px;
-    right:25px;
-    width:40px;
-    height:auto;
-    z-index:125;
+  cursor:pointer;
+  position:fixed;
+  top:12.5px;
+  right:25px;
+  width:40px;
+  height:auto;
+  z-index:125;
 }
 .open-bar{
     left: 225px;
 }
 .bar{
-    display:block;
-    margin:7.5px auto 0 auto;
-    background-color:#111;
-    padding:1px;
-    width:32px;
-    transition:transform 0.25s ease-out;
-    transform:100% 100%;
-    z-index:125;
+  display:block;
+  margin:7.5px auto 0 auto;
+  background-color:#111;
+  padding:1px;
+  width:32px;
+  transition:transform 0.25s ease-out;
+  transform:100% 100%;
+  z-index:125;
 }
 #header .bar{
-    background-color:#fff;
+  background-color:#fff;
 }
 .cross{
   padding:0.5px;
   z-index:125;
 }
 .cross:nth-of-type(even){
-    opacity:0;
+  opacity:0;
 }
 .cross:first-child{
-    transform:rotate(45deg) translateY(12.5px);
-    width:25px;
+  transform:rotate(45deg) translateY(12.5px);
+  width:25px;
 }
 .cross:last-child{
-   transform:rotate(-45deg) translateY(-12.5px);
-   width:25px;
+  transform:rotate(-45deg) translateY(-12.5px);
+  width:25px;
 }
 .full{
   width:0;
@@ -92,17 +92,17 @@ a.nav-brand{
   position:absolute !important;
 }
 .drop{
-    position:fixed;
-    left:0;
-    top:0;
-    bottom:0;
-    width:0;
-    min-height:120vh;
-    opacity:0;
-    overflow:hidden;
-    transition:width 1.5s ease-out;
-    box-shadow:-1px 2px 1px 2px rgba(0,0,0,0.05);
-    background-color:#0FBE7C;
+  position:fixed;
+  left:0;
+  top:0;
+  bottom:0;
+  width:0;
+  min-height:120vh;
+  opacity:0;
+  overflow:hidden;
+  transition:width 1.5s ease-out;
+  box-shadow:-1px 2px 1px 2px rgba(0,0,0,0.05);
+  background-color:#0FBE7C;
 }
 .drop a{
   display:block;
@@ -118,15 +118,15 @@ a.nav-brand{
   color: #fefefe;
 }
 .drop:before{
-    content:'';
-    width:0;
-    bottom:100%;
-    position:absolute;
-    right:10px;
-    top:50;
-    border-right: 7.5px solid transparent;
-    border-left:7.5px solid transparent;
-    border-bottom:9px solid #fefefe;
+  content:'';
+  width:0;
+  bottom:100%;
+  position:absolute;
+  right:10px;
+  top:50;
+  border-right: 7.5px solid transparent;
+  border-left:7.5px solid transparent;
+  border-bottom:9px solid #fefefe;
 }
 .open{
   padding:75px 25px;

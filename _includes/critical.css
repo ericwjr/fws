@@ -346,7 +346,7 @@ time{
     background-color:#f0f0f0;
     background-position:top center;
     background-attachment:fixed;
-    background-size:contain;
+    background-size:100%  100%;
     background-repeat:no-repeat;
 }
 .fulls .after{

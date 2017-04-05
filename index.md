@@ -33,10 +33,8 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   </div>
 </div>
 <div class = 'dull flex'>
-  <div class = 'child tripple flex-in'>
-     <div class = 'almost'>
-      <p>{{page.story}}</p>
-     </div>
+  <div class = 'tripple flex-in'>
+    <p>{{page.story}}</p>
   </div>
 </div>
 <div class = 'full parties'>
@@ -45,10 +43,8 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   </div>
 </div>
 <div class = 'dark flex'>
-  <div class = 'child tripple flex-in'>
-    <div class = 'almost'>
-      <p>{{page.story}}</p>
-    </div>
+  <div class = 'tripple flex-in'>
+    <p>{{page.story}}</p>
   </div>
 </div>
 <div class = 'full workshops'>
@@ -57,10 +53,8 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   </div>
 </div>
 <div class = 'dull flex'>
-  <div class = 'child tripple flex-in'>
-    <div class = 'almost'>
-      <p>{{page.story}}</p>
-    </div>
+  <div class = 'tripple flex-in'>
+    <p>{{page.story}}
   </div>
 </div>
 <div class = 'full teachers'>
@@ -69,8 +63,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     </div>
 </div>
 <div class = 'dark flex'>
-  <div class = 'child duo'>
-    <div class = 'almost'>
+  <div class = 'tripple flex-in'>
       <p>{{page.story}}</p>
     </div>
   </div>

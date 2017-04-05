@@ -12,6 +12,6 @@
      cursor:pointer;
    }
 </style>
-<div class = 'chat flex-in'>
+<a href = '{{site.baseurl}}/contact-us' class = 'chat flex-in'>
   <i class = 'icon icon-comment' aria-hidden = 'true'></i>
-</div>
+</a>

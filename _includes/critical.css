@@ -334,12 +334,9 @@ time{
     text-transform:capitalize;
     text-align:center;
 }
-.almost{
-    width:90%;
-    margin:0 auto;
-}
 .full{
-    max-height:480px;
+    width:100%;
+    max-height:540px;
     position:relative;
     background-color:#f0f0f0;
     background-position:top center;

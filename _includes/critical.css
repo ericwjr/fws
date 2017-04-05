@@ -50,6 +50,7 @@ main{
   width:100%;
   color:#fff;
   text-align:center;
+  padding: 25px;
 }
 .green{
   background-color:#0FBE7C;
@@ -335,7 +336,7 @@ time{
     text-transform:capitalize;
     text-align:center;
 }
-.full{
+.fulls{
     display:block;
     width:100%;
     min-height:480px;
@@ -413,10 +414,10 @@ teachers{
 }
 @media screen and (min-width: 992px){
     .strip{
-    width:7%;
+      width:7%;
     }
     .tripple,
     .trio{
-    order:initial;
+      order:initial;
     }
 }

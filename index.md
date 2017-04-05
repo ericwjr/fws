@@ -27,50 +27,50 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     </div>
   </div>
 </div>
-<div class = 'full shows'>
+<div class = 'fulls shows'>
   <div class = 'flex-in'>
     <h3>Science Shows</h3>
   </div>
 </div>
 
-<div class = 'dull flex'>
-  <div class = 'child tripple flex-in'>
+<div class = 'dull flex-in'>
+  <div class = 'child tripple'>
     <p>{{page.story}}</p>
   </div>
 </div>
 
-<div class = 'full parties'>
+<div class = 'fulls parties'>
   <div class = 'flex-in'>
     <h3>Science Parties</h3>
   </div>
 </div>
 
-<div class = 'dark flex'>
-  <div class = 'child tripple flex-in'>
+<div class = 'dark flex-in'>
+  <div class = 'child tripple'>
     <p>{{page.story}}</p>
   </div>
 </div>
 
-<div class = 'full workshops'>
+<div class = 'fulls workshops'>
   <div class = 'flex-in'>
     <h3>After School Workshops</h3>
   </div>
 </div>
 
-<div class = 'dull flex'>
-  <div class = 'child tripple flex-in'>
+<div class = 'dull flex-in'>
+  <div class = 'child tripple'>
     <p>{{page.story}}</p>
   </div>
 </div>
 
-<div class = 'full teachers'>
+<div class = 'fulls teachers'>
   <div class = 'flex-in'>
     <h3>Teacher Workshops</h3>
   </div>
 </div>
 
-<div class = 'dark flex'>
-  <div class = 'child tripple flex-in'>
+<div class = 'dark flex-in'>
+  <div class = 'child tripple'>
     <p>{{page.story}}</p>
   </div>
 </div>

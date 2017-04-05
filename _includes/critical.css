@@ -330,12 +330,13 @@ time{
     text-transform:uppercase;
 }
 .fulls h3:after,
-.fulls h3:before,{
+.fulls h3:before{
     content:'';
     position:absolute;
     width:250px;
     padding:2px;
     background-color:#fff;
+    animation: grow 1s 3s linear alternate; 
 }
 .fulls h3:after{
     top:50px;
@@ -356,6 +357,10 @@ time{
 }
 .teachers{
     background-image:url({{site.baseurl}}/assets/teachers.jpg);
+}
+@keyframes grow{
+    0% { width:0; }
+    100% { width:250px; }
 }
 @media screen and (min-width: 768px){
     .dull{

@@ -66,7 +66,7 @@
   }
   input, textarea{
     opacity:0.9;
-    background-color:#f9faf9;
+    background-color:#f5faf5;
     transition:background-color 0.3s ease-in-out, opacity 0.25s ease-in-out, border 0.3s ease-in;
     display:block;
     width:100%;

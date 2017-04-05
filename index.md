@@ -75,7 +75,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   </div>
 </div>
 
-<div class = 'bright flex-in'>
+<div class = 'main flex-in'>
   <div class = 'child tripple'>
     <div class = 'banner'>
       <i class = 'icon icon-qoute' aria-hidden = 'true'></i>

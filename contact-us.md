@@ -1,6 +1,7 @@
 ---
   layout: default
   permalink: /contact-us/
+  dark: true
 ---
 <style>
   .spinner{

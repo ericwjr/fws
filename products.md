@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /products/
+dark: true
 ---
 <style>
   .products img{

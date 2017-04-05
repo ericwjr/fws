@@ -334,7 +334,10 @@ time{
     text-transform:capitalize;
     text-align:center;
 }
-.fulls{
+.parties,
+.workshops,
+.shows,
+.teachers{
     display:block;
     width:100%;
     padding:0;

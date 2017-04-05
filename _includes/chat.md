@@ -1,7 +1,7 @@
 <style>
    .chat{
      position:fixed;
-     right:120px;
+     right:25px;
      top:12.5px;
      border-radius:50%;
      font-size:1.2em;

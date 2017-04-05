@@ -9,6 +9,16 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     width:100%;
     margin:0 auto;
   }
+  .thumbnail{
+    width:60px;
+    border-radius:50%;
+  }
+  .bold{
+    font-style:bold;
+  }
+  a.product{
+    text-decoration:underline;
+  }
 </style>
 <video controls autoplay muted>
   <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
@@ -22,8 +32,11 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     </p>
     <h2>Products</h2>
     <div>
-      <a class = 'product' href = '{{site.baseurl}}/products/'>Fun Weird Science Kit</a>
-      $30.00
+      <a class = 'product' href = '{{site.baseurl}}/products/'>
+      <img src = '{{site.baseurl}}/assets/kit.jpg' alt = 'science kit' class = 'thumbnail'>
+      Fun Weird Science Kit
+      </a>
+      <span class = 'bold'>$30.00</span>
     </div>
   </div>
 </div>
@@ -45,7 +58,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   </div>
 </div>
 
-<div class = 'dark flex-in'>
+<div class = 'dull flex-in'>
   <div class = 'child tripple'>
     <p>{{page.story}}</p>
   </div>
@@ -69,7 +82,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   </div>
 </div>
 
-<div class = 'dark flex-in'>
+<div class = 'dull flex-in'>
   <div class = 'child tripple'>
     <p>{{page.story}}</p>
   </div>

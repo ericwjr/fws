@@ -41,7 +41,6 @@ main{
   background-color:#f9f9f9;
 }
 .bright,
-.dark,
 .dull,
 .green{
   padding:25px;
@@ -49,8 +48,7 @@ main{
   width:100%;
 }
 .green,
-.dull,
-.dark{
+.dull{
   color:#fff;
 }
 .bright{
@@ -61,10 +59,7 @@ main{
   background-color:#0FBE7C;
 }
 .dull{
-  background-color:#222;
-}
-.dark{
-  background-color:#111;
+  background-color:#2b3856;
 }
 a{
     text-decoration: none;
@@ -303,7 +298,6 @@ time{
 .tablet{
   display:none;
 }
-.dark h3,
 .dull h3{
     color:#fff;
     font-size:150%;
@@ -364,7 +358,6 @@ time{
     background-image:url({{site.baseurl}}/assets/teachers.jpg);
 }
 @media screen and (min-width: 768px){
-    .dark,
     .dull{
         height:360px;
         overflow:hidden;

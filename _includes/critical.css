@@ -333,18 +333,21 @@ time{
 .fulls h3:before{
     content:'';
     position:absolute;
-    width:250px;
-    padding:2px;
+    width:100%;
+    padding:1px;
     background-color:#fff;
-    animation: grow 1s 3s linear alternate; 
+    animation: grow 1s 3s linear alternate;
+    overflow-x:hidden; 
 }
 .fulls h3:after{
     top:50px;
     left:0;
+    right:0;
 }
 .fulls h3:before{
     bottom:50px;
     left:0;
+    right:0;
 }
 .shows{
    background-image:url({{site.baseurl}}/assets/shows.jpg);

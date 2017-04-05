@@ -153,8 +153,8 @@ span.round a{
     bottom:0;
     width:100%;
     color:#fff;
-font-size:140%;
- }
+    font-size:150%;
+ } 
 footer{
     padding:50px 25px;
     width:100%;
@@ -335,6 +335,7 @@ time{
     text-align:center;
 }
 .full{
+    display:block;
     width:100%;
     max-height:540px;
     position:relative;
@@ -387,8 +388,8 @@ teachers{
         text-align:center;
     }
     .quad img{
-    max-width:125px;
-    margin:0 auto;
+        max-width:125px;
+        margin:0 auto;
     }
     .left{
         text-align:left;
@@ -397,24 +398,24 @@ teachers{
         text-align:center !important;
     }
     .post-content p{
-        width:91%;
-        font-size:19px;
-    }
+      width:91%;
+      font-size:19px;
+     }
 }
-    @media screen and (min-width: 769px){
+@media screen and (min-width: 769px){
     .tablet{
         display:block;
     }
     .mobile{
         display:none;
     }
-    }
-    @media screen and (min-width: 992px){
+}
+@media screen and (min-width: 992px){
     .strip{
-        width:7%;
+    width:7%;
     }
     .tripple,
     .trio{
-        order:initial;
+    order:initial;
     }
-    }
+}

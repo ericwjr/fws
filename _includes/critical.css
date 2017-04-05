@@ -337,23 +337,20 @@ time{
 .fulls{
     display:block;
     width:100%;
-    min-height:480px;
+    padding:0;
+    height:480px;
     position:relative;
     background-color:#f0f0f0;
     background-position:top center;
     background-attachment:fixed;
     background-repeat:no-repeat;
 }
-/*.fulls:after{
-    content:'';
-    width:100%;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+.fulls .after{
     background:linear-gradient(-60deg,rgba(0,0,0,0.5), rgba(255,255,255,0.25));
-}*/
+    width:100%;
+    padding:25px;
+    height:480px;
+}
 .fulls h3{
     position:relative;
     display:inline-block;

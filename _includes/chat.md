@@ -1,14 +1,14 @@
 <style>
    .chat{
      position:fixed;
-     left:54px;
+     right:60px;
      top:12.5px;
      border-radius:50%;
      font-size:1.2em;
      color:#fff;
      background-color:#0FBE7C;
-     height:50px;
-     width:50px;
+     height:40px;
+     width:40px;
      cursor:pointer;
    }
 </style>

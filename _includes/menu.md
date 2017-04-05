@@ -5,7 +5,7 @@
       <span class = 'bar'></span>
     </div>
     <div class = 'drop'>
-     <a href="{{ "/" | relative_url}}" class = 'nav-brand '><img class = 'logo' src = '{{site.baseurl}}/assets/fun-weird-science-logo.png' alt = 'fun weird science logo'></a>
+     <a href="{{ "/" | relative_url}}" class = 'nav-brand '><img class = 'logo' src = '{{site.baseurl}}/assets/logo.png' alt = 'fun weird science logo'></a>
     <a href="{{site.baseurl}}/about-us" >About Us</a>
     <a href="{{site.baseurl}}/products" >Products</a>
     <a href="{{site.baseurl}}/services" >Services</a>

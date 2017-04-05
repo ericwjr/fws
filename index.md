@@ -58,14 +58,13 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   </div>
 </div>
 <div class = 'full teachers'>
-    <div class = 'overlay flex-in'>
-      <h3>Teacher Workshops</h3>
-    </div>
+  <div class = 'overlay flex-in'>
+    <h3>Teacher Workshops</h3>
+  </div>
 </div>
 <div class = 'dark flex'>
   <div class = 'tripple flex-in'>
-      <p>{{page.story}}</p>
-    </div>
+    <p>{{page.story}}</p>
   </div>
 </div>
 <div class = 'bright flex-in'>

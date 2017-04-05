@@ -9,7 +9,7 @@ story: House on the Campus of Morehouse College our summer STEM enrichment camp 
   </div>
 </div>
 
-<div class = 'dark flex-in'>
+<div class = 'dull flex-in'>
   <div class = 'child tripple'>
     <p>{{page.story}}</p>
     <b>Little Scientist</b> (1st-4th)

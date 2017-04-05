@@ -32,7 +32,7 @@ a.nav-brand{
   cursor:pointer;
   position:fixed;
   top:12.5px;
-  right:25px;
+  left:25px;
   width:40px;
   height:auto;
   z-index:125;

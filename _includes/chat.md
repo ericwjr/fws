@@ -1,0 +1,17 @@
+<style>
+   .chat{
+     position:fixed;
+     left:54px;
+     top:12.5px;
+     border-radius:50%;
+     font-size:1.2em;
+     color:#fff;
+     background-color:#0FBE7C;
+     height:50px;
+     width:50px;
+     cursor:pointer;
+   }
+</style>
+<div class = 'chat flex-in'>
+  <i class = 'icon icon-comment' aria-hidden = 'true'></i>
+</div>

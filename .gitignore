@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+debug.log
+apple.png
+safari.svg
+favicon.ico

@@ -1,8 +1,5 @@
 'use strict';
 (function() {
-    $('.drop').on('click', function(e){
-      e.stopPropagation();
-    });
     $('.menu-bar').on('click', function(){
         $('.full').toggleClass('shadow');
         $('.drop').toggleClass('open');
@@ -13,11 +10,15 @@
     var menuIsOpen = $('.drop').hasClass('shadow');
     
     if(menuIsOpen) {
-      $('body').on('click', function(){
+      alert('menu is open');
+      $('window').on('click', function(){
           $('.menu-bar').children().toggleClass('cross');
           $('.menu-bar').toggleClass('open-bar');
           $('.drop').toggleClass('open');
           $(this).toggleClass('shadow');
+      });
+      $('.drop').on('click', function(e){
+        e.stopPropagation();
       });
     }
 

@@ -7,7 +7,7 @@
   <header id = 'header'>
 {% endif %}
   <nav class = 'nav-menu'>
-    <a href="{{ "/" | relative_url}}" class = 'nav-brand '><img class = 'logo' src = '{{site.baseurl}}/assets/fun-weird-science-logo.png' alt = 'fun weird science logo'></a>
+    <a href="{{ "/" | relative_url}}" class = 'nav-brand '><img class = 'logo' src = '{{site.baseurl}}/assets/logo.png' alt = 'fun weird science logo'></a>
   </nav>
   {% include chat.md %}
 </header>

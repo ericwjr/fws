@@ -30,6 +30,9 @@ a.nav-brand{
   margin-left:50px;
   padding-left:25px;
 }
+.brand{
+  margin:0 0 25px 25px;
+}
 .menu-bar{
   cursor:pointer;
   position:fixed;

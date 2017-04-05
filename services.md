@@ -1,22 +1,19 @@
 ---
 layout: default
 permalink: services
+story: The highest-level thinking and "aha" moments are more likely to occur in an atmosphere of "exuberant discovery", where students of all ages retain that kindergarten enthusiasm of embracing each day with joy of learning.Who said Science can't be fun? Invite Fun Weird Science to make your next party fun and full of STEM!
 ---
-<div class = 'dark flex'>
-  <div class = 'child duo flex-in'>
-    <div>
-      <h3>Science Parties</h3>
-      <p>
-        The highest-level thinking and "aha" moments are more likely to occur in an atmosphere of "exuberant discovery", where students of all ages retain that kindergarten enthusiasm of embracing each day with joy of learning.
-      </p>
-      <p>Who said Science can't be fun? Invite Fun Weird Science to make your next party fun and full of STEM!</p>
-    </div>
-  </div>
-  <div class = 'child duo'>
-    <img src = '{{site.baseurl}}/assets/parties.jpg' alt = 'Science Parties'>
+<div class = 'fulls workshops'>
+  <div class = 'flex-in overlay2'>
+    <h3>Services</h3>
   </div>
 </div>
-  
+<div class = 'dark flex-in'>
+  <div class = 'child tripple'>
+    <p>{{page.story}}</p>
+  </div>
+</div>
+
 <div class = 'bright'>
   <!--<h1>Services</h1>-->
     <h2 id = 'stem'>STEM Professional Development</h2>

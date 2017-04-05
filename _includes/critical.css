@@ -349,7 +349,7 @@ time{
 .fulls h3{
     position:relative;
     display:inline-block;
-    font-size:150px;
+    font-size:150%;
     margin:12.5px auto;
     color:#fff;
     text-transform:uppercase;
@@ -384,7 +384,7 @@ time{
 @media screen and (min-width: 768px){
     .dark,
     .dull{
-        height:275px;
+        height:360px;
         overflow:hidden;
     }
     .division{

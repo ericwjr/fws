@@ -336,7 +336,7 @@ time{
     width:100%;
     padding:1px;
     background-color:#fff;
-    animation: grow 1s 3s linear alternate;
+    animation: grow 1s 3s linear alternate infinite;
     overflow-x:hidden; 
 }
 .fulls h3:after{

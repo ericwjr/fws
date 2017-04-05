@@ -110,7 +110,7 @@
 <section class = 'form flex-in'>
   <div class = 'widget'>
     <form  action = 'https://formspree.io/onewesh@gmail.com' method = 'POST' id = 'enquire'>
-        <input name = 'name' type = 'text' required placeholder = 'name'>
+        <input name = 'name' type = 'text' required placeholder = 'Name'>
         <input name = 'email' type = 'email' required placeholder = 'Email'>
         <textarea name = 'message' required id = 'message' placeholder = 'Leave us a message'></textarea>
         <input class = 'submit' type = 'submit' value = 'submit'>

@@ -7,8 +7,8 @@
      font-size:1.2em;
      color:#fff;
      background-color:#0FBE7C;
-     height:40px;
-     width:40px;
+     height:36px;
+     width:36px;
      cursor:pointer;
    }
 </style>

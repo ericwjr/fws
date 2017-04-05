@@ -17,6 +17,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   }
   .bold{
     font-style:bold;
+    display:block;
   }
   a.product{
     text-decoration:underline;

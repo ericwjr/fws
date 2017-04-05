@@ -146,10 +146,12 @@ span.round a{
     margin:0 10px;
     font-size:1.05em;
 }
-.overlay{
+.overlay,
+.overlay1,
+.overlay2,
+.overlay3
+{
     background:linear-gradient(-60deg,rgba(0,0,0,0.5), rgba(255,255,255,0.25));
-}
-.overlay{
     position:absolute;
     top:0;
     bottom:0;

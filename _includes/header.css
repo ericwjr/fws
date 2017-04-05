@@ -9,6 +9,11 @@ header{
   z-index:98;
   padding:7.5px 0 0 0;
 }
+#header{
+  background-color:transparent;
+  color:#fff;
+  position:relative;
+}
 .nav-menu{
   height:100%;
 }
@@ -51,7 +56,7 @@ a.nav-brand{
     z-index:125;
 }
 #header .bar{
-    background-color:#111;
+    background-color:#fff;
 }
 .cross{
   padding:0.5px;

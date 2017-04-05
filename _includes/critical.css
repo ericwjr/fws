@@ -40,17 +40,21 @@ main{
 .main{
   background-color:#f9f9f9;
 }
-.bright{
-  background-color:#fff;
+.bright,
+.dark,
+.dull,
+.green{
   padding:25px;
+  text-align:center;
+  width:100%;
 }
 .green,
 .dull,
 .dark{
-  width:100%;
   color:#fff;
-  text-align:center;
-  padding: 25px;
+}
+.bright{
+  background-color:#fff;
 }
 .green{
   background-color:#0FBE7C;
@@ -73,30 +77,6 @@ ol{
     list-style-type:none;
      -webkit-padding-start:0;
     -moz-padding-start:0;
-}
-.center-text{
-    text-align:center;
-    margin:1% auto;
-}
-.align-left{
-    text-align:left;
-}
-section p{
-    text-align:left;
-    padding:10px 0;
-}
-.division{
-    min-height:72vh;
-    width:100%;
-    position:relative;
-    vertical-align: text-top;
-}
-.transparent{
-    padding:25px;
-}
-.division:first-child{
-    background:#111;
-    color:#fff;
 }
 .mark{
     color:#0FBE7C !important;
@@ -322,11 +302,6 @@ time{
 .tablet{
   display:none;
 }
-.border{
-    font-size:1.1em;
-    padding:40px 0;
-    border-bottom:1px solid #f0f0f0;
- }
 .dark h3,
 .dull h3{
     color:#fff;
@@ -346,7 +321,7 @@ time{
     background-repeat:no-repeat;
 }
 .fulls .after{
-    background-color:rgba(0,0,0,0.4);
+    background-color:transparent;
     width:100%;
     padding:25px;
     height:480px;
@@ -424,9 +399,6 @@ time{
     }
     .left{
         text-align:left;
-    }
-    .center{
-        text-align:center !important;
     }
     .post-content p{
       width:91%;

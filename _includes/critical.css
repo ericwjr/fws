@@ -333,18 +333,22 @@ time{
 .fulls h3:before{
     content:'';
     position:absolute;
-    width:250px;
-    padding:2px;
+    width:100%;
+    padding:1px;
     background-color:#fff;
-    animation: grow 1s 3s linear alternate; 
+    overflow-x:hidden; 
 }
 .fulls h3:after{
+    animation: grow 1s 3s linear alternate infinite;
     top:50px;
     left:0;
+    right:0;
 }
 .fulls h3:before{
     bottom:50px;
     left:0;
+    right:0;
+    animation: shrink 1s 3s linear alternate infinite;
 }
 .shows{
    background-image:url({{site.baseurl}}/assets/shows.jpg);
@@ -361,6 +365,10 @@ time{
 @keyframes grow{
     0% { width:0; }
     100% { width:250px; }
+}
+@keyframes shrink{
+    0% { width: 100%}
+    100% { width: 0}
 }
 @media screen and (min-width: 768px){
     .dull{

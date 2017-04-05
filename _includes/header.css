@@ -22,7 +22,7 @@ header{
 a.nav-brand{
   text-transform: uppercase;
   font-weight:700;
-  padding-top:0;
+  padding-top:12.5px;
   display:flex;
   justify-content:center;
   align-items:center;

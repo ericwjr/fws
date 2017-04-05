@@ -12,9 +12,12 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   .thumbnail{
     width:60px;
     border-radius:50%;
+    display:block;
+    margin:5px auto;
   }
   .bold{
     font-style:bold;
+    display:block;
   }
   a.product{
     text-decoration:underline;

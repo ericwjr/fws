@@ -59,7 +59,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 
 <div class = 'dull flex'>
   <div class = 'child tripple flex-in'>
-    <p>{{page.story}}
+    <p>{{page.story}}</p>
   </div>
 </div>
 
@@ -78,8 +78,8 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 <div class = 'bright flex-in'>
   <div class = 'child tripple'>
     <div class = 'banner'>
-      <i class = 'icon icon-qoute'></i>
-      African-Americans, American Indians, and Hispanics account for only 12% of all engineering undergraduate degrees.
+      <i class = 'icon icon-qoute' aria-hidden = 'true'></i>
+      <p>African-Americans, American Indians, and Hispanics account for only 12% of all engineering undergraduate degrees.</p>
     </div>
     <p>New Age Approach Our approach represents next-generation hands-on learning. Our practices, strategies, and programs are built upon a foundation of identified best practices designed to improve student exposure and understanding of the S.T.E.A.M. disciplines. Committed to the Community Currently, we are committed to serving Atlanta, GA , and surrounding areas.</p>
     <h2>Our Sponsors</h2>

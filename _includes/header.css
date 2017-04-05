@@ -9,15 +9,6 @@ header{
   z-index:98;
   padding:7.5px 0 0 0;
 }
-#header{
-  background-color:transparent;
-  color:#fff;
-  position:absolute;
-}
-#header .menu-bar,
-#header .chat{
-  position:absolute !important;
-}
 .nav-menu{
   height:100%;
 }
@@ -90,6 +81,15 @@ a.nav-brand{
   min-height:120vh;
   background-color:rgba(0,0,0,0.5);
   z-index:100;
+}
+#header{
+  background-color:transparent;
+  color:#fff;
+  position:absolute;
+}
+#header .menu-bar,
+#header .chat{
+  position:absolute !important;
 }
 .drop{
     position:fixed;

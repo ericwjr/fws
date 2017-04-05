@@ -4,7 +4,7 @@ permalink: /programs/
 story: House on the Campus of Morehouse College our summer STEM enrichment camp engages students through weekly themed learning experiences.
 ---
 <div class = 'fulls parties'>
-  <div class = 'flex-in overlay3'>
+  <div class = 'flex-in overlay'>
     <h3>Programs</h3>
   </div>
 </div>

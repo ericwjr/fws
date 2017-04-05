@@ -4,7 +4,7 @@ permalink: services
 ---
 <div class = 'dark flex'>
   <div class = 'child duo flex-in'>
-    <div class = 'almost'>
+    <div>
       <h3>Science Parties</h3>
       <p>
         The highest-level thinking and "aha" moments are more likely to occur in an atmosphere of "exuberant discovery", where students of all ages retain that kindergarten enthusiasm of embracing each day with joy of learning.
@@ -13,7 +13,7 @@ permalink: services
     </div>
   </div>
   <div class = 'child duo'>
-    <img src = '{{site.baseurl}}/assets/parties.JPG' alt = 'Science Parties'>
+    <img src = '{{site.baseurl}}/assets/parties.jpg' alt = 'Science Parties'>
   </div>
 </div>
   

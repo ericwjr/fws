@@ -344,6 +344,30 @@ time{
     background-color:#f0f0f0;
     background-position:top center;
     background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+.fulls h3{
+    position:relative;
+    display:inline-block;
+    font-size:150px;
+    margin:12.5px auto;
+    color:#fff;
+    text-transform:uppercase;
+}
+.fulls h3:after,
+.fulls h3:before,{
+    content:'';
+    position:absolute;
+    width:250px;
+    padding:2px;
+}
+.fulls h3:after{
+    top:50px;
+    left:0;
+}
+.fulls h3:before{
+    bottom:50px;
+    left:0;
 }
 .shows{
    background-image:url({{site.baseurl}}/assets/shows.jpg);
@@ -354,8 +378,7 @@ time{
 .workshops{
     background-image:url({{site.baseurl}}/assets/workshops.jpg);
 }
-teachers{
-
+.teachers{
     background-image:url({{site.baseurl}}/assets/teachers.jpg);
 }
 @media screen and (min-width: 768px){

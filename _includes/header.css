@@ -26,7 +26,9 @@ a.nav-brand{
   display:flex;
   justify-content:center;
   align-items:center;
-  max-width:150px;
+  max-width:250px;
+  margin-left:50px;
+  padding-left:25px;
 }
 .menu-bar{
   cursor:pointer;

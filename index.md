@@ -10,7 +10,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     margin:0 auto;
   }
 </style>
-<video controls autoplay muted loop>
+<video controls autoplay muted>
   <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
 </video>
 <div class = 'main green flex-in'>
@@ -23,52 +23,60 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     <h2>Products</h2>
     <div>
       <a class = 'product' href = '{{site.baseurl}}/products/'>Fun Weird Science Kit</a>
+      $30.00
     </div>
-    $30.00
   </div>
 </div>
 <div class = 'full shows'>
   <div class = 'flex-in'>
-      <h3>Science Shows</h3>
+    <h3>Science Shows</h3>
   </div>
 </div>
+
 <div class = 'dull flex'>
-  <div class = 'tripple flex-in'>
+  <div class = 'child tripple flex-in'>
     <p>{{page.story}}</p>
   </div>
 </div>
+
 <div class = 'full parties'>
   <div class = 'flex-in'>
-      <h3>Science Parties</h3>
+    <h3>Science Parties</h3>
   </div>
 </div>
+
 <div class = 'dark flex'>
-  <div class = 'tripple flex-in'>
+  <div class = 'child tripple flex-in'>
     <p>{{page.story}}</p>
   </div>
 </div>
+
 <div class = 'full workshops'>
   <div class = 'flex-in'>
-      <h3>After School Workshops</h3>
+    <h3>After School Workshops</h3>
   </div>
 </div>
+
 <div class = 'dull flex'>
-  <div class = 'tripple flex-in'>
+  <div class = 'child tripple flex-in'>
     <p>{{page.story}}
   </div>
 </div>
+
 <div class = 'full teachers'>
   <div class = 'flex-in'>
     <h3>Teacher Workshops</h3>
   </div>
 </div>
+
 <div class = 'dark flex'>
-  <div class = 'tripple flex-in'>
+  <div class = 'child tripple flex-in'>
     <p>{{page.story}}</p>
   </div>
 </div>
+
 <div class = 'bright flex-in'>
-  <div class = 'tripple'>
+  <div class = 'child tripple'>
     <div class = 'banner'>
       <i class = 'icon icon-qoute'></i>
       African-Americans, American Indians, and Hispanics account for only 12% of all engineering undergraduate degrees.

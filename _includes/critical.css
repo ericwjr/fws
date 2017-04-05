@@ -147,7 +147,7 @@ span.round a{
     font-size:1.05em;
 }
 .overlay{
-    background:linear-gradient(-60deg,rgba(0,0,0,0.72), rgba(255,255,255,0.36));
+    background:linear-gradient(-60deg,rgba(0,0,0,0.5), rgba(255,255,255,0.25));
 }
 .overlay{
     position:absolute;
@@ -349,7 +349,7 @@ time{
 .fulls h3{
     position:relative;
     display:inline-block;
-    font-size:150%;
+    font-size:125%;
     margin:12.5px auto;
     color:#fff;
     text-transform:uppercase;
@@ -360,6 +360,7 @@ time{
     position:absolute;
     width:250px;
     padding:2px;
+    color:#fff;
 }
 .fulls h3:after{
     top:50px;

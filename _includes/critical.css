@@ -343,12 +343,11 @@ time{
     background-color:#f0f0f0;
     background-position:top center;
     background-attachment:fixed;
-    background-size:100%  100%;
+    background-size:cover;
     background-repeat:no-repeat;
 }
 .fulls .after{
-    /*background:linear-gradient(-60deg,rgba(0,0,0,0.5), rgba(255,255,255,0.25));*/
-    background-color:transparent;
+    background-color:rgba(0,0,0,0.4);
     width:100%;
     padding:25px;
     height:480px;

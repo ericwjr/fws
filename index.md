@@ -23,7 +23,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     text-decoration:underline;
   }
 </style>
-<video controls autoplay muted>
+<video controls autoplay loop muted>
   <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
 </video>
 <div class = 'main green flex-in'>

@@ -81,7 +81,7 @@
   textarea:hover,
   textarea:focus{
     opacity:1;
-    background-color:#fefefe;
+    background-color:#f0faf0;
     border: 1px solid #0FBE7C;
     width:100%;
   }

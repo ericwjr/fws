@@ -65,7 +65,7 @@ a.nav-brand{
   animation: delay 1.5s ease-in;
 }
 .cross:nth-of-type(even){
-  opacity:0;
+  display:none;
 }
 .cross:first-child{
   transform:rotate(45deg) translateY(12.5px);

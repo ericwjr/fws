@@ -67,7 +67,7 @@
   }
   input, textarea{
     opacity:0.9;
-    background-color:#f5faf5;
+    background-color:#fafefa;
     transition:background-color 0.3s ease-in-out, opacity 0.25s ease-in-out, border 0.3s ease-in;
     display:block;
     width:100%;
@@ -81,7 +81,7 @@
   textarea:hover,
   textarea:focus{
     opacity:1;
-    background-color:#f0faf0;
+    background-color:#f5f5f5;
     border: 1px solid #0FBE7C;
     width:100%;
   }

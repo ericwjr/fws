@@ -22,6 +22,7 @@
     75%{ transform:rotate(180deg); }
     100%{ transform:rotate(360deg); }
   }
+  .form{min-height:72vh;}
   .widget{
     padding:0;
     color:#111;
@@ -72,9 +73,9 @@
     width:100%;
     outline:none;
     border:1px solid transparent;
-    padding:10px 25px;
+    padding:15px 25px;
     font-size:1.05em;
-    margin:12px auto;
+    margin:25px auto;
   }
   input:hover,
   textarea:hover,

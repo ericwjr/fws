@@ -62,6 +62,7 @@ a.nav-brand{
   padding:0.5px;
   z-index:125;
   background-color:#fff;
+  animation: delay 1.5s ease-in;
 }
 .cross:nth-of-type(even){
   opacity:0;
@@ -145,4 +146,8 @@ a.nav-brand{
   width:60px;
   margin:0 auto !important;
   padding:0;
+}
+@keyframes delay{
+  0%{ opacity:0}
+  100%{ opacity:1}
 }

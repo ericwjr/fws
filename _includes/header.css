@@ -66,6 +66,7 @@ a.nav-brand{
 }
 .cross:nth-of-type(even){
   width:1px;
+  opacity:0;
 }
 .cross:first-child{
   transform:rotate(45deg) translateY(12.5px);

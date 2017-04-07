@@ -59,7 +59,7 @@ main{
   background-color:#0FBE7C;
 }
 .dull{
-  background-color:#2b3856;
+  background-color:#2e3842;
 }
 a{
     text-decoration: none;
@@ -312,7 +312,6 @@ time{
     position:relative;
     background:#f0f0f0;
     background-position:top center;
-    background-attachment:fixed;
     background-repeat:no-repeat;
 }
 .fulls .after{

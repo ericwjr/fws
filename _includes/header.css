@@ -90,7 +90,7 @@ a.nav-brand{
 }
 #header{
   background-color:transparent;
-  color:#fff;
+  color:#111;
   position:absolute;
 }
 #header .menu-bar,
@@ -123,6 +123,7 @@ a.nav-brand{
 .drop a:hover{
   color: #fefefe;
 }
+
 .drop:before{
   content:'';
   width:0;

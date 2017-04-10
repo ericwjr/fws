@@ -8,9 +8,6 @@ layout: default
     width:100%;
     background-color:#111;
     background-image:url({{site.baseurl}}/assets/after-school.jpg);
-    background-attachment:fixed;
-    background-repeat:none;
-    background-position:top center;
   } 
 </style>
 <section class = 'overview fulls'>

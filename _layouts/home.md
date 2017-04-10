@@ -13,7 +13,7 @@ layout: default
     background-position:top center;
   } 
 </style>
-<section class = 'overview'>
+<section class = 'overview fulls'>
     <div class = 'overlay flex-in'>{{content}}</div>
 </section>
 <section class = 'blog'>

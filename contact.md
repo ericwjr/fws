@@ -1,6 +1,6 @@
 ---
   layout: default
-  permalink: /contact-us/
+  permalink: /contact/
   dark: true
 ---
 <style>

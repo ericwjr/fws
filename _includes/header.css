@@ -144,8 +144,8 @@ a.nav-brand{
   opacity:1;
 }
 .logo{
-  width:60px;
-  margin:0 auto !important;
+  width:75px;
+  margin:0 auto 15px auto !important;
   padding:0;
 }
 @keyframes delay{

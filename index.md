@@ -7,21 +7,17 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
   video{
     display: block;
     width:100%;
-    margin:0 auto;
-  }
+    margin:0 auto;}
   .thumbnail{
-    width:60px;
+    width:120px;
     border-radius:50%;
     display:block;
-    margin:5px auto;
-  }
+    margin:7.5px auto;}
   .bold{
     font-style:bold;
-    display:block;
-  }
+    display:block;}
   a.product{
-    text-decoration:underline;
-  }
+    text-decoration:underline;}
 </style>
 <video controls autoplay loop muted>
   <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
@@ -45,7 +41,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 </div>
 <div class = 'fulls shows'>
   <div class = 'flex-in after'>
-    <h3>Science Shows</h3>
+    <a href = '{{site.baseurl}}/services/#stem'><h3>Science Shows</h3></a>
   </div>
 </div>
 
@@ -57,7 +53,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 
 <div class = 'fulls parties'>
   <div class = 'flex-in after'>
-    <h3>Science Parties</h3>
+    <a href = '{{site.baseurl}}/programs/#parties'><h3>Science Parties</h3></a>
   </div>
 </div>
 
@@ -69,7 +65,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 
 <div class = 'fulls workshops'>
   <div class = 'flex-in after'>
-    <h3>After School Workshops</h3>
+    <a href = '{{site.baseurl}}/programs/#after-school'><h3>After School Workshops</h3></a>
   </div>
 </div>
 
@@ -81,7 +77,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 
 <div class = 'fulls teachers'>
   <div class = 'flex-in after'>
-    <h3>Teacher Workshops</h3>
+    <a href = '{{site.baseurl}}/services/#workshops'><h3>Teacher Workshops</h3></a>
   </div>
 </div>
 

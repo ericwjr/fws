@@ -3,7 +3,7 @@ layout: default
 permalink: /programs/
 story: House on the Campus of Morehouse College our summer STEM enrichment camp engages students through weekly themed learning experiences.
 ---
-<div class = 'fulls parties'>
+<div class = 'fulls parties' id = 'parties'>
   <div class = 'flex-in overlay'>
     <h3>Programs</h3>
   </div>
@@ -21,7 +21,7 @@ story: House on the Campus of Morehouse College our summer STEM enrichment camp 
   <span id = 'stemsaturdays'></span>
   <h2>Stem Saturdays</h2>
   <p>One Saturday a month, Fun Weird Science hosts elementary and middle school students for a themed STEM Day.</p>
-  <h2>After School Clubs</h2>
+  <h2 id = 'after-school'>After School Clubs</h2>
   <div class = 'banner'>
     <p>There are over 600,000 high-paying technology jobs open across the U.S., and by 2018, 51 percent of all STEM jobs are projected to be in computer-related fields.</p>
   </div>

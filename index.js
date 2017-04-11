@@ -7,20 +7,16 @@
         $(this).toggleClass('open-bar');
     });
 
-    var menuIsOpen = $('.drop').hasClass('shadow');
-    
-    if(menuIsOpen) {
-      alert('menu is open');
-      $('window').on('click', function(){
-          $('.menu-bar').children().toggleClass('cross');
-          $('.menu-bar').toggleClass('open-bar');
-          $('.drop').toggleClass('open');
-          $(this).toggleClass('shadow');
-      });
-      $('.drop').on('click', function(e){
-        e.stopPropagation();
-      });
-    }
+    $('.full').on('click', function(){
+        $('.menu-bar').children().toggleClass('cross');
+        $('.menu-bar').toggleClass('open-bar');
+        $('.drop').toggleClass('open');
+        $(this).toggleClass('shadow');
+    });
+
+    $('.drop').on('click', function(e){
+      e.stopPropagation();
+    });
 
     (function() {
       var font = document.createElement('link');
@@ -32,17 +28,20 @@
     })();
     
     
-    var bot, input, message, email, guest, mailForm, year, widget;
+    var bot, input, message, email, guestName, guestEmail, 
+        guestMessage, mailForm, year, widget;
     
     year = new Date();
-    $('.thisYear').append(year.getFullYear());
+    $('#year').append(year.getFullYear());
     
     mailForm = $('#enquire');
     widget = $('.widget');
     mailForm.submit(function(e) {
-      guest = document.getElementById('name').value.toUpperCase();
+      guestName = document.getElementById('name').value.toUpperCase();
+      guestEmail = document.getElementById('').value.toUpperCase();
+      guestMessage = document.getElementById('').value.toUpperCase();
       e.preventDefault();
-      if(guest){
+      if(guestName && guestEmail && guestMessage){
         $.ajax({
           url: '//formspree.io/onewesh@gmail.com',
           method: 'POST',

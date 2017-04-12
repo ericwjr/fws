@@ -4,8 +4,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure,{
+p, blockquote, hr, ol, ul, figure,{
   margin: 0;
   padding: 0;
 }
@@ -39,6 +38,7 @@ main{
 }
 .main{
   background-color:#f9f9f9;
+  min-height:50vh;
 }
 .bright,
 .dull,
@@ -52,6 +52,7 @@ main{
   color:#fff;
 }
 .bright{
+  min-height:50vh;
   background-color:#fff;
   text-align:left;
 }

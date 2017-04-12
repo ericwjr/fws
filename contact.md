@@ -1,6 +1,6 @@
 ---
   layout: default
-  permalink: /contact-us/
+  permalink: /contact/
   dark: true
 ---
 <style>
@@ -67,7 +67,7 @@
   }
   input, textarea{
     opacity:0.9;
-    background-color:#fafefa;
+    background-color:#f5fef5;
     transition:background-color 0.3s ease-in-out, opacity 0.25s ease-in-out, border 0.3s ease-in;
     display:block;
     width:100%;

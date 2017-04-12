@@ -1,16 +1,13 @@
 title: Fun Weird Science
-description: 'Fun Weird Science is the programming brand for Georgia Science & Robotics 
-     Academy, Inc.'
+description: 'Fun Weird Science is the programming brand for Georgia Science & Robotics Academy, Inc.'
 baseurl: ''
-url: 
+url: ''
 twitter: onweru
 environment: production
 disqus: 
   shortname: funweirdscience
-image: 'eagle-small.jpg'
-author: 'Weru'
-excerpt_separator: <!--Read More-->  # you can specify your own separator, of course.
-# Build settings
+author: 'Eric'
+excerpt_separator: Read More
 markdown: kramdown
 theme: minima
 gems:

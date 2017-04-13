@@ -25,6 +25,9 @@ main{
   padding:75px 0 0 0;
   min-height:84vh;
 }
+.main{
+  padding:0;
+}
 .main,
 .green{
   padding:25px;

@@ -368,8 +368,8 @@ time{
     100% { width:100%; }
 }
 @keyframes shrink{
-    0% { width: 100%}
-    100% { width: 0}
+    0% { width: 100%; }
+    100% { width: 0; }
 }
 
 @media screen and (min-width: 768px){

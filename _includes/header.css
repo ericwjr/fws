@@ -92,11 +92,7 @@ a.nav-brand{
 }
 #header{
   background-color:transparent;
-  color:#111;
   position:absolute;
-}
-.main #header{
-  color:#fff;
 }
 #header .menu-bar,
 #header .chat{
@@ -128,7 +124,6 @@ a.nav-brand{
 .drop a:hover{
   color: #fefefe;
 }
-
 .drop:before{
   content:'';
   width:0;

@@ -32,7 +32,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     <h2>Products</h2>
     <div>
       <a class = 'product' href = '{{site.baseurl}}/products/'>
-      <img src = '{{site.baseurl}}/assets/kit.jpg' alt = 'science kit' class = 'thumbnail'>
+      <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit' class = 'thumbnail'>
       Fun Weird Science Kit
       </a>
       <span class = 'bold'>$30.00</span>

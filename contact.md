@@ -76,13 +76,14 @@
     padding:15px 25px;
     font-size:1.05em;
     margin:25px auto;
+    border-radius:5px;
   }
   input:hover,
   textarea:hover,
   textarea:focus{
     opacity:1;
     background-color:#f5f5f5;
-    border: 1px solid #0FBE7C;
+    box-shadow: 0 0 1px 1px rbga(0,255,0,0.09);
     width:100%;
   }
   input[type=submit]{

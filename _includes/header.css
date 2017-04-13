@@ -95,6 +95,9 @@ a.nav-brand{
   color:#111;
   position:absolute;
 }
+.main #header{
+  color:#fff;
+}
 #header .menu-bar,
 #header .chat{
   position:absolute !important;

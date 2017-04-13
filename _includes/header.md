@@ -2,9 +2,9 @@
   {% include header.css %}
 </style>
 {% if page.top %}
-  <header>
-{% else %}
   <header id = 'header'>
+{% else %}
+  <header>
 {% endif %}
   <nav class = 'nav-menu'>
     <a href="{{ "/" | relative_url}}" class = 'nav-brand '>

@@ -6,6 +6,11 @@
 {% else %}
   <header>
 {% endif %}
+  <div class = 'menu-bar'>
+      <span class = 'bar'></span>
+      <span class = 'bar'></span>
+      <span class = 'bar'></span>
+    </div>
   <nav class = 'nav-menu'>
     <a href="{{ "/" | relative_url}}" class = 'nav-brand '>
     FUN WEIRD SCIENCE

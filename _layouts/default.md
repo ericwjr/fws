@@ -5,7 +5,7 @@
     {% include menu.md%}
     {% include header.md %}
     {% if page.top %} 
-    <main class = 'main'>
+    <main class = 'begin'>
     {% else %}
     <main>
     {% endif %}

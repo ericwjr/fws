@@ -8,6 +8,10 @@ p, blockquote, hr, ol, ul, figure,{
   margin: 0;
   padding: 0;
 }
+html, body{
+width:100%;
+margin:0 auto;
+}
 html{
   max-width:1440px !important;
 }

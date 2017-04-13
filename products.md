@@ -20,7 +20,7 @@ dark: true
 <div class = 'bright'>
   <section class = 'flex'>
     <div class = 'child duo products'>
-      <img src = '{{site.baseurl}}/assets/kit.jpg' alt = 'science kit'>
+      <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit'>
       <div class = 'flex'>
         <div class = 'child duo'>
           <img src = '{{site.baseurl}}/assets/product.jpg' alt = 'product'>

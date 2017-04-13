@@ -4,7 +4,11 @@
   <body>
     {% include menu.md%}
     {% include header.md %}
+    {% if page.top %} 
+    <main class = 'main'>
+    {% else %}
     <main>
+    {% endif %}
       {{ content }}
     </main>
     {% include footer.md %}

@@ -37,7 +37,7 @@ a.nav-brand{
 }
 .menu-bar{
   cursor:pointer;
-  position:fixed;
+  position:absolute;
   top:12.5px;
   left:25px;
   width:40px;

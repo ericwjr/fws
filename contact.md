@@ -83,7 +83,7 @@
   textarea:focus{
     opacity:1;
     background-color:#f5f5f5;
-    box-shadow: 0 0 1px 1px rbga(0,255,0,0.09);
+    box-shadow: 0 0 1px 1px rbga(0,255,0,0.3);
     width:100%;
   }
   input[type=submit]{

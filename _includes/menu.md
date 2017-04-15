@@ -1,9 +1,9 @@
 <div class = 'full'>
-<!--     <div class = 'menu-bar'>
+    <div class = 'menu-bar'>
       <span class = 'bar'></span>
       <span class = 'bar'></span>
       <span class = 'bar'></span>
-    </div> -->
+    </div>
     <div class = 'drop'>
      <a href="{{ "/" | relative_url}}" class = 'brand'><img class = 'logo' src = '{{site.baseurl}}/assets/kit.png' alt = 'fun weird science logo'></a>
     <a href="{{site.baseurl}}/about-us" >About Us</a>

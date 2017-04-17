@@ -29,7 +29,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     <p>
       Fun Weird Science is the programming brand for Georgia Science & Robotics Academy, Inc. (501c3). Our mission is to train K-12th grade students to be proficient in each component of S.T.E.A.M. through innovative instruction that will produce creative-minded and critical thinking participants in the global marketplace
     </p>
-    <h2>Products</h2>
+    <h3>Products</h3>
     <div>
       <a class = 'product' href = '{{site.baseurl}}/products/'>
       <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit' class = 'thumbnail'>

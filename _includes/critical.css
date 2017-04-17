@@ -319,7 +319,7 @@ time{
     width:100%;
     padding:0;
     height:50vh;
-  min-height: 540px;
+  min-height: 450px;
     position:relative;
     background:#f0f0f0;
     background-position:top center;
@@ -331,7 +331,7 @@ time{
     width:100%;
     padding:25px;
     height:50vh;
-    min-height:540px;
+    min-height:450px;
 }
 .fulls h3{
     position:relative;

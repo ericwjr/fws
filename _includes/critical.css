@@ -318,7 +318,7 @@ time{
     display:block;
     width:100%;
     padding:0;
-    height:40vh;
+    height:50vh;
     position:relative;
     background:#f0f0f0;
     background-position:top center;
@@ -329,7 +329,7 @@ time{
     background:linear-gradient(-60deg, rgba(0,0,0,0.5), rgba(255,255,255,0.25));
     width:100%;
     padding:25px;
-    height:480px;
+    height:50vh;
 }
 .fulls h3{
     position:relative;

@@ -13,7 +13,6 @@ width:100%;
 margin:0 auto;
 }
 html{
-  max-width:1440px !important;
   position: relative;
 }
 body{
@@ -319,7 +318,7 @@ time{
     display:block;
     width:100%;
     padding:0;
-    height:480px;
+    height:40vh;
     position:relative;
     background:#f0f0f0;
     background-position:top center;

@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Fun Weird Science Has A New Friend
+layout: post
 permalink: /fun-weird-science-has-a-new-friend/
 ---
-Atlanta, Januray 27, 2016: Fun Weird Science has some great news to announce. You are about to see a new friend grace our website, **panasonic Automotive Systems of America**. The global electronics Company has decided to sponsor Fun Weird Science with funds and support to further our mission.
+
+**Atlanta, Januray 27, 2016**: Fun Weird Science has some great news to announce. You are about to see a new friend grace our website, **Panasonic Automotive Systems of America**. The global electronics Company has decided to sponsor Fun Weird Science with funds and support to further our mission.
 
 Panasonic is one of the largest infotainment suppliers in the world. The company believes in giving back to the community, especially to organizations that focus on teaching children STEM. They appreciate our fun and innovative approach to immersing students into STEM activities.
 

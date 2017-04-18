@@ -1,8 +1,19 @@
 ---
 layout: default
 dark: true
-story: 'New Age Approach Our approach represents next-generation hands-on learning. Our         practices, strategies, and programs are built upon a foundation of identified              best practices designed'
+story: Our approach represents next-generation hands-on learning. Our         practices,
+  strategies, and programs are built upon a foundation of identified              best
+  practices designed
+science_show: What better way to excite your young scholars than with a Science show...includes
+  engaging Science demonstrations, experiments, and good music
+teacher_workshops: Train your staff on the funweirdscience way of engaging your scholars
+  with STEM concepts and learning tools
+after_school: Supplement your scholar's learning with after school STEM workshops
+  and activities
+science_parties: It's possible to have a blast while learning Science....let your
+  next party be a Funweirdscience party
 ---
+
 <style>
   video{
     display: block;
@@ -29,7 +40,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
     <p>
       Fun Weird Science is the programming brand for Georgia Science & Robotics Academy, Inc. (501c3). Our mission is to train K-12th grade students to be proficient in each component of S.T.E.A.M. through innovative instruction that will produce creative-minded and critical thinking participants in the global marketplace
     </p>
-    <h3>Products</h3>
+    <h5>Products</h5>
     <div>
       <a class = 'product' href = '{{site.baseurl}}/products/'>
       <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit' class = 'thumbnail'>
@@ -47,7 +58,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 
 <div class = 'dull flex-in'>
   <div class = 'child tripple'>
-    <p>{{page.story}}</p>
+    <p>{{page.science_show}}</p>
   </div>
 </div>
 
@@ -59,7 +70,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 
 <div class = 'dull flex-in'>
   <div class = 'child tripple'>
-    <p>{{page.story}}</p>
+    <p>{{page.science_parties}}</p>
   </div>
 </div>
 
@@ -71,7 +82,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 
 <div class = 'dull flex-in'>
   <div class = 'child tripple'>
-    <p>{{page.story}}</p>
+    <p>{{page.after_school}}</p>
   </div>
 </div>
 
@@ -83,7 +94,7 @@ story: 'New Age Approach Our approach represents next-generation hands-on learni
 
 <div class = 'dull flex-in'>
   <div class = 'child tripple'>
-    <p>{{page.story}}</p>
+    <p>{{page.teacher_workshops}}</p>
   </div>
 </div>
 

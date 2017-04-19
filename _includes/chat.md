@@ -12,5 +12,5 @@
    }
 </style>
 <a href = '{{site.baseurl}}/contact' class = 'chat flex-in'>
-  <i class = 'icon icon-comment' aria-hidden = 'true'></i>
+  <i class = 'icon icon-chat' aria-hidden = 'true'></i>
 </a>

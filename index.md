@@ -30,9 +30,9 @@ science_parties: It's possible to have a blast while learning Science....let you
   a.product{
     text-decoration:underline;}
 </style>
-<video controls autoplay loop muted>
+<!--<video controls autoplay loop muted>
   <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
-</video>
+</video>-->
 <div class = 'main green flex-in'>
   <div class = 'child tripple'>
     <h1>FUN WEIRD SCIENCE</h1>
@@ -50,51 +50,55 @@ science_parties: It's possible to have a blast while learning Science....let you
     </div>
   </div>
 </div>
-<div class = 'fulls shows'>
-  <div class = 'flex-in after'>
-    <a href = '{{site.baseurl}}/services/#stem'><h3>Science Shows</h3></a>
+<div class = 'flex'>
+  <div class = 'fulls narrow shows'>
+    <div class = 'flex-in after'>
+      <a href = '{{site.baseurl}}/services/#stem'><h3>Science Shows</h3></a>
+    </div>
+  </div>
+  <div class = 'dull wide flex-in'>
+    <div class = 'child tripple'>
+      <p>{{page.science_show}}</p>
+    </div>
+  </div>
+</div>
+<div class = 'flex'>
+  <div class = 'child dull wide flex-in'>
+    <div class = 'child tripple'>
+      <p>{{page.science_parties}}</p>
+    </div>
+  </div>
+  <div class = ' child fulls narrow parties'>
+    <div class = 'flex-in after'>
+      <a href = '{{site.baseurl}}/programs/#parties'><h3>Science Parties</h3></a>
+    </div>
   </div>
 </div>
 
-<div class = 'dull flex-in'>
-  <div class = 'child tripple'>
-    <p>{{page.science_show}}</p>
+<div class = 'flex'>
+  <div class = 'fulls narrow workshops'>
+    <div class = 'flex-in after'>
+      <a href = '{{site.baseurl}}/programs/#after-school'><h3>After School Workshops</h3></a>
+    </div>
+  </div>
+  <div class = 'dull wide flex-in'>
+    <div class = 'child tripple'>
+      <p>{{page.after_school}}</p>
+    </div>
   </div>
 </div>
 
-<div class = 'fulls parties'>
-  <div class = 'flex-in after'>
-    <a href = '{{site.baseurl}}/programs/#parties'><h3>Science Parties</h3></a>
-  </div>
-</div>
 
-<div class = 'dull flex-in'>
-  <div class = 'child tripple'>
-    <p>{{page.science_parties}}</p>
+<div class = 'flex'>
+  <div class = 'dull wide flex-in'>
+    <div class = 'child tripple'>
+      <p>{{page.teacher_workshops}}</p>
+    </div>
   </div>
-</div>
-
-<div class = 'fulls workshops'>
-  <div class = 'flex-in after'>
-    <a href = '{{site.baseurl}}/programs/#after-school'><h3>After School Workshops</h3></a>
-  </div>
-</div>
-
-<div class = 'dull flex-in'>
-  <div class = 'child tripple'>
-    <p>{{page.after_school}}</p>
-  </div>
-</div>
-
-<div class = 'fulls teachers'>
-  <div class = 'flex-in after'>
-    <a href = '{{site.baseurl}}/services/#workshops'><h3>Teacher Workshops</h3></a>
-  </div>
-</div>
-
-<div class = 'dull flex-in'>
-  <div class = 'child tripple'>
-    <p>{{page.teacher_workshops}}</p>
+  <div class = 'fulls narrow teachers'>
+    <div class = 'flex-in after'>
+      <a href = '{{site.baseurl}}/services/#workshops'><h3>Teacher Workshops</h3></a>
+    </div>
   </div>
 </div>
 

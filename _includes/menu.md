@@ -1,11 +1,9 @@
 <div class = 'menu-bar'>
-  <span class = 'bar'></span>
-  <span class = 'bar'></span>
-  <span class = 'bar'></span>
+  <i class = 'icon icon-menu' aria-hidden = 'true'></i>
 </div>
 <div class = 'full'>
     <div class = 'drop'>
-     <a href="{{ "/" | relative_url}}" class = 'brand'><img class = 'logo' src = '{{site.baseurl}}/assets/kit.png' alt = 'fun weird science logo'></a>
+     <a href="{{ "/" | relative_url}}" class = 'brand'><img class = 'logo' src = '{{site.baseurl}}/assets/logo.png' alt = 'fun weird science logo'></a>
     <a href="{{site.baseurl}}/about-us" >About Us</a>
     <a href="{{site.baseurl}}/products" >Products</a>
     <a href="{{site.baseurl}}/services" >Services</a>

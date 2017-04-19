@@ -3,12 +3,12 @@
   $('.menu-bar').on('click', function() {
       $('.full').toggleClass('shadow');
       $('.drop').toggleClass('open');
-      $(this).children().toggleClass('cross');
+      $(this).children().toggleClass('icon-close').toggleClass('icon-menu');
       $(this).toggleClass('open-bar');
   });
 
   $('div.shadow').on('click', function() {
-      $('.menu-bar').children().toggleClass('cross');
+      $('.menu-bar').children().toggleClass('icon-menu').toggleClass('icon-close');
       $('.menu-bar').toggleClass('open-bar');
       $('.drop').toggleClass('open');
       $(this).toggleClass('shadow');
@@ -28,8 +28,8 @@
   })();
   
   
-  var bot, input, message, email, guest, email, 
-      message, mailForm, year, widget;
+  var bot, input, message, guest, email, 
+      message, year, widget, mail;
   
   year = new Date();
   $('#year').append(year.getFullYear());
@@ -41,7 +41,6 @@
     mail = document.getElementById('email').value.toUpperCase();
     message = document.getElementById('message').value.toUpperCase();
     e.preventDefault();
-    if(guest && email && message){
       $.ajax({
         url: '//formspree.io/onewesh@gmail.com',
         method: 'POST',
@@ -71,7 +70,6 @@
           `);
         }
       });
-    }
   });
 
   $('.previous').on('click', function() {

@@ -70,6 +70,7 @@ main{
 }
 .dull{
   background-color:#2e3842;
+  min-height:400px;
 }
 a{
     text-decoration: none;
@@ -286,15 +287,18 @@ time{
   margin:15px auto;
   display:block;
 }
+.capital{
+    text-transform:capitalize;
+}
 
 .icon-linkedin:before { content: '\e800'; }
 .icon-close:before { content: '\e801'; font-size: 2em; color:inherit;}
-.icon-star:before { content: '\e802'; }
-.icon-chat:before { content: '\e803'; }
+.icon-star:before { content: '\e802'; margin: 0;}
+.icon-chat:before { content: '\e803'; font-size: 1.5em}
 .icon-menu:before { content: '\e804'; font-size: 2em; color: #0FBE7C;}
 .icon-article:before { content: '\e823'; }
 .icon-twitter:before { content: '\f099'; }
-.icon-cool:before { content: '\f164'; }
+.icon-cool:before { content: '\f164'; font-size: 3em;}
 .icon-whatsapp:before { content: '\f232'; }
 .icon-facebook:before { content: '\f300'; }
 .icon-instagram:before { content: '\f32d'; }
@@ -383,7 +387,9 @@ time{
     0% { width: 100%; }
     100% { width: 0; }
 }
-
+.narrow{
+    order:-1;
+}
 @media screen and (min-width: 768px){
     .division{
         min-height:300px;
@@ -399,6 +405,7 @@ time{
     }
     .narrow{
        width:45%;
+       order:initial;
     }
     .duo{
         width:48%;

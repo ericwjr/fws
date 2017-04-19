@@ -37,9 +37,9 @@
   mail = $('#form');
   widget = $('.widget');
   mail.submit(function(e) {
-    guest = document.getElementById('name').value.toUpperCase();
-    mail = document.getElementById('email').value.toUpperCase();
-    message = document.getElementById('message').value.toUpperCase();
+    guest = document.getElementById('name').value.toLowerCase();
+    mail = document.getElementById('email').value.toLowerCase();
+    message = document.getElementById('message').value.toLowerCase();
     e.preventDefault();
       $.ajax({
         url: '//formspree.io/onewesh@gmail.com',
@@ -55,9 +55,9 @@
         success: function(data) {
           widget.html(`
             <div class = "confirm">
-              <h2>Hey ${guest}!</h2>
+              <h2 class = 'mark capital'>Hello ${guest}</h2>
               <div class = 'big-icon  success'><i class = 'icon icon-cool'></i></div>
-              <p>Thank you for contacting us. We will get back to you asap.</p>
+              <p>Great to hear from you. We will get back to you asap.</p>
             </div>
           `);
         },

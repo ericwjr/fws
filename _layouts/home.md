@@ -22,7 +22,8 @@ layout: default
               <h2 class = 'post-link'>
                 <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
               </h2>
-              <p>{{ post.excerpt  | truncate: 200}} <a href = '{{ post.url | relative_url }}' class = 'mark'> Read More...</a></p>
+              {{ post.excerpt  | truncate: 200}} 
+              <!--<a href = '{{ post.url | relative_url }}' class = 'mark'> Read More...</a>-->
             </li>
             {% endfor %}
           </ol>

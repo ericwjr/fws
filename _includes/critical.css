@@ -401,6 +401,12 @@ time{
         height:initial;
         text-align:left;
     }
+    .wide{
+       width:60%;
+    }
+    .narrow{
+       width:40%;
+    }
     .duo{
         width:48%;
     }

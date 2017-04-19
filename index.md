@@ -30,9 +30,9 @@ science_parties: It's possible to have a blast while learning Science....let you
   a.product{
     text-decoration:underline;}
 </style>
-<!--<video controls autoplay loop muted>
+<video controls autoplay loop muted>
   <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
-</video>-->
+</video>
 <div class = 'main green flex-in'>
   <div class = 'child tripple'>
     <h1>FUN WEIRD SCIENCE</h1>

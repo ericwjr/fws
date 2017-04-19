@@ -30,9 +30,9 @@ science_parties: It's possible to have a blast while learning Science....let you
   a.product{
     text-decoration:underline;}
 </style>
-<!--<video controls autoplay loop muted>
+<video controls autoplay loop muted>
   <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
-</video>-->
+</video>
 <div class = 'main green flex-in'>
   <div class = 'child tripple'>
     <h1>FUN WEIRD SCIENCE</h1>
@@ -40,6 +40,7 @@ science_parties: It's possible to have a blast while learning Science....let you
     <p>
       Fun Weird Science is the programming brand for Georgia Science & Robotics Academy, Inc. (501c3). Our mission is to train K-12th grade students to be proficient in each component of S.T.E.A.M. through innovative instruction that will produce creative-minded and critical thinking participants in the global marketplace
     </p>
+		<p>Our approach represents next-generation hands-on learning. Our practices, strategies, and programs are built upon a foundation of identified best practices designed to improve student exposure and understanding of the S.T.E.A.M. disciplines. Committed to the Community Currently, we are committed to serving Atlanta, GA , and surrounding areas.</p>
     <h5>Products</h5>
     <div>
       <a class = 'product' href = '{{site.baseurl}}/products/'>
@@ -106,11 +107,12 @@ science_parties: It's possible to have a blast while learning Science....let you
   <div class = 'child tripple'>
     <div class = 'banner'>
       <i class = 'icon icon-qoute' aria-hidden = 'true'></i>
-      <p>African-Americans, American Indians, and Hispanics account for only 12% of all engineering undergraduate degrees.</p>
+
+"African-Americans, American Indians, and Hispanics account for only 12% of all engineering undergraduate degrees."
     </div>
-    <p>New Age Approach Our approach represents next-generation hands-on learning. Our practices, strategies, and programs are built upon a foundation of identified best practices designed to improve student exposure and understanding of the S.T.E.A.M. disciplines. Committed to the Community Currently, we are committed to serving Atlanta, GA , and surrounding areas.</p>
     <h2>Our Sponsors</h2>
     <h4><a href = 'https://www.google.ca' class = 'mark' target = '_blank'>Google</a></h4>
     <h4><a href = 'https://panasonic.com' class = 'mark' target = '_blank'>Panasonic</a></h4>
   </div>
 </div>
+

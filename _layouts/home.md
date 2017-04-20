@@ -14,15 +14,16 @@ layout: default
     <div class = 'overlay flex-in'>{{content}}</div>
 </section>
 <section class = 'blog'>
-  <article>
-      <div class = 'hold'>
+   <article>
+     <div class = 'hold'>
           <ol class="post-collection flex">
             {% for post in site.posts %}
             <li class = 'child duo'>
-              <h2 class = 'post-link'>
-                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-              </h2>
-              <p>{{ post.excerpt  | truncate: 200}} <a href = '{{ post.url | relative_url }}' class = 'mark'> Read More...</a></p>
+              <h3 class = 'post-link'>
+              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h3>
+              {{ post.excerpt  | truncate: 200}} 
+              <a href="{{ post.url | relative_url }}"><span class = 'mark'>Read More ...</span></a>
             </li>
             {% endfor %}
           </ol>

@@ -4,7 +4,7 @@
      right:25px;
      top:12.5px;
      border-radius:50%;
-     font-size:1.5em;
+     font-size:1.25em;
      color:#0FBE7C;
      height:36px;
      width:36px;

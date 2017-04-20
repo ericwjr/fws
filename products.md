@@ -10,12 +10,21 @@ dark: true
     margin:15px auto;
     cursor:pointer;
   }
-  .snipcart-item{
+  #cart{
     padding:15px;
+    width:150px;
+    border: 1px solid #0FBE7C;
     cursor:pointer;
     background-color:#0FBE7C;
     color:#fff;
+    text-align:center;
+    opacity:0.9;
+    transition:opacity 0.3s ease-in;
   }
+  #cart:hover{
+    opacity:1;
+  }
+
 </style>
 <div class = 'bright'>
   <section class = 'flex'>
@@ -61,6 +70,7 @@ dark: true
         data-item-price = '30.00'
         data-item-url = '{{site.baseurl}}/products'
         data-item-description = 'Fun Weird Science Kit' 
+        id = 'cart'
       >
       Add to Cart
       </button>

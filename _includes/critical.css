@@ -128,9 +128,12 @@ span.round{
     text-align:center;
 }
 span.round a{
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
     border-radius:50%;
-    padding:15px;
-    margin:0 10px;
+    width:45px;
+    height:45px;
     font-size:1.05em;
 }
 .overlay{
@@ -446,6 +449,7 @@ time{
 @media screen and (min-width: 992px){
     .strip{
       width:7%;
+      max-width:90px;
     }
     .tripple,
     .trio{

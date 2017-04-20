@@ -61,20 +61,7 @@ dark: true
       </p>
       <p>
         Free shipping!
-      </p>
-      <script src = 'https:// cdn.snipcart.com/scripts/2.0/snipcart.js' data-api-key = 'fun' id = 'snipcart'></script>
-      <link href = 'https://cdn.snipcart/themes/2.0/base/snipcart.min.css' rel = 'stylesheet' type = 'text/css'>
-      <button
-        class = 'snipcart-add-item'
-        data-item = '1'
-        data-item-name = 'Science Kit'
-        data-item-price = '30.00'
-        data-item-url = '{{site.baseurl}}/products'
-        data-item-description = 'Fun Weird Science Kit' 
-        id = 'cart'
-      >
-      Add to Cart
-      </button>
+      </p>   
       
       <script async="async" src="https://www.paypalobjects.com/js/external/paypal-button-minicart.min.js?merchant=onewesh@gmail.com" 
     data-button="cart" 
@@ -82,6 +69,7 @@ dark: true
     data-amount="30.00" 
     data-callback="https://onweru.github.io/fun/products" 
     data-env="sandbox"
+    id = 'cart'
 ></script>
       
     </div>

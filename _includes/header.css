@@ -25,11 +25,11 @@ a.nav-brand{
   text-transform: uppercase;
   font-weight:700;
   display:flex;
-  justify-content:center;
+  justify-content:flex-start;
   align-items:center;
   max-width:250px;
   margin-left:50px;
-  padding-left:25px;
+  padding-left:15px;
 }
 .brand{
   margin:0 0 25px 25px;

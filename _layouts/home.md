@@ -16,17 +16,17 @@ layout: default
 <section class = 'blog'>
    <article>
      <div class = 'hold'>
-          <ul class="post-collection flex">
+          <ol class="post-collection flex">
             {% for post in site.posts %}
             <li class = 'child duo'>
               <h3 class = 'post-link'>
               <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
               </h3>
               {{ post.excerpt  | truncate: 200}} 
-              <a href="{{ post.url | relative_url }}"><span class = 'lively'>Read More ...</span></a>
+              <a href="{{ post.url | relative_url }}"><span class = 'mark'>Read More ...</span></a>
             </li>
             {% endfor %}
-          </ul>
+          </ol>
       </div>
   </article>
 </section>

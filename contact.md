@@ -1,9 +1,9 @@
 ---
+permalink: "/contact/"
 layout: default
-permalink: /contact/
 dark: true
-published: true
 ---
+
 <style>
   .spinner{
     display:block;

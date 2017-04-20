@@ -1,8 +1,9 @@
 ---
-layout: default
-permalink: /about-us/
 title: About Us
+permalink: "/about-us/"
+layout: default
 ---
+
 <div class = 'bright'>
   <h1>About Us</h1>
   <div class = 'flex'>

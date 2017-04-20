@@ -2,6 +2,7 @@
 layout: default
 comments: true
 ---
+
 <article class = 'flex post blog'>
   <div class = 'child strip'>
     <div class = 'tablet'>

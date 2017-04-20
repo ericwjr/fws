@@ -1,9 +1,11 @@
 ---
+permalink: "/programs/"
 layout: default
 top: true
-permalink: /programs/
-story: House on the Campus of Morehouse College our summer STEM enrichment camp engages students through weekly themed learning experiences.
+story: House on the Campus of Morehouse College our summer STEM enrichment camp engages
+  students through weekly themed learning experiences.
 ---
+
 <div class = 'fulls parties' id = 'parties'>
   <div class = 'flex-in overlay'>
     <h3>Programs</h3>

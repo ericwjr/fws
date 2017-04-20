@@ -323,11 +323,11 @@ time{
     display:block;
     width:100%;
     padding:0;
-    height:50vh;
-  min-height: 450px;
+    height:40vh;
+  min-height: 420px;
     position:relative;
     background:#f0f0f0;
-    background-position:top center;
+    background-position:center;
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -335,8 +335,8 @@ time{
     background:linear-gradient(-60deg, rgba(0,0,0,0.5), rgba(255,255,255,0.25));
     width:100%;
     padding:25px;
-    height:50vh;
-    min-height:450px;
+    height:40vh;
+    min-height:420px;
 }
 .fulls h3{
     position:relative;

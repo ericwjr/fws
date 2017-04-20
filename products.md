@@ -75,6 +75,15 @@ dark: true
       >
       Add to Cart
       </button>
+      
+      <script async="async" src="https://www.paypalobjects.com/js/external/paypal-button-minicart.min.js?merchant=onewesh@gmail.com" 
+    data-button="cart" 
+    data-name="Fun Weird Science Kit" 
+    data-amount="30.00" 
+    data-callback="https://onweru.github.io/fun/product" 
+    data-env="sandbox"
+></script>
+      
     </div>
   </section>
 </div>

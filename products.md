@@ -79,7 +79,7 @@ dark: true
     data-button="cart" 
     data-name="Fun Weird Science Kit" 
     data-amount="30.00" 
-    data-callback="https://onweru.github.io/fun/product" 
+    data-callback="https://onweru.github.io/fun/products" 
     data-env="sandbox"
 ></script>
       

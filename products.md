@@ -21,8 +21,40 @@ dark: true
     opacity:0.9;
     transition:opacity 0.3s ease-in;
   }
-  #cart:hover{
-    opacity:1;
+  #PPMiniCart form {
+    position: fixed;
+    margin-top:75px !important;
+    float: none;
+    z-index:98;
+    top: 50px;
+    right: 50px;
+    width: 275px;
+    margin: 0;
+    padding: 50px 10px 25px;
+    min-height: 170px;
+    background: #fff;
+    border:none;
+    border-top: 0;
+    font: 105%;
+    color: #333;
+    text-align: left;
+    border-radius: 0 0 8px 8px;
+    -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  #PPMiniCart p input {
+    float: right;
+    margin: 4px 0 0;
+    padding: 1px 4px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #fff;
+    background: #0070ba !important;
+    border: 1px solid #0070ba;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
   }
 
 </style>
@@ -61,15 +93,16 @@ dark: true
       <p>
         Free shipping!
       </p>   
-      
-      <script async="async" src="https://www.paypalobjects.com/js/external/paypal-button-minicart.min.js?merchant=onewesh@gmail.com" 
-    data-button="cart" 
-    data-name="Fun Weird Science Kit" 
-    data-amount="30.00" 
-    data-callback="https://onweru.github.io/fun/products" 
-    data-env="sandbox"
-    id = 'cart'
-></script>
+      <div class = 'cart'>
+        <script async="async" src="https://www.paypalobjects.com/js/external/paypal-button-minicart.min.js?merchant=onewesh@gmail.com" 
+      data-button="cart" 
+      data-name="Fun Weird Science Kit" 
+      data-amount="30.00" 
+      data-callback="https://onweru.github.io/fun/products" 
+      data-env="sandbox"
+      id = 'cart'
+    ></script>
+    </div>
       
     </div>
   </section>

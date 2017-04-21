@@ -108,6 +108,10 @@ img{
     justify-content:center;
     align-items:center;
 }
+.member{
+    flex-direction:column;
+    justify-content:center;
+}
 .child{
     width:100%;
 }

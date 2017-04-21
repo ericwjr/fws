@@ -1,8 +1,10 @@
 ---
-layout: post
 title: 'Meet An Engineer: Ronald Yancey'
-permalink: /meet-an-engineer-ronald-yancey/
+date: 2015-12-14 00:00:00 Z
+permalink: "/meet-an-engineer-ronald-yancey/"
+layout: post
 ---
+
 In 1963, Georgia Tech became the first university in the Deep South to desegregate without a court order, with Ford Greene, Ralph A. Long, Jr., and Lawrence Michael Williams becoming Georgia Tech's first three African American students. Although they
 were the first to manipulate into Georgia Tech, it was Atlanta-born Ronald Yancey who became the first to graduate.
 

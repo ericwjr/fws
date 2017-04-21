@@ -1,5 +1,5 @@
-# depth
-Fun Weird Science SSG
+
+# Fun Weird Science SSG
 
 ## Mainatining this site
 The following links help the site owner to come into speed with the quirks of jekyll. I will list the basic parts.

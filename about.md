@@ -1,6 +1,4 @@
 ---
-layout: default
-permalink: /about-us/
 title: About Us
 team: 
   - name: 'Tommy Clay'
@@ -13,7 +11,10 @@ team:
     twitter: 'https://twitter.com/Ericwjr'
     linkedin: 'https://www.linkedin.com/in/ericwjr'
     avatar: 'eric.jpg'
+permalink: "/about-us/"
+layout: default
 ---
+
 <div class = 'bright'>
   <h1>About Us</h1>
   <div class = 'flex'>

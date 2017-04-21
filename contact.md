@@ -1,8 +1,9 @@
 ---
-  layout: default
-  permalink: /contact/
-  dark: true
+permalink: "/contact/"
+layout: default
+dark: true
 ---
+
 <style>
   .spinner{
     display:block;

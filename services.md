@@ -1,8 +1,12 @@
 ---
-layout: default
 permalink: services
-story: The highest-level thinking and "aha" moments are more likely to occur in an atmosphere of "exuberant discovery", where students of all ages retain that kindergarten enthusiasm of embracing each day with joy of learning.Who said Science can't be fun? Invite Fun Weird Science to make your next party fun and full of STEM!
+layout: default
+story: The highest-level thinking and "aha" moments are more likely to occur in an
+  atmosphere of "exuberant discovery", where students of all ages retain that kindergarten
+  enthusiasm of embracing each day with joy of learning.Who said Science can't be
+  fun? Invite Fun Weird Science to make your next party fun and full of STEM!
 ---
+
 <div class = 'fulls workshops' id = 'workshops'>
   <div class = 'flex-in overlay'>
     <h3>Services</h3>

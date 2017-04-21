@@ -1,8 +1,9 @@
 ---
+permalink: "/products/"
 layout: default
-permalink: /products/
 dark: true
 ---
+
 <style>
   .products img{
     display:block;
@@ -99,11 +100,10 @@ dark: true
       data-name="Fun Weird Science Kit" 
       data-amount="30.00" 
       data-callback="https://onweru.github.io/fun/products" 
-      data-env="sandbox"
+      data-env="production"
       id = 'cart'
     ></script>
-    </div>
-      
+    </div>   
     </div>
   </section>
 </div>

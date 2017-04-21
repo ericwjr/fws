@@ -152,14 +152,14 @@ footer{
     background-color:#2e3842;
     color:#fff;
 }
-.footer-icons{
+.icons{
     width:100%;
     top:20px;
     right:25px;
     text-align:center;
 }
-.footer-icons a{
-    display:flex;
+.icons a{
+    display:inline-flex;
     justify-content:center;
     align-items:center;
     width:40px;
@@ -168,7 +168,7 @@ footer{
     font-size:1.2em;
     border-radius:50%;
 }
-.footer-icons span{
+.icons span{
     display:inline-block;
     margin-left:10px;
 }

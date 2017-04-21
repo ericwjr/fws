@@ -108,6 +108,10 @@ img{
     justify-content:center;
     align-items:center;
 }
+.member{
+    flex-direction:column;
+    justify-content:center;
+}
 .child{
     width:100%;
 }
@@ -120,21 +124,6 @@ img{
 .trio li{
    max-height:180px;
    overflow:hidden; 
-}
-span.round{
-    color:#fff !important;
-    display:block;
-    margin:5px auto;
-    text-align:center;
-}
-span.round a{
-    display:inline-flex;
-    justify-content:center;
-    align-items: center;
-    border-radius:50%;
-    width:45px;
-    height:45px;
-    font-size:1.05em;
 }
 .overlay{
     background:linear-gradient(-45deg,rgba(255,255,255,0.45), rgba(0,0,0,0.6));
@@ -152,14 +141,14 @@ footer{
     background-color:#2e3842;
     color:#fff;
 }
-.footer-icons{
+.icons{
     width:100%;
     top:20px;
     right:25px;
     text-align:center;
 }
-.footer-icons a{
-    display:flex;
+.icons a{
+    display:inline-flex;
     justify-content:center;
     align-items:center;
     width:40px;
@@ -168,7 +157,7 @@ footer{
     font-size:1.2em;
     border-radius:50%;
 }
-.footer-icons span{
+.icons span{
     display:inline-block;
     margin-left:10px;
 }
@@ -196,6 +185,7 @@ footer p{
     font-size:1.2em;
     padding:25px;
     width:100%;
+    max-width:750px;
     display:block;
     margin:15px auto;
 }

@@ -1,7 +1,8 @@
 ---
-permalink: "/products/"
+permalink: /products/
 layout: default
 dark: true
+published: true
 ---
 
 <style>
@@ -17,46 +18,13 @@ dark: true
     border: 1px solid #0FBE7C;
     cursor:pointer;
     background-color:#0FBE7C;
-    color:#fff;
-    text-align:center;
-    opacity:0.9;
-    transition:opacity 0.3s ease-in;
-  }
+    }
   #PPMiniCart form {
     position: fixed;
     margin-top:75px !important;
     float: none;
     z-index:98;
-    top: 50px;
-    right: 50px;
-    width: 275px;
-    margin: 0;
-    padding: 50px 10px 25px;
-    min-height: 170px;
-    background: #fff;
-    border:none;
-    border-top: 0;
-    font: 105%;
-    color: #333;
-    text-align: left;
-    border-radius: 0 0 8px 8px;
-    -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05);
-    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05);
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05);
-  }
-  #PPMiniCart p input {
-    float: right;
-    margin: 4px 0 0;
-    padding: 1px 4px;
-    text-decoration: none;
-    font-weight: normal;
-    color: #fff;
-    background: #0070ba !important;
-    border: 1px solid #0070ba;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-  }
+    }
 
 </style>
 <div class = 'bright'>
@@ -101,7 +69,6 @@ dark: true
       data-amount="30.00" 
       data-callback="https://onweru.github.io/fun/products" 
       data-env="production"
-      id = 'cart'
     ></script>
     </div>   
     </div>

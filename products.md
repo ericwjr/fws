@@ -1,8 +1,7 @@
 ---
-permalink: /products/
+permalink: "/products/"
 layout: default
 dark: true
-published: true
 ---
 
 <div class = 'bright'>

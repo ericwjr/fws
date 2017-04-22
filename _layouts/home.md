@@ -1,7 +1,7 @@
 ---
 layout: default
-published: true
 ---
+
 <section class = 'overview fulls'>
     <div class = 'overlay flex-in'>{{content}}</div>
 </section>

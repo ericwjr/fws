@@ -1,19 +1,21 @@
 ---
 title: About Us
-permalink: "/about-us/"
+permalink: /about-us/
 team:
-- name: Tommy Clay
-  description: Tommy is an awesome educator with a knack for media and design
-  twitter: https://twitter.com/apsittommy
-  linkedin: ''
-  avatar: tommy.png
-- name: Eric Williams
-  description: When Eric isn't creating new tech products, he's looking for ways to
-    give back
-  twitter: https://twitter.com/Ericwjr
-  linkedin: https://www.linkedin.com/in/ericwjr
-  avatar: eric.jpg
+  - name: Tommy Clay
+    description: Tommy is an awesome educator with a knack for media and design
+    twitter: 'https://twitter.com/apsittommy'
+    linkedin: ''
+    avatar: tommy.png
+  - name: Eric Williams
+    description: >-
+      When Eric isn't creating new tech products, he's looking for ways to give
+      back
+    twitter: 'https://twitter.com/Ericwjr'
+    linkedin: 'https://www.linkedin.com/in/ericwjr'
+    avatar: eric.jpg
 layout: default
+published: true
 ---
 
 <div class = 'bright'>
@@ -44,7 +46,7 @@ layout: default
           <span><a href = '{{member.linkedin}}' target = '_blank' class = 'linkedin'><i class = 'icon icon-linkedin'></i></a></span>
           <span><a href = '{{member.twitter}}' target = '_blank' class = 'twitter'><i class = 'icon icon-twitter'></i></a></span>
         </div>
-        <p>{{member.description}}</p>
+        <p class = 'center'>{{member.description}}</p>
       </div> 
     {% endfor %}
   </div>

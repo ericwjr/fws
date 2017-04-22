@@ -3,16 +3,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, hr, ol, ul, figure,{
+body, h1, h2, h3, h4,
+p, blockquote, ol, ul,{
   margin: 0;
   padding: 0;
 }
 html, body{
-width:100%;
-margin:0 auto;
-}
-html{
+  width:100%;
+  margin:0 auto;
   position: relative;
 }
 body{
@@ -76,14 +74,12 @@ a{
     text-decoration: none;
     color:inherit;
 }
-ul{
+ul,ol{
     -webkit-padding-start:25px;
     -moz-padding-start:25px;
 }
 ol{
     list-style-type:none;
-     -webkit-padding-start:0;
-    -moz-padding-start:0;
 }
 .mark{
     color:#0FBE7C !important;
@@ -114,12 +110,6 @@ img{
 }
 .child{
     width:100%;
-}
-.land{
-    background-position:center center;
-    background-color:#000;
-    text-align:center;
-    background-repeat:repeat;
 }
 .trio li{
    max-height:180px;
@@ -211,30 +201,7 @@ footer p{
     position:relative;
     overflow:visible;
 }
-@font-face {
-    font-family: 'fontello';
-    src: url('{{ site.baseurl }}/assets/fontello.woff?34268753') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    margin-right: 0;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    margin-left: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4{
     font-weight: 500;
     padding:5px 0;
     margin:15px 0;
@@ -259,10 +226,6 @@ h3{
 h4{
     font-size:125%;
 }
-h5{
-    font-size:150%;
-    color:#fff;
-}
 em{
   color:#666;
 }
@@ -283,19 +246,6 @@ time{
 .capital{
     text-transform:capitalize;
 }
-
-.icon-linkedin:before { content: '\e800'; }
-.icon-close:before { content: '\e801'; font-size: 2em; color:inherit;}
-.icon-star:before { content: '\e802'; margin: 0;}
-.icon-chat:before { content: '\e803'; font-size: 1.5em}
-.icon-menu:before { content: '\e804'; font-size: 2em; color: #0FBE7C;}
-.icon-article:before { content: '\e823'; }
-.icon-twitter:before { content: '\f099'; }
-.icon-cool:before { content: '\f164'; font-size: 3em;}
-.icon-whatsapp:before { content: '\f232'; }
-.icon-facebook:before { content: '\f300'; }
-.icon-instagram:before { content: '\f32d'; }
-
 .tripple{
     order:-1;
 }
@@ -317,7 +267,7 @@ time{
     width:100%;
     padding:0;
     height:40vh;
-  min-height: 420px;
+    min-height: 420px;
     position:relative;
     background:#f0f0f0;
     background-position:center;
@@ -343,6 +293,8 @@ time{
 .fulls h3:before{
     content:'';
     position:absolute;
+    left:0;
+    right:0;
     width:100%;
     padding:1px;
     background-color:#fff;
@@ -351,13 +303,9 @@ time{
 .fulls h3:after{
     animation: grow 1s 3s linear alternate infinite;
     top:50px;
-    left:0;
-    right:0;
 }
 .fulls h3:before{
     bottom:50px;
-    left:0;
-    right:0;
     animation: shrink 1s 3s linear alternate infinite;
 }
 .shows{
@@ -379,7 +327,6 @@ time{
     cursor:pointer;
 }
 #PPMiniCart form {
-    position: fixed;
     margin-top:75px !important;
     z-index:98;
 }
@@ -396,8 +343,7 @@ time{
 }
 @media screen and (min-width: 768px){
     .division{
-        min-height:300px;
-        min-height:300px;  
+        min-height:300px; 
     }
     .nav-menu a{
         display:inline-block;

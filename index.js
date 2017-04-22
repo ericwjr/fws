@@ -1,17 +1,17 @@
 'use strict';
 (function() {
   $('.menu-bar').on('click', function() {
-      $('.full').toggleClass('shadow');
-      $('.drop').toggleClass('open');
-      $(this).children().toggleClass('icon-close').toggleClass('icon-menu');
-      $(this).toggleClass('open-bar');
+    $('.full').toggleClass('shadow');
+    $('.drop').toggleClass('open');
+    $(this).children().toggleClass('icon-close').toggleClass('icon-menu');
+    $(this).toggleClass('open-bar');
   });
 
   $('div.shadow').on('click', function() {
-      $('.menu-bar').children().toggleClass('icon-menu').toggleClass('icon-close');
-      $('.menu-bar').toggleClass('open-bar');
-      $('.drop').toggleClass('open');
-      $(this).toggleClass('shadow');
+    $('.menu-bar').children().toggleClass('icon-menu').toggleClass('icon-close');
+    $('.menu-bar').toggleClass('open-bar');
+    $('.drop').toggleClass('open');
+    $(this).toggleClass('shadow');
   });
 
   $('.drop .menu-bar').on('click', function(e){

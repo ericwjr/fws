@@ -3,7 +3,6 @@
 </div>
 {% include next.md %}
 {% if page.comments != false and jekyll.environment == "production" %}
-
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {

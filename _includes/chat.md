@@ -1,16 +1,3 @@
-<style>
-   .chat{
-     position:fixed;
-     right:25px;
-     top:12.5px;
-     border-radius:50%;
-     font-size:1.25em;
-     color:#0FBE7C;
-     height:36px;
-     width:36px;
-     cursor:pointer;
-   }
-</style>
 <a href = '{{site.baseurl}}/contact' class = 'chat flex-in'>
   <i class = 'icon icon-chat' aria-hidden = 'true'></i>
 </a>

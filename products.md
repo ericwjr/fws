@@ -1,7 +1,8 @@
 ---
-permalink: "/products/"
+permalink: /products/
 layout: default
 dark: true
+published: true
 ---
 
 <div class = 'bright'>
@@ -39,14 +40,7 @@ dark: true
       <p>
         Free shipping!
       </p>   
-      <div class = 'cart'>
-        <script async="async" src="https://www.paypalobjects.com/js/external/paypal-button-minicart.min.js?merchant=onewesh@gmail.com" 
-      data-button="cart" 
-      data-name="Fun Weird Science Kit" 
-      data-amount="30.00" 
-      data-callback="https://onweru.github.io/fun/products" 
-      data-env="production"
-    ></script>
+     {% include shoppingCart.md %}
     </div>   
     </div>
   </section>

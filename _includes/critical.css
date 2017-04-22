@@ -244,14 +244,14 @@ time{
   display:block;
 }
 .capital{
-    text-transform:capitalize;
+  text-transform:capitalize;
 }
 .tripple{
-    order:-1;
+  order:-1;
 }
 .cohabit{
-    width:49%;
-    font-size:1.1em;
+  width:49%;
+  font-size:1.1em;
 }
 .tablet{
   display:none;
@@ -331,54 +331,54 @@ time{
     z-index:98;
 }
 @keyframes grow{
-    0% { width:0; }
-    100% { width:100%; }
+  0% { width:0; }
+  100% { width:100%; }
 }
 @keyframes shrink{
-    0% { width: 100%; }
-    100% { width: 0; }
+  0% { width: 100%; }
+  100% { width: 0; }
 }
 .narrow{
-    order:-1;
+  order:-1;
 }
 @media screen and (min-width: 768px){
     .division{
-        min-height:300px; 
+      min-height:300px; 
     }
     .nav-menu a{
-        display:inline-block;
-        height:initial;
-        text-align:left;
+      display:inline-block;
+      height:initial;
+      text-align:left;
     }
     .wide{
-       width:55%;
+      width:55%;
     }
     .narrow{
-       width:45%;
-       order:initial;
+      width:45%;
+      order:initial;
     }
     .duo{
-        width:48%;
+      width:48%;
     }
     .tripple{
-        width:60%;
+      width:60%;
     }
     .trio{
-        width:28%;
-        order:-1;
+      width:33%;
+      order:-1;
     }
     .child.quad{
-        width:25%;
-        background-color:rgba(255,255,255,0.09);
-        border-radius:25px;
-        text-align:center;
+      width:25%;
+      background-color:rgba(255,255,255,0.09);
+      border-radius:25px;
+      text-align:center;
     }
     .quad img{
-        max-width:125px;
-        margin:0 auto;
+      max-width:125px;
+      margin:0 auto;
     }
     .left{
-        text-align:left;
+      text-align:left;
     }
     .post-content p{
       width:91%;
@@ -387,10 +387,10 @@ time{
 }
 @media screen and (min-width: 769px){
     .tablet{
-        display:block;
+      display:block;
     }
     .mobile{
-        display:none;
+      display:none;
     }
 }
 @media screen and (min-width: 992px){

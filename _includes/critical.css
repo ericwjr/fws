@@ -19,9 +19,59 @@ body{
   -webkit-text-size-adjust: 100%;
   font-kerning: normal;
 }
+a{
+  text-decoration: none;
+  color:inherit;
+}
+ul,ol{
+  -webkit-padding-start:25px;
+  -moz-padding-start:25px;
+}
+ol{
+  list-style-type:none;
+}
+h1,h2,h3,h4{
+    font-weight: 500;
+    padding:5px 0;
+    margin:15px 0;
+    color:#000;
+    line-height:1.1;
+    text-align:center;
+}
+h1{ 
+  font-size:180%; 
+}
+.heading{
+  color:#fff;
+}
+h2{ 
+  font-size:150%;
+}
+h3{
+  font-size:125%;
+  color:inherit;
+  text-align:center;
+}
+h4{ 
+  font-size:125%;
+}
+em{
+  color:#666;
+}
 main{
   padding:64px 0 0 0;
   min-height:84vh;
+}
+img{
+  width:90%;
+  max-width:480px;
+  height:auto;
+  margin:15px auto;
+  padding:0;
+  vertical-align: middle;
+}
+time{
+  font-size:0.9em;
 }
 .begin{
   padding:0;
@@ -64,46 +114,29 @@ main{
   background-color:#2e3842;
   min-height:400px;
 }
-a{
-  text-decoration: none;
-  color:inherit;
-}
-ul,ol{
-  -webkit-padding-start:25px;
-  -moz-padding-start:25px;
-}
-ol{
-  list-style-type:none;
-}
 .mark{
   color:#0FBE7C !important;
 }
-img{
-    width:90%;
-    max-width:480px;
-    height:auto;
-    margin:15px auto;
-    padding:0;
-}
 .wrap{
-    padding:30px 40px 50px 40px;
+  padding:30px 40px 50px 40px;
 }
 .flex,
 .flex-in{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content:space-between;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
 }
 .flex-in{
-    justify-content:center;
-    align-items:center;
+  justify-content:center;
+  align-items:center;
 }
 .member{
-    flex-direction:column;
+  display:flex;
+  flex-direction:column;
   justify-content:center;
 }
 .child{
-    width:100%;
+  width:100%;
 }
 .trio li{
    max-height:180px;
@@ -194,41 +227,6 @@ footer p{
 .hold{
     position:relative;
     overflow:visible;
-}
-h1,h2,h3,h4{
-    font-weight: 500;
-    padding:5px 0;
-    margin:15px 0;
-    color:#000;
-    line-height:1.1;
-    text-align:center;
-}
-h1{
-    font-size:180%;
-}
-.heading{
-    color:#fff;
-}
-h2{
-    font-size:150%;
-}
-h3{
-  font-size:125%;
-  color:inherit;
-  text-align:center;
-}
-h4{
-  font-size:125%;
-}
-em{
-  color:#666;
-}
-img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-time{
-    font-size:0.9em;
 }
 .team .member img{
   width:72%;

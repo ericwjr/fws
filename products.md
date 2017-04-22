@@ -4,29 +4,6 @@ layout: default
 dark: true
 published: true
 ---
-
-<style>
-  .products img{
-    display:block;
-    max-width:300px;
-    margin:15px auto;
-    cursor:pointer;
-  }
-  #cart{
-    padding:15px;
-    width:150px;
-    border: 1px solid #0FBE7C;
-    cursor:pointer;
-    background-color:#0FBE7C;
-    }
-  #PPMiniCart form {
-    position: fixed;
-    margin-top:75px !important;
-    float: none;
-    z-index:98;
-    }
-
-</style>
 <div class = 'bright'>
   <section class = 'flex'>
     <div class = 'child duo products'>

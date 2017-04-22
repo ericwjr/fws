@@ -39,6 +39,6 @@ or
 
 Notice the **if** and **for** blocks ... they are only unique in that they end with **endif** and **endfor** respectively.
 
-# Conclusion
+## Conclusion
 
 If you figure your way around **front matter, liquid syntax, includes and directory structure**, editing the site will be super easy. Notice that *prose.io* and *siteleaf* enable you to edit the site's front matter.

@@ -2,7 +2,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="msvalidate.01" content="AF3BA0EC0CC0580F2F52891BA29F30E6" />
   <title>{% if page.title %} {{page.title}} | {% endif %}{{site.title}}</title>
   {% if page.noindex  %}
     <meta name="robots" content="noindex" />
@@ -44,6 +43,7 @@
   {% endif %}
   <style>
     {% include posts.css %}
+    {% include icons.css %}
     {% include critical.css %}
   </style>
 </head>

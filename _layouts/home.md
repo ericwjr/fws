@@ -1,15 +1,7 @@
 ---
 layout: default
 ---
-<style>
-  .overview{
-    position: relative;
-    height:360px;
-    width:100%;
-    background-color:#111;
-    background-image:url({{site.baseurl}}/assets/after-school.jpg);
-  } 
-</style>
+
 <section class = 'overview fulls'>
     <div class = 'overlay flex-in'>{{content}}</div>
 </section>

@@ -42,7 +42,7 @@
     message = document.getElementById('message').value.toLowerCase();
     e.preventDefault();
       $.ajax({
-        url: '//formspree.io/info@weirdscience.com',
+        url: '//formspree.io/info@funweirdscience.com',
         method: 'POST',
         data: $(this).serialize(),
         dataType: 'json',
@@ -78,4 +78,3 @@
   });
 
 })();
-

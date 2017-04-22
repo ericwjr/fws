@@ -333,6 +333,9 @@ footer p{
 .narrow{
   order:-1;
 }
+.center{
+  text-align: center;
+}
 @media screen and (min-width: 768px){
     .division{
       min-height:300px; 

@@ -307,20 +307,20 @@ footer p{
    background-image:url({{site.baseurl}}/assets/parties.jpg);
 }
 .workshops {
-    background-image:url({{site.baseurl}}/assets/workshops.jpg);
+  background-image:url({{site.baseurl}}/assets/workshops.jpg);
 }
 .teachers {
-    background-image:url({{site.baseurl}}/assets/teachers.jpg);
+  background-image:url({{site.baseurl}}/assets/teachers.jpg);
 }
 .products img {
-    display:block;
-    max-width:300px;
-    margin:15px auto;
-    cursor:pointer;
+  display:block;
+  max-width:300px;
+  margin:15px auto;
+  cursor:pointer;
 }
 #PPMiniCart form {
-    margin-top:75px !important;
-    z-index:98;
+  margin-top:75px !important;
+  z-index:98;
 }
 @keyframes grow{
   0% { width:0; }

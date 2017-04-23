@@ -4,29 +4,6 @@ layout: default
 dark: true
 ---
 
-<style>
-  .products img{
-    display:block;
-    max-width:300px;
-    margin:15px auto;
-    cursor:pointer;
-  }
-  #cart{
-    padding:15px;
-    width:150px;
-    border: 1px solid #0FBE7C;
-    cursor:pointer;
-    background-color:#0FBE7C;
-    color:#fff;
-    text-align:center;
-    opacity:0.9;
-    transition:opacity 0.3s ease-in;
-  }
-  #cart:hover{
-    opacity:1;
-  }
-
-</style>
 <div class = 'bright'>
   <section class = 'flex'>
     <div class = 'child duo products'>
@@ -62,16 +39,7 @@ dark: true
       <p>
         Free shipping!
       </p>   
-      
-      <script async="async" src="https://www.paypalobjects.com/js/external/paypal-button-minicart.min.js?merchant=onewesh@gmail.com" 
-    data-button="cart" 
-    data-name="Fun Weird Science Kit" 
-    data-amount="30.00" 
-    data-callback="https://onweru.github.io/fun/products" 
-    data-env="sandbox"
-    id = 'cart'
-></script>
-      
-    </div>
+     {% include shoppingCart.md %}
+    </div>   
   </section>
 </div>

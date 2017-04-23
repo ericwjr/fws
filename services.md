@@ -20,8 +20,8 @@ story: The highest-level thinking and "aha" moments are more likely to occur in 
 
 <div class = 'bright'>
   <h2 id = 'stem'>STEM Professional Development</h2>
+  <p class = 'flex-in'>FUN WEIRD SCIENCE provides customized STEM teacher implementation workshops with optional ongoing cohort learning, lesson planning assistance, and compilation of online resources for all teacher workshops.</p>
   <div class = 'banner'>
     <p>If your actions inspire others to dream more, learn more, do more, and become more, you are a leader.</p>
   </div>
-  <p>FUN WEIRD SCIENCE provides customized STEM teacher implementation workshops with optional ongoing cohort learning, lesson planning assistance, and compilation of online resources for all teacher workshops.</p>
 </div>

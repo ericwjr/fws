@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('{{ site.baseurl }}/assets/fontello.woff?34268753') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0;
+}
+.icon-linkedin:before { content: '\e800'; }
+.icon-close:before { content: '\e801'; font-size: 2em; color:inherit;}
+.icon-star:before { content: '\e802'; margin: 0;}
+.icon-chat:before { content: '\e803'; font-size: 1.5em}
+.icon-menu:before { content: '\e804'; font-size: 2em; color: #0FBE7C;}
+.icon-article:before { content: '\e823'; }
+.icon-twitter:before { content: '\f099'; }
+.icon-cool:before { content: '\f164'; font-size: 3em;}
+.icon-whatsapp:before { content: '\f232'; }
+.icon-facebook:before { content: '\f300'; }
+.icon-instagram:before { content: '\f32d'; }

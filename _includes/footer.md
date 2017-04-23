@@ -1,6 +1,6 @@
  <footer>
    <div class = 'flex-in'>
-    <div class = 'footer-icons'>
+    <div class = 'icons'>
       <span><a href = 'https://www.facebook.com/FunWeirdScience/' class = 'facebook' target = '_blank'><i class = 'icon icon-facebook'></i></a></span>
       <span><a href = 'https://twitter.com/funweirdscience/' class = 'twitter' target = '_blank'><i class = 'icon icon-twitter'></i></a></span>
       <span><a href = 'https://www.instagram.com/funweirdscience/' class = 'instagram' target = '_blank'><i class = 'icon icon-instagram'></i></a></span>

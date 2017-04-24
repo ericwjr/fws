@@ -323,6 +323,9 @@ footer p{
 .teachers {
   background-image:url({{site.baseurl}}/assets/teachers.jpg);
 }
+.overview{
+  background-image:url({{site.baseurl}}/assets/after-school.jpg);
+}
 .products img {
   display:block;
   max-width:300px;

@@ -44,6 +44,10 @@ h1{
 .heading{
   color:#fff;
 }
+.fulls h2,
+.overlay h2{
+  color:#fff;
+}
 h2{ 
   font-size:150%;
 }

@@ -44,7 +44,6 @@ h1{
 .heading{
   color:#fff;
 }
-.fulls h2,
 .overlay h2{
   color:#fff;
 }
@@ -153,7 +152,6 @@ time{
   bottom:0;
   width:100%;
   color:#fff;
-  font-size:150%;
 } 
 footer{
   padding:50px 25px;

@@ -44,6 +44,13 @@ h1{
 .heading{
   color:#fff;
 }
+.overlay h2{
+  color:#fff;
+  font-size:1.6em;
+}
+.overlay p{
+  text-align:center;
+}
 h2{ 
   font-size:150%;
 }
@@ -114,6 +121,11 @@ time{
   background-color:#2e3842;
   min-height:400px;
 }
+.camps{
+  display: block;
+  max-width:250px;
+  margin:12.5px auto;
+}
 .mark{
   color:#0FBE7C !important;
 }
@@ -149,7 +161,6 @@ time{
   bottom:0;
   width:100%;
   color:#fff;
-  font-size:150%;
 } 
 footer{
   padding:50px 25px;
@@ -332,10 +343,6 @@ footer p{
   margin:15px auto;
   cursor:pointer;
 }
-#PPMiniCart form {
-  margin-top:75px !important;
-  z-index:98;
-}
 @keyframes grow{
   0% { width:0; }
   100% { width:100%; }
@@ -349,6 +356,9 @@ footer p{
 }
 .center{
   text-align: center;
+}
+.left{
+   text-align: left;
 }
 @media screen and (min-width: 768px){
   .division{
@@ -385,9 +395,6 @@ footer p{
   .quad img{
     max-width:125px;
     margin:0 auto;
-  }
-  .left{
-    text-align:left;
   }
   .post-content p{
     width:91%;

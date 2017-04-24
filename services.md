@@ -12,8 +12,10 @@ published: true
 
 <div class = 'fulls workshops' id = 'workshops'>
   <div class = 'flex-in overlay'>
-    <h2>Science Parties</h2>
-    <p>Who said Science can’t be fun?  Invite Fun Weird Science to make your next party fun and full of STEM!</p>
+    <div class = 'tripple'>
+      <h2>Science Parties</h2>
+      <p>Who said Science can’t be fun?  Invite Fun Weird Science to make your next party fun and full of STEM!</p>
+    </div>
   </div>
 </div>
 <div class = 'dull flex-in'>
@@ -26,5 +28,5 @@ published: true
   </div>
 </div>
 <div class = 'bright flex-in'>
-  <p class = 'banner center> {{ page.story }}</p>
+  <p class = 'banner center'> {{ page.story }}</p>
 </div>

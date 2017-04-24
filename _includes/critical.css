@@ -338,10 +338,6 @@ footer p{
   margin:15px auto;
   cursor:pointer;
 }
-#PPMiniCart form {
-  margin-top:75px !important;
-  z-index:98;
-}
 @keyframes grow{
   0% { width:0; }
   100% { width:100%; }
@@ -355,6 +351,9 @@ footer p{
 }
 .center{
   text-align: center;
+}
+.left{
+   text-align: left;
 }
 @media screen and (min-width: 768px){
   .division{
@@ -391,9 +390,6 @@ footer p{
   .quad img{
     max-width:125px;
     margin:0 auto;
-  }
-  .left{
-    text-align:left;
   }
   .post-content p{
     width:91%;

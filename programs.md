@@ -28,9 +28,11 @@ camps:
   <div class = 'child tripple'>
     <h3>Summer Camps</h3>
     <p>{{page.story}}</p>
+    <div class = 'left'>
     {% for camp in page.camps %}
       <i class = 'icon icon-star mark'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }} <br>
     {% endfor %}
+    </div>
   </div>
 </div>
 <div class = 'bright flex-in'>

@@ -1,21 +1,19 @@
 ---
 title: About Us
-permalink: /about-us/
+permalink: "/about-us/"
 team:
-  - name: Tommy Clay
-    description: Tommy is an awesome educator with a knack for media and design
-    twitter: 'https://twitter.com/apsittommy'
-    linkedin: ''
-    avatar: tommy.png
-  - name: Eric Williams
-    description: >-
-      When Eric isn't creating new tech products, he's looking for ways to give
-      back
-    twitter: 'https://twitter.com/Ericwjr'
-    linkedin: 'https://www.linkedin.com/in/ericwjr'
-    avatar: eric.jpg
+- name: Tommy Clay
+  description: Tommy is an awesome educator with a knack for media and design
+  twitter: https://twitter.com/apsittommy
+  linkedin: ''
+  avatar: tommy.png
+- name: Eric Williams
+  description: When Eric isn't creating new tech products, he's looking for ways to
+    give back
+  twitter: https://twitter.com/Ericwjr
+  linkedin: https://www.linkedin.com/in/ericwjr
+  avatar: eric.jpg
 layout: default
-published: true
 ---
 
 <div class = 'bright'>

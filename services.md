@@ -10,7 +10,7 @@ story: >-
 published: true
 ---
 
-<div class = 'fulls workshops' id = 'parties'>
+<div class = 'fulls parties' id = 'parties'>
   <div class = 'flex-in overlay'>
     <div class = 'tripple'>
       <h2>Science Parties</h2>

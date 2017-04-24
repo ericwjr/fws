@@ -1,17 +1,23 @@
 ---
 layout: default
 dark: true
-story: Our approach represents next-generation hands-on learning. Our         practices,
-  strategies, and programs are built upon a foundation of identified              best
-  practices designed
-science_show: What better way to excite your young scholars than with a Science show...includes
-  engaging Science demonstrations, experiments, and good music
-teacher_workshops: Train your staff on the funweirdscience way of engaging your scholars
-  with STEM concepts and learning tools
-after_school: Supplement your scholar's learning with after school STEM workshops
-  and activities
-science_parties: It's possible to have a blast while learning Science....let your
-  next party be a Funweirdscience party
+story: >-
+  Our approach represents next-generation hands-on learning. Our        
+  practices, strategies, and programs are built upon a foundation of
+  identified              best practices designed
+science_show: >-
+  What better way to excite your young scholars than with a Science
+  show...includes engaging Science demonstrations, experiments, and good music
+teacher_workshops: >-
+  Train your staff on the funweirdscience way of engaging your scholars with
+  STEM concepts and learning tools
+after_school: >-
+  Supplement your scholar's learning with after school STEM workshops and
+  activities
+science_parties: >-
+  It's possible to have a blast while learning Science....let your next party be
+  a Funweirdscience party
+published: true
 ---
 
 <style>
@@ -54,7 +60,7 @@ science_parties: It's possible to have a blast while learning Science....let you
 <div class = 'flex'>
   <div class = 'fulls narrow shows'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/services/#stem'><h3>Science Shows</h3></a>
+      <a href = '{{site.baseurl}}/services'><h3>Science Shows</h3></a>
     </div>
   </div>
   <div class = 'dull wide flex-in'>
@@ -98,7 +104,7 @@ science_parties: It's possible to have a blast while learning Science....let you
   </div>
   <div class = 'fulls narrow teachers'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/services/#workshops'><h3>Teacher Workshops</h3></a>
+      <a href = '{{site.baseurl}}/services/#train'><h3>Teacher Workshops</h3></a>
     </div>
   </div>
 </div>
@@ -115,4 +121,3 @@ science_parties: It's possible to have a blast while learning Science....let you
     <h4><a href = 'https://panasonic.com' class = 'mark' target = '_blank'>Panasonic</a></h4>
   </div>
 </div>
-

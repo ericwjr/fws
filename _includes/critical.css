@@ -121,6 +121,11 @@ time{
   background-color:#2e3842;
   min-height:400px;
 }
+.camps{
+  display: block;
+  max-width:250px;
+  margin:12.5px auto;
+}
 .mark{
   color:#0FBE7C !important;
 }

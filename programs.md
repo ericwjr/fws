@@ -15,7 +15,7 @@ camps:
     grade: (6th-8th)
 ---
 
-<div class = 'fulls parties' id = 'parties'>
+<div class = 'fulls workshops' id = 'parties'>
   <div class = 'flex-in overlay'>
     <div class = 'tripple'>
       <h2><span id = 'stemsaturdays'>Stem Saturdays</span></h2>
@@ -28,7 +28,7 @@ camps:
   <div class = 'child tripple'>
     <h3>Summer Camps</h3>
     <p>{{page.story}}</p>
-    <div class = 'left'>
+    <div class = 'left camps'>
     {% for camp in page.camps %}
       <i class = 'icon icon-star mark'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }} <br>
     {% endfor %}

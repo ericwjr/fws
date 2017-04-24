@@ -6,6 +6,13 @@ story: >-
   House on the Campus of Morehouse College our summer STEM enrichment camp
   engages students through weekly themed learning experiences.
 published: true
+camps:
+  - name: Little Scientist
+    grade: (1st-4th)
+  - name: Engineer in the Making
+    grade: (3rd-5th)
+  - name: Innovator Apprentice
+    grade: (6th-8th)
 ---
 
 <div class = 'fulls parties' id = 'parties'>
@@ -21,9 +28,9 @@ published: true
   <div class = 'child tripple'>
     <h3>Summer Camps</h3>
     <p>{{page.story}}</p>
-    <b>Little Scientist</b> (1st-4th)
-    <b>Engineer in the Making</b> (3rd-5th)
-    <b>Innovator Apprentice</b> (6th-8th)
+    {% for camp in page.camps %}
+      <i class = 'icon icon-star mark'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }} <br>
+    {% endfor %}
   </div>
 </div>
 <div class = 'bright flex-in'>

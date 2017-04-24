@@ -42,6 +42,5 @@ published: true
       </p>   
      {% include shoppingCart.md %}
     </div>   
-    </div>
   </section>
 </div>

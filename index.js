@@ -77,4 +77,40 @@
     console.log('I want to go back');
   });
 
-})();
+$(".select").each(function() {
+      var classes = $(this).attr("class"),
+      id      = $(this).attr("id"),
+      name    = $(this).attr("name");
+      var template =  '<div class="' + classes + '">';
+      template += '<span class="gun">' + $(this).attr("placeholder") + '</span>';
+      template += '<div class="options">';
+      $(this).find("option").each(function() {
+        template += '<span class="option ' + $(this).attr("class") + '" data-value="' + $(this).attr("value") + '">' + $(this).html() + '</span>';
+      });
+      template += '</div></div>';
+      
+      $(this).hide();
+      $(this).after(template);
+    });
+    $(".option:first-of-type").hover(function() {
+      $(this).parents(".options").addClass("option-hover");
+    }, function() {
+      $(this).parents(".options").removeClass("option-hover");
+    });
+    $(".gun").on("click", function() {
+      $('html').one('click',function() {
+        $(".select").removeClass("opened");
+      });
+      $(this).parents(".select").toggleClass("opened");
+      event.stopPropagation();
+    });
+    $(".option").on("click", function() {
+      $(this).parents(".funga").find("select").val($(this).data("value"));
+      $(this).parents(".options").find(".option").removeClass("selection");
+      $(this).addClass("selection");
+      $(this).parents(".select").removeClass("opened");
+      $(this).parents(".select").find(".gun").text($(this).text());
+    });
+  })();
+
+

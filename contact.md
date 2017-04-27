@@ -1,7 +1,8 @@
 ---
-permalink: "/contact/"
+permalink: /contact/
 layout: default
 dark: true
+published: true
 ---
 
 <style>
@@ -10,6 +11,7 @@ dark: true
 <section class = 'form flex-in'>
   <div class = 'widget'>
     <form  action = 'https://formspree.io/info@funweirdscience.com' method = 'POST' id = 'form'>
+       {% include options.md %}
       <input name = 'name' type = 'text' required placeholder = 'Name' id = 'name'>
       <input name = 'email' type = 'email' required placeholder = 'Email' id = 'email'>
       <textarea name = 'message' required id = 'message' placeholder = 'Leave us a message' id = 'message'></textarea>

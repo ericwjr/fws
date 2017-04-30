@@ -34,7 +34,8 @@ a.nav-brand{
 .brand{
   margin:0 0 25px 25px;
 }
-.menu-bar{
+.menu-bar,
+.closes{
   cursor:pointer;
   position:fixed;
   top:12.5px;
@@ -42,16 +43,25 @@ a.nav-brand{
   width:40px;
   height:auto;
   z-index:125;
-  transition:left 0.5s ease-in-out;
 }
-.open-bar{
-    left: 225px;
-    color:#fff;
+.closes{
+  left: 225px;
 }
-.full{
+.closes .icon-close{
+  opacity:0;
+  color:#fff;
+}
+.opens .icon-close{
+  animation:delays 0.5s 0.75s ease-in forwards;
+}
+.before{
+  position:absolute;
+}
+.before{
   width:0;
   height:0;
   overflow:visible;
+  cursor: pointer;
 }
 .shadow{
   position:fixed;
@@ -118,10 +128,7 @@ a.nav-brand{
   margin:0 auto 15px auto !important;
   padding:0;
 }
-.icon-close{
-  animation: delay 1.5s ease-in;
-}
-@keyframes delay{
-  0%{ opacity:0 }
-  100%{ opacity:1 }
+@keyframes delays{
+  0% { opacity: 0; }
+  100%{ opacity: 1; }
 }

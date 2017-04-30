@@ -25,14 +25,14 @@ published: true
 </div>
 
 <div class = 'dull flex-in'>
-  <div class = 'child tripple'>
+  <div class = 'child duo'>
     <h3>Summer Camps</h3>
     <p>{{page.story}}</p>
-    <div class = 'left camps'>
-    {% for camp in page.camps %}
-      <i class = 'icon icon-star mark'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }} <br>
-    {% endfor %}
-    </div>
+  </div>
+  <div class = ' duo left camps'>
+  {% for camp in page.camps %}
+    <i class = 'icon icon-star mark'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }} <br>
+  {% endfor %}
   </div>
 </div>
 <div class = 'bright flex-in'>

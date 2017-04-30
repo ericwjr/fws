@@ -167,6 +167,7 @@ input.submit{
   visibility: visible;
   pointer-events: all;
   transform: translateY(0);
+  z-index: 2;
 }
 .options:before {
   position: absolute;

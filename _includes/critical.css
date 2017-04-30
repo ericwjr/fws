@@ -155,7 +155,7 @@ time{
   overflow:hidden; 
 }
 .overlay{
-  background:linear-gradient(-45deg,rgba(255,255,255,0.45), rgba(0,0,0,0.6));
+  background:linear-gradient(-45deg,rgba(50,50,75,0.45), rgba(0,0,0,0.6));
   position:absolute;
   top:0;
   bottom:0;
@@ -358,12 +358,12 @@ footer p{
   text-align: center;
 }
 .left{
-   text-align: left;
+  text-align: left;
 }
 @media screen and (min-width: 768px){
-  .division{
+  /*.division{
     min-height:300px; 
-  }
+  }*/
   .nav-menu a{
     display:inline-block;
     height:initial;

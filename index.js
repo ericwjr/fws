@@ -17,7 +17,7 @@
 
   $('.before').on('click', function() {
     $('.before').toggleClass('shadow')
-    $(this).toggleClass('opens');
+    $('.closes').toggleClass('opens');
     $('.full').toggleClass('shadow');
     $('.drop').toggleClass('open');
     $('.menu-bar').children().toggle('icon-menu');

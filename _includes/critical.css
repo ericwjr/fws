@@ -155,7 +155,7 @@ time{
   overflow:hidden; 
 }
 .overlay{
-  background:linear-gradient(-45deg,rgba(50,50,75,0.45), rgba(0,0,0,0.6));
+  background:linear-gradient(-45deg,rgba(50,50,75,0.4), rgba(0,0,0,0.6));
   position:absolute;
   top:0;
   bottom:0;
@@ -259,6 +259,9 @@ footer p{
 }
 .capital{
   text-transform:capitalize;
+}
+.cart{
+  margin: 20px 0 0 0;
 }
 .tripple{
   order:-1;

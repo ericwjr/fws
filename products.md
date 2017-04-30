@@ -38,8 +38,10 @@ dark: true
       </p>
       <p>
         Free shipping!
-      </p>   
-     {% include shoppingCart.md %}
+      </p> 
+      <div class = 'cart'>  
+        {% include shoppingCart.md %}
+      </div>
     </div>   
   </section>
 </div>

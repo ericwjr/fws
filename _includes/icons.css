@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'fontello';
-  src: url('{{ site.baseurl }}/assets/fontello.woff?34268753') format('woff');
+  src: url('{{ site.baseurl }}/assets/fontello.woff?48226718') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -8,7 +8,6 @@
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: none;
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
@@ -20,13 +19,14 @@
   margin-left: 0;
 }
 .icon-linkedin:before { content: '\e800'; }
-.icon-close:before { content: '\e801'; font-size: 2em; color:inherit;}
-.icon-star:before { content: '\e802'; margin: 0;}
-.icon-chat:before { content: '\e803'; font-size: 1.5em}
-.icon-menu:before { content: '\e804'; font-size: 2em; color: #0FBE7C;}
+.icon-close:before { content: '\e801'; font-size: 2em; color:inherit; }
+.icon-star:before { content: '\e802'; margin: 0; }
+.icon-chat:before { content: '\e803'; font-size: 1.5em }
+.icon-menu:before { content: '\e804'; font-size: 2em; color: #0FBE7C}
+.icon-ok-circled:before { content: '\e805'; }
 .icon-article:before { content: '\e823'; }
 .icon-twitter:before { content: '\f099'; }
-.icon-cool:before { content: '\f164'; font-size: 3em;}
+.icon-thumbs-cool:before { content: '\f164'; font-size: 3em;}
 .icon-whatsapp:before { content: '\f232'; }
 .icon-facebook:before { content: '\f300'; }
-.icon-instagram:before { content: '\f32d'; }
+.icon-instagram:before { content: '\f32d'; } 

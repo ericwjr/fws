@@ -1,17 +1,26 @@
 'use strict';
 (function() {
   $('.menu-bar').on('click', function() {
-    $('.full').toggleClass('shadow');
+    $('.before').toggleClass('shadow')
     $('.drop').toggleClass('open');
-    $(this).children().toggleClass('icon-close').toggleClass('icon-menu');
-    $(this).toggleClass('open-bar');
+    $(this).children().toggle('icon-menu');
+    $('.closes').toggleClass('opens');
   });
 
-  $('div.shadow').on('click', function() {
-    $('.menu-bar').children().toggleClass('icon-menu').toggleClass('icon-close');
-    $('.menu-bar').toggleClass('open-bar');
+  $('.closes').on('click', function() {
+    $('.before').toggleClass('shadow')
+    $(this).toggleClass('opens');
+    $('.full').toggleClass('shadow');
     $('.drop').toggleClass('open');
-    $(this).toggleClass('shadow');
+    $('.menu-bar').children().toggle('icon-menu');
+  });
+
+  $('.before').on('click', function() {
+    $('.before').toggleClass('shadow')
+    $(this).toggleClass('opens');
+    $('.full').toggleClass('shadow');
+    $('.drop').toggleClass('open');
+    $('.menu-bar').children().toggle('icon-menu');
   });
 
   $('.drop .menu-bar').on('click', function(e){

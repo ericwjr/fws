@@ -1,8 +1,7 @@
 ---
-permalink: /contact/
+permalink: "/contact/"
 layout: default
 dark: true
-published: true
 ---
 
 <style>

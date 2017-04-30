@@ -28,9 +28,9 @@ exclude:
 - Gemfile
 - Gemfile.lock
 options:
-  - Science Shows
-  - After School Workshops
-  - Stem Saturdays
-  - Summer Camps
-  - Teacher Workshops
-  - Other
+- Science Shows
+- After School Workshops
+- Stem Saturdays
+- Summer Camps
+- Teacher Workshops
+- Other

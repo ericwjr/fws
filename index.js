@@ -3,22 +3,20 @@
   $('.menu-bar').on('click', function() {
     $('.before').toggleClass('shadow')
     $('.drop').toggleClass('open');
-    $(this).children().toggle('icon-menu');
     $('.closes').toggleClass('opens');
+    $(this).children().toggle('icon-menu');
   });
 
   $('.closes').on('click', function() {
-    $('.before').toggleClass('shadow')
     $(this).toggleClass('opens');
-    $('.full').toggleClass('shadow');
+    $('.before').toggleClass('shadow')
     $('.drop').toggleClass('open');
     $('.menu-bar').children().toggle('icon-menu');
   });
 
   $('.before').on('click', function() {
-    $('.before').toggleClass('shadow')
-    $(this).toggleClass('opens');
-    $('.full').toggleClass('shadow');
+    $(this).toggleClass('shadow')
+    $('.closes').toggleClass('opens');
     $('.drop').toggleClass('open');
     $('.menu-bar').children().toggle('icon-menu');
   });

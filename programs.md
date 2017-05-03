@@ -1,18 +1,16 @@
 ---
-permalink: /programs/
+permalink: "/programs/"
 layout: default
 top: true
-story: >-
-  House on the Campus of Morehouse College our summer STEM enrichment camp
-  engages students through weekly themed learning experiences.
+story: House on the Campus of Morehouse College our summer STEM enrichment camp engages
+  students through weekly themed learning experiences.
 camps:
-  - name: Little Scientist
-    grade: (1st-4th)
-  - name: Engineer in the Making
-    grade: (3rd-5th)
-  - name: Innovator Apprentice
-    grade: (6th-8th)
-published: true
+- name: Little Scientist
+  grade: "(1st-4th)"
+- name: Engineer in the Making
+  grade: "(3rd-5th)"
+- name: Innovator Apprentice
+  grade: "(6th-8th)"
 ---
 
 <div class = 'fulls workshops' id = 'parties'>

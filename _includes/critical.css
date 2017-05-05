@@ -114,12 +114,19 @@ a.submit{
   text-align:center;
   width:100%;
 }
+.point{
+  display:inline-block !important;
+}
+.point:nth-of-type(even){
+  width:90%;
+  margin-left:2.5px;
+}
 .green,
 .dull{
   color:#fff;
 }
 .bright{
-  min-height:64vh;
+  min-height:48vh;
   background-color:#fff;
   text-align:left;
 }
@@ -147,6 +154,7 @@ a.submit{
   position:relative;
 }
 .film a.submit{
+  width:200px;
   position: absolute;
   right:25px;
   bottom:25px;

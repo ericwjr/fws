@@ -101,11 +101,11 @@ time{
 a.submit{
   background-color:#0FBE7C;
   color:#fff;
-  padding:15px;
+  padding:10px;
   text-align:center;
   display:block;
   margin:25px auto;
-  max-width:150px;
+  max-width:180px;
   border-radius:25px;
 }
 .bright,
@@ -192,10 +192,11 @@ a.product{
 } 
 .tickets {
   align-items: center;
+  margin:25px auto;
 }
-.tickets .trio{
-  background-color:rgba(0,0,0,0.5);
-  minimum-height:150px;
+.tickets .duo{
+  background-color:rgba(0,0,0,0.3);
+  min-height:250px;
   padding:25px 10px;
 }
 footer{

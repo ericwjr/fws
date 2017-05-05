@@ -22,7 +22,7 @@ links:
   - Teacher of the Year 2006-Kelley Lake Elementary
   - Teacher of the Year 2010-Parkside Elementary
 ---
-<div class = 'fulls workshops' id = 'about'>
+<div class = 'fulls about' id = 'about'>
   <div class = 'flex-in overlay'>
     <div class = 'tripple'>
       <h1>About Us</h1>

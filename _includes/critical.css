@@ -72,7 +72,6 @@ main{
 img{
   width:90%;
   max-width:480px;
-  height:auto;
   margin:15px auto;
   padding:0;
   vertical-align: middle;
@@ -101,11 +100,11 @@ time{
 a.submit{
   background-color:#0FBE7C;
   color:#fff;
-  padding:15px;
+  padding:10px;
   text-align:center;
   display:block;
   margin:25px auto;
-  max-width:275px;
+  max-width:180px;
   border-radius:25px;
 }
 .bright,
@@ -190,6 +189,19 @@ a.product{
   width:100%;
   color:#fff;
 } 
+.tickets {
+  align-items: center;
+  margin:25px auto;
+  min-height:300px;
+}
+.tickets p{
+  font-size:120%;
+}
+.tickets .duo{
+  background-color:rgba(0,0,0,0.3);
+  padding:25px 10px;
+  min-height: 150px;
+}
 footer{
   padding:50px 25px;
   width:100%;
@@ -289,8 +301,8 @@ footer p{
   text-transform:capitalize;
 }
 .cart{
-  margin: 20px 0 0 0;
-  max-height:100px;
+  margin: 20px 0;
+  height: 100px !important;
 }
 .tripple{
   order:-1;

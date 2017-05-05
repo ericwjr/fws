@@ -2,15 +2,17 @@
 permalink: "/programs/"
 layout: default
 top: true
-story: House on the Campus of Morehouse College our summer STEM enrichment camp engages
-  students through weekly themed learning experiences.
-camps:
-- name: Little Scientist
-  grade: "(1st-4th)"
-- name: Engineer in the Making
-  grade: "(3rd-5th)"
-- name: Innovator Apprentice
-  grade: "(6th-8th)"
+story: >-
+  House on the Campus of Morehouse College our summer STEM enrichment camp
+  engages students through weekly themed learning experiences.
+published: true
+tickets:
+  - link: >-
+      https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-robotics-camp-tickets-34178810743
+    description: Summer of innovation robotics camp tickets
+  - link: >-
+      https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-maker-camp-tickets-34030108972?aff=erelpanelorg
+    description: Summer of innovation maker camp tickets
 ---
 
 <div class = 'fulls workshops'>
@@ -30,12 +32,7 @@ camps:
   <div class = 'child tripple'>
     <h3 id = 'camps'>Summer Camps</h3>
     <p>{{page.story}}</p>
-    <div class = 'left camps'>
-    {% for camp in page.camps %}
-      <p><i class = 'icon icon-check'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }}</p>
-    {% endfor %}
-    </div>
-    <a class = 'submit' href = 'https://www.eventbrite.com/myevent?eid=34178810743' target = '_blank'>Register</a>
+    {% include register.md %}
   </div>
 </div>
 <div class = 'bright flex-in'>

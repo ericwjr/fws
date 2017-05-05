@@ -147,6 +147,7 @@ a.submit{
   position:relative;
 }
 .film a.submit{
+  width:200px;
   position: absolute;
   right:25px;
   bottom:25px;

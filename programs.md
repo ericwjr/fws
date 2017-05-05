@@ -15,7 +15,7 @@ camps:
 published: true
 ---
 
-<div class = 'fulls workshops' id = 'parties'>
+<div class = 'fulls workshops'>
   <div class = 'flex-in overlay'>
     <div class = 'tripple'>
       <h1>Programs</h1>
@@ -30,7 +30,7 @@ published: true
 </div>
 <div class = 'dull flex-in'>
   <div class = 'child tripple'>
-    <h3>Summer Camps</h3>
+    <h3 id = 'camps'>Summer Camps</h3>
     <p>{{page.story}}</p>
     <div class = 'left camps'>
     {% for camp in page.camps %}
@@ -41,7 +41,7 @@ published: true
 </div>
 <div class = 'bright flex-in'>
   <div class = 'tripple'>
-    <h2>After School Workshops</h2>
+    <h2 id = 'after'>After School Workshops</h2>
     <p></p>
   </div>
   <div class = 'banner'>

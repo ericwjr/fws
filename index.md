@@ -13,6 +13,7 @@ after_school: Supplement your scholar's learning with after school STEM workshop
 science_parties: It's possible to have a blast while learning Science....let your
   next party be a Funweirdscience party
 ---
+
 <div class = 'film'>
   <video controls autoplay loop muted>
     <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >

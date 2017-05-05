@@ -33,7 +33,7 @@ links:
      <p>Ronnie Thomas applies his 15 years of STEM teaching experience to ensure that all learners are challenged. He leads the way in technology integration and has been recognized for his work:</p>
     <div class = 'left links'>
      {% for link in page.links %}
-     <i class = 'icon icon-check point'></i><p class = 'point'>{{ link }}</p>
+     <p><i class = 'icon icon-check point'></i><span class = 'point'>{{ link }}</span></p>
     {% endfor %}
     </div>
     <p> Mr. Thomas is an enthusiastic and passionate technology educator with a solid commitment to the social, academic and developmental growth of every student. Known for his engaging and versatile teaching methods, Thomas has the ability to inspire hands-on learning experiences that capture a student’s imagination.</p>

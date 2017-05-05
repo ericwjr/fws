@@ -94,7 +94,7 @@ a.nav-brand{
   background-color:#0FBE7C;
   z-index:101;
 }
-.drop a:not(:first-child){
+.drop a{
   display:block;
   width:100%;
   padding:12.5px 25px;
@@ -103,6 +103,9 @@ a.nav-brand{
   font-size:1.1em;
   transition:color 0.25s ease-in-out;
   border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.drop a:first-child{
+  margin-bottom:20px;
 }
 .drop a:hover{
   color: #fefefe;

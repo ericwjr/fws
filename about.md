@@ -21,7 +21,7 @@ links:
 - Teacher of the Year 2010-Parkside Elementary
 ---
 
-<div class = 'fulls about' id = 'about'>
+<div class = 'overview fulls'>
   <div class = 'flex-in overlay'>
     <div class = 'tripple'>
       <h1>About Us</h1>

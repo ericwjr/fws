@@ -157,8 +157,8 @@ a.submit{
 .film a.submit{
   width:200px;
   position: absolute;
-  right:25px;
-  bottom:25px;
+  right:50%;
+  bottom:50%;
   z-index:3;
   animation: blink 7s 2s ease-in-out;
 }
@@ -385,12 +385,6 @@ footer p{
   bottom:50px;
   animation: shrink 1s 3s linear alternate infinite;
 }
-.about{
-  background-image:url({{site.baseurl}}/assets/about.jpg}});
-}
-.summer-camps{
-  background-image:url({{site.baseurl}}/assets/camps.jpg}});
-}
 .shows{
   background-image:url({{site.baseurl}}/assets/shows.jpg);
 }
@@ -405,6 +399,9 @@ footer p{
 }
 .overview{
   background-image:url({{site.baseurl}}/assets/after-school.jpg);
+}
+.about{
+  background-image:url({{site.baseurl}}/assets/about.jpeg}});
 }
 .products img {
   display:block;

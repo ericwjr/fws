@@ -12,13 +12,13 @@ after_school: Supplement your scholar's learning with after school STEM workshop
   and activities
 science_parties: It's possible to have a blast while learning Science....let your
   next party be a Funweirdscience party
-summer-camps: House on the Campus of Morehouse College our summer STEM enrichment
-  camp engages students through weekly themed learning experiences
 ---
-
-<video controls autoplay loop muted>
-  <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
-</video>
+<div class = 'film'>
+  <video controls autoplay loop muted>
+    <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
+  </video>
+  <a class = 'submit' href = '{{site.baseurl}}/programs#camps' target = '_blank'></a>
+</div>
 <div class = 'main green flex-in'>
   <div class = 'child tripple'>
     <h1>FUN WEIRD SCIENCE</h1>
@@ -89,20 +89,6 @@ summer-camps: House on the Campus of Morehouse College our summer STEM enrichmen
     </div>
   </div>
 </div>
-
-<div class = 'flex'>
-  <div class = 'fulls narrow summer-camps'>
-    <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/programs#camps'><h3>Summer Camps</h3></a>
-    </div>
-  </div>
-  <div class = 'dull wide flex-in'>
-    <div class = 'child tripple'>
-      <p>{{page.summer-camps}}</p>
-    </div>
-  </div>
-</div>
-
 <div class = 'main flex-in'>
   <div class = 'child tripple'>
     <div class = 'banner'>

@@ -143,6 +143,16 @@ a.submit{
 .wrap{
   padding:30px 40px 50px 40px;
 }
+.film{
+  position:relative;
+}
+.film a.submit{
+  position: absolute;
+  right:25px;
+  bottom:25px;
+  z-index:3;
+  animation: blink 7s 2s ease-in-out;
+}
 video{
   display: block;
   width:100%;
@@ -401,6 +411,10 @@ footer p{
   0% { width: 100%; }
   100% { width: 0; }
 }
+@keyframes blink{
+  0% { opacity: 0;}
+  100%{ opacity: 1;}
+}
 .narrow{
   order:-1;
 }
@@ -411,9 +425,6 @@ footer p{
   text-align: left;
 }
 @media screen and (min-width: 768px){
-  /*.division{
-    min-height:300px; 
-  }*/
   .nav-menu a{
     display:inline-block;
     height:initial;

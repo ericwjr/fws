@@ -9,6 +9,7 @@ story: >-
   Science can't be fun? Invite Fun Weird Science to make your next party fun and
   full of STEM!
 published: true
+top: true
 ---
 
 <div class = 'fulls shows' id = 'shows'>

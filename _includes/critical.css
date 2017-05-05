@@ -116,10 +116,11 @@ a.submit{
 }
 .point{
   display:inline-block !important;
+  vertical-align:text-top;
 }
-.point:nth-of-type(even){
-  width:90%;
-  margin-left:2.5px;
+.point:nth-child(2n){
+  width:84%;
+  margin-left:5px;
 }
 .green,
 .dull{

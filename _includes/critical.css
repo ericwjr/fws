@@ -105,7 +105,7 @@ a.submit{
   text-align:center;
   display:block;
   margin:25px auto;
-  max-width:275px;
+  max-width:150px;
   border-radius:25px;
 }
 .bright,
@@ -190,6 +190,14 @@ a.product{
   width:100%;
   color:#fff;
 } 
+.tickets {
+  align-items: center;
+}
+.tickets .trio{
+  background-color:rgba(0,0,0,0.5);
+  minimum-height:150px;
+  padding:25px 10px;
+}
 footer{
   padding:50px 25px;
   width:100%;

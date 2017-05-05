@@ -17,6 +17,9 @@ science_parties: >-
   It's possible to have a blast while learning Science....let your next party be
   a Funweirdscience party
 published: true
+summer-camps: >-
+  House on the Campus of Morehouse College our summer STEM enrichment camp
+  engages students through weekly themed learning experiences
 ---
 
 <video controls autoplay loop muted>

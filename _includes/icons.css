@@ -20,13 +20,13 @@
 }
 .icon-check:before { content: '\e800'; }
 .icon-opens:before { content: '\e801'; }
-.icon-close:before { content: '\e802'; }
-.icon-chat:before { content: '\e803'; }
+.icon-close:before { content: '\e802'; font-size: 1.5em; }
+.icon-chat:before { content: '\e803'; font-size: 1.5em; }
 .icon-scroll:before { content: '\e804'; }
 .icon-closes:before { content: '\e805'; }
-.icon-star:before { content: '\e806'; }
-.icon-menu:before { content: '\e807'; }
-.icon-article :before { content: '\e823'; }
+.icon-star:before { content: '\e806'; color:#0FBE7C;}
+.icon-menu:before { content: '\e807'; font-size: 1.5em; color:#0FBE7C; }
+.icon-article :before { content: '\e823'; color: #0FBE7C;}
 .icon-whatsapp:before { content: '\f232'; }
 .icon-twitter:before { content: '\f309'; }
 .icon-facebook:before { content: '\f30c'; }

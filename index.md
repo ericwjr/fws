@@ -35,7 +35,7 @@ published: true
     <h3 class = 'blanco'>Products</h3>
     <div>
       <a class = 'product' href = '{{site.baseurl}}/products/'>
-      <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit' class = 'thumbnail'>
+      <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit' class = 'thumbs'>
       Fun Weird Science Kit
       </a>
       <span class = 'bold'>$30.00</span>

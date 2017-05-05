@@ -5,13 +5,6 @@ top: true
 story: >-
   House on the Campus of Morehouse College our summer STEM enrichment camp
   engages students through weekly themed learning experiences.
-camps:
-  - name: Little Scientist
-    grade: (1st-4th)
-  - name: Engineer in the Making
-    grade: (3rd-5th)
-  - name: Innovator Apprentice
-    grade: (6th-8th)
 published: true
 tickets:
   - name: null
@@ -41,11 +34,6 @@ tickets:
   <div class = 'child tripple'>
     <h3 id = 'camps'>Summer Camps</h3>
     <p>{{page.story}}</p>
-    <div class = 'left camps'>
-    {% for camp in page.camps %}
-      <p><i class = 'icon icon-check'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }}</p>
-    {% endfor %}
-    </div>
     {% include register.md %}
   </div>
 </div>

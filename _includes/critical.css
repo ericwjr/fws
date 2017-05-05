@@ -72,7 +72,6 @@ main{
 img{
   width:90%;
   max-width:480px;
-  height:auto;
   margin:15px auto;
   padding:0;
   vertical-align: middle;
@@ -193,11 +192,15 @@ a.product{
 .tickets {
   align-items: center;
   margin:25px auto;
+  min-height:300px;
+}
+.tickets p{
+  font-size:120%;
 }
 .tickets .duo{
   background-color:rgba(0,0,0,0.3);
-  min-height:250px;
   padding:25px 10px;
+  min-height: 150px;
 }
 footer{
   padding:50px 25px;
@@ -298,8 +301,8 @@ footer p{
   text-transform:capitalize;
 }
 .cart{
-  margin: 20px 0 0 0;
-  max-height:100px;
+  margin: 20px 0;
+  height: 100px !important;
 }
 .tripple{
   order:-1;

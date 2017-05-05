@@ -41,9 +41,6 @@ h1,h2,h3,h4{
 h1{ 
   font-size:180%; 
 }
-.heading{
-  color:#fff;
-}
 .overlay h2{
   color:#fff;
   font-size:1.6em;
@@ -124,9 +121,11 @@ time{
   background-color:#2e3842;
   min-height:480px;
 }
-.camps{
+.camps,
+.links{
+  width:96%;
   display: block;
-  max-width:250px;
+  max-width:360px;
   margin:12.5px auto;
 }
 .mark{
@@ -139,12 +138,6 @@ video{
   display: block;
   width:100%;
   margin:0 auto;
-}
-.thumbnail{
-  width:120px;
-  border-radius:50%;
-  display:block;
-  margin:7.5px auto;
 }
 .bold{
   font-style:bold;

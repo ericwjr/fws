@@ -62,7 +62,7 @@ published: true
   </div>
   <div class = ' child fulls narrow parties'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/programs/#parties'><h3>Science Parties</h3></a>
+      <a href = '{{site.baseurl}}/programs#parties'><h3>Science Parties</h3></a>
     </div>
   </div>
 </div>
@@ -70,7 +70,7 @@ published: true
 <div class = 'flex'>
   <div class = 'fulls narrow workshops'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/programs/#after'><h3>After School Workshops</h3></a>
+      <a href = '{{site.baseurl}}/programs#after'><h3>After School Workshops</h3></a>
     </div>
   </div>
   <div class = 'dull wide flex-in'>

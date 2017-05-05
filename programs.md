@@ -35,7 +35,7 @@ camps:
       <p><i class = 'icon icon-check'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }}</p>
     {% endfor %}
     </div>
-    <a class = 'submit' href = 'https://www.eventbrite.com/myevent?eid=34178810743' target = '_blank'>Register</a>
+    {% include register.md %}
   </div>
 </div>
 <div class = 'bright flex-in'>

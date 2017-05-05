@@ -98,6 +98,15 @@ time{
   background-color:#f9f9f9;
   min-height:50vh;
 }
+.submit{
+  background-color:#0FBE7C;
+  color:#fff;
+  padding:15px;
+  text-align:center;
+  display:block;
+  margin:25px auto;
+  max-width:250px;
+}
 .bright,
 .dull,
 .green{

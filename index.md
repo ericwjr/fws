@@ -33,6 +33,8 @@ summer-camps: >-
     <p>
       Fun Weird Science is the programming brand for Georgia Science & Robotics Academy, Inc. (501c3). Our mission is to train K-12th grade students to be proficient in each component of S.T.E.A.M. through innovative instruction that will produce creative-minded and critical thinking participants in the global marketplace
     </p>
+    <br>
+    <br>
 		<p>Our approach represents next-generation hands-on learning. Our practices, strategies, and programs are built upon a foundation of identified best practices designed to improve student exposure and understanding of the S.T.E.A.M. disciplines. Committed to the Community Currently, we are committed to serving Atlanta, GA , and surrounding areas.</p>
     <h3 class = 'blanco'>Products</h3>
     <div>
@@ -72,7 +74,7 @@ summer-camps: >-
 <div class = 'flex'>
   <div class = 'fulls narrow workshops'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/programs#after'><h3>After School Workshops</h3></a>
+      <a href = '{{site.baseurl}}/programs/#after-school'><h3>Summer Camps</h3></a>
     </div>
   </div>
   <div class = 'dull wide flex-in'>

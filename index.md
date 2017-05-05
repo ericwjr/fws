@@ -17,7 +17,7 @@ science_parties: It's possible to have a blast while learning Science....let you
   <video controls autoplay loop muted>
     <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
   </video>
-  <a class = 'submit' href = '{{site.baseurl}}/programs#camps' target = '_blank'>Summer Camps</a>
+  <a class = 'submit' href = '{{site.baseurl}}/programs#camps'>Summer Camps</a>
 </div>
 <div class = 'main green flex-in'>
   <div class = 'child tripple'>

@@ -158,8 +158,9 @@ a.submit{
   width:200px;
   position: absolute;
   right:50%;
-  bottom:50%;
-  z-index:3;
+  top:50%;
+  transform:translate(-50%,-50%);
+  z-index:2;
   animation: blink 7s 2s ease-in-out;
 }
 video{

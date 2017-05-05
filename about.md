@@ -17,6 +17,10 @@ team:
 layout: default
 published: true
 top: true
+links:
+  - Founded and led the Parkside Elementary FLL robotics team
+  - Teacher of the Year 2006-Kelley Lake Elementary
+  - Teacher of the Year 2010-Parkside Elementary
 ---
 <div class = 'fulls workshops' id = 'about'>
   <div class = 'flex-in overlay'>
@@ -28,11 +32,11 @@ top: true
 <div class = 'dull flex-in'>
   <div class = 'child tripple'>
      <p>Ronnie Thomas applies his 15 years of STEM teaching experience to ensure that all learners are challenged. He leads the way in technology integration and has been recognized for his work:</p>
-    <ul>
-      <li>Founded and led the Parkside Elementary FLL robotics team as seen on CNN here: : FLL CNN</li>
-      <li>Teacher of the Year 2006-Kelley Lake Elementary</li>
-      <li>Teacher of the Year 2010-Parkside Elementary</li>
-    </ul>
+    <div class = 'left links'>
+     {% for link in page.links %}
+     <p><i class = 'icon icon-check'></i> <strong>{{ link }}</strong></p>
+    {% endfor %}
+    </div>
     <p> Mr. Thomas is an enthusiastic and passionate technology educator with a solid commitment to the social, academic and developmental growth of every student. Known for his engaging and versatile teaching methods, Thomas has the ability to inspire hands-on learning experiences that capture a student’s imagination.</p>
   </div>
 </div>

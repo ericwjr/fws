@@ -41,12 +41,12 @@ h1,h2,h3,h4{
 h1{ 
   font-size:180%; 
 }
-.heading{
-  color:#fff;
-}
 .overlay h2{
   color:#fff;
   font-size:1.6em;
+}
+.overlay h1{
+  color:#fff;
 }
 .overlay p{
   text-align:center;
@@ -98,6 +98,16 @@ time{
   background-color:#f9f9f9;
   min-height:50vh;
 }
+a.submit{
+  background-color:#0FBE7C;
+  color:#fff;
+  padding:15px;
+  text-align:center;
+  display:block;
+  margin:25px auto;
+  max-width:275px;
+  border-radius:25px;
+}
 .bright,
 .dull,
 .green{
@@ -110,7 +120,7 @@ time{
   color:#fff;
 }
 .bright{
-  min-height:50vh;
+  min-height:64vh;
   background-color:#fff;
   text-align:left;
 }
@@ -121,9 +131,11 @@ time{
   background-color:#2e3842;
   min-height:400px;
 }
-.camps{
+.camps,
+.links{
+  width:96%;
   display: block;
-  max-width:250px;
+  max-width:360px;
   margin:12.5px auto;
 }
 .mark{
@@ -131,6 +143,22 @@ time{
 }
 .wrap{
   padding:30px 40px 50px 40px;
+}
+video{
+  display: block;
+  width:100%;
+  margin:0 auto;
+}
+.bold{
+  font-style:bold;
+  display:block;
+}
+a.product{
+  text-decoration:underline;
+}
+.thumbs{
+  width: 180px !important;
+  display: block !important;
 }
 .flex,
 .flex-in{
@@ -262,6 +290,7 @@ footer p{
 }
 .cart{
   margin: 20px 0 0 0;
+  max-height:100px;
 }
 .tripple{
   order:-1;
@@ -324,6 +353,12 @@ footer p{
 .fulls h3:before{
   bottom:50px;
   animation: shrink 1s 3s linear alternate infinite;
+}
+.about{
+  background-image:url({{site.baseurl}}/assets/about.jpg}});
+}
+.summer-camps{
+  background-image:url({{site.baseurl}}/assets/camps.jpg}});
 }
 .shows{
   background-image:url({{site.baseurl}}/assets/shows.jpg);

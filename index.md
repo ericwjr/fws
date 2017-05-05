@@ -1,35 +1,28 @@
 ---
 layout: default
 dark: true
-story: Our approach represents next-generation hands-on learning. Our         practices,
-  strategies, and programs are built upon a foundation of identified              best
-  practices designed
-science_show: What better way to excite your young scholars than with a Science show...includes
-  engaging Science demonstrations, experiments, and good music
-teacher_workshops: Train your staff on the funweirdscience way of engaging your scholars
-  with STEM concepts and learning tools
-after_school: Supplement your scholar's learning with STEM summer camps and after
-  school STEM workshops
-science_parties: It's possible to have a blast while learning Science....let your
-  next party be a Funweirdscience party
+story: >-
+  Our approach represents next-generation hands-on learning. Our        
+  practices, strategies, and programs are built upon a foundation of
+  identified              best practices designed
+science_show: >-
+  What better way to excite your young scholars than with a Science
+  show...includes engaging Science demonstrations, experiments, and good music
+teacher_workshops: >-
+  Train your staff on the funweirdscience way of engaging your scholars with
+  STEM concepts and learning tools
+after_school: >-
+  Supplement your scholar's learning with after school STEM workshops and
+  activities
+science_parties: >-
+  It's possible to have a blast while learning Science....let your next party be
+  a Funweirdscience party
+published: true
+summer-camps: >-
+  House on the Campus of Morehouse College our summer STEM enrichment camp
+  engages students through weekly themed learning experiences
 ---
 
-<style>
-  video{
-    display: block;
-    width:100%;
-    margin:0 auto;}
-  .thumbnail{
-    width:120px;
-    border-radius:50%;
-    display:block;
-    margin:7.5px auto;}
-  .bold{
-    font-style:bold;
-    display:block;}
-  a.product{
-    text-decoration:underline;}
-</style>
 <video controls autoplay loop muted>
   <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
 </video>
@@ -43,10 +36,10 @@ science_parties: It's possible to have a blast while learning Science....let you
     <br>
     <br>
 		<p>Our approach represents next-generation hands-on learning. Our practices, strategies, and programs are built upon a foundation of identified best practices designed to improve student exposure and understanding of the S.T.E.A.M. disciplines. Committed to the Community Currently, we are committed to serving Atlanta, GA , and surrounding areas.</p>
-    <h5>Products</h5>
+    <h3 class = 'blanco'>Products</h3>
     <div>
       <a class = 'product' href = '{{site.baseurl}}/products/'>
-      <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit' class = 'thumbnail'>
+      <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit' class = 'thumbs'>
       Fun Weird Science Kit
       </a>
       <span class = 'bold'>$30.00</span>
@@ -56,7 +49,7 @@ science_parties: It's possible to have a blast while learning Science....let you
 <div class = 'flex'>
   <div class = 'fulls narrow shows'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/services'><h3>Science Shows</h3></a>
+      <a href = '{{site.baseurl}}/services#science-shows'><h3>Science Shows</h3></a>
     </div>
   </div>
   <div class = 'dull wide flex-in'>
@@ -73,7 +66,7 @@ science_parties: It's possible to have a blast while learning Science....let you
   </div>
   <div class = ' child fulls narrow parties'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/programs/#parties'><h3>Science Parties</h3></a>
+      <a href = '{{site.baseurl}}/programs#parties'><h3>Science Parties</h3></a>
     </div>
   </div>
 </div>
@@ -91,7 +84,6 @@ science_parties: It's possible to have a blast while learning Science....let you
   </div>
 </div>
 
-
 <div class = 'flex'>
   <div class = 'dull wide flex-in'>
     <div class = 'child tripple'>
@@ -100,7 +92,20 @@ science_parties: It's possible to have a blast while learning Science....let you
   </div>
   <div class = 'fulls narrow teachers'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/services/#train'><h3>Teacher Workshops</h3></a>
+      <a href = '{{site.baseurl}}/services#teacher-workshops'><h3>Teacher Workshops</h3></a>
+    </div>
+  </div>
+</div>
+
+<div class = 'flex'>
+  <div class = 'fulls narrow workshops'>
+    <div class = 'flex-in after'>
+      <a href = '{{site.baseurl}}/programs#camps'><h3>Summer Camps</h3></a>
+    </div>
+  </div>
+  <div class = 'dull wide flex-in'>
+    <div class = 'child tripple'>
+      <p>{{page.summer-camps}}</p>
     </div>
   </div>
 </div>

@@ -37,6 +37,8 @@ published: true
       <p><i class = 'icon icon-check'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }}</p>
     {% endfor %}
     </div>
+    <a class = 'submit' href = 'Here are the camp links for registration https://www.eventbrite.com/myevent?eid=34178810743
+    https://www.eventbrite.com/myevent?eid=34030108972'>Register</a>
   </div>
 </div>
 <div class = 'bright flex-in'>

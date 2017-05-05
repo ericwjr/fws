@@ -262,6 +262,7 @@ footer p{
 }
 .cart{
   margin: 20px 0 0 0;
+  max-height:100px;
 }
 .tripple{
   order:-1;

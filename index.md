@@ -18,7 +18,7 @@ science_parties: >-
   a Funweirdscience party
 published: true
 summer-camps: >-
-  House on the Campus of Morehouse College our summer STEM enrichment camp
+  Housed on the Campus of Morehouse College our summer STEM enrichment camp
   engages students through weekly themed learning experiences
 ---
 
@@ -73,7 +73,7 @@ summer-camps: >-
 <div class = 'flex'>
   <div class = 'fulls narrow workshops'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/programs#after'><h3>After School Workshops</h3></a>
+      <a href = '{{site.baseurl}}/programs/#after-school'><h3>Summer Camps</h3></a>
     </div>
   </div>
   <div class = 'dull wide flex-in'>

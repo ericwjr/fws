@@ -1,27 +1,26 @@
 ---
 title: About Us
-permalink: /about-us/
+permalink: "/about-us/"
 team:
-  - name: Tommy Clay
-    description: Tommy is an awesome educator with a knack for media and design
-    twitter: 'https://twitter.com/apsittommy'
-    linkedin: ''
-    avatar: tommy.png
-  - name: Eric Williams
-    description: >-
-      When Eric isn't creating new tech products, he's looking for ways to give
-      back
-    twitter: 'https://twitter.com/Ericwjr'
-    linkedin: 'https://www.linkedin.com/in/ericwjr'
-    avatar: eric.jpg
+- name: Tommy Clay
+  description: Tommy is an awesome educator with a knack for media and design
+  twitter: https://twitter.com/apsittommy
+  linkedin: ''
+  avatar: tommy.png
+- name: Eric Williams
+  description: When Eric isn't creating new tech products, he's looking for ways to
+    give back
+  twitter: https://twitter.com/Ericwjr
+  linkedin: https://www.linkedin.com/in/ericwjr
+  avatar: eric.jpg
 layout: default
-published: true
 top: true
 links:
-  - Founded and led the Parkside Elementary FLL robotics team
-  - Teacher of the Year 2006-Kelley Lake Elementary
-  - Teacher of the Year 2010-Parkside Elementary
+- Founded and led the Parkside Elementary FLL robotics team
+- Teacher of the Year 2006-Kelley Lake Elementary
+- Teacher of the Year 2010-Parkside Elementary
 ---
+
 <div class = 'fulls about' id = 'about'>
   <div class = 'flex-in overlay'>
     <div class = 'tripple'>

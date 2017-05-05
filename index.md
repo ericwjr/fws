@@ -79,7 +79,6 @@ published: true
   </div>
 </div>
 
-
 <div class = 'flex'>
   <div class = 'dull wide flex-in'>
     <div class = 'child tripple'>
@@ -89,6 +88,19 @@ published: true
   <div class = 'fulls narrow teachers'>
     <div class = 'flex-in after'>
       <a href = '{{site.baseurl}}/services#teacher-workshops'><h3>Teacher Workshops</h3></a>
+    </div>
+  </div>
+</div>
+
+<div class = 'flex'>
+  <div class = 'fulls narrow workshops'>
+    <div class = 'flex-in after'>
+      <a href = '{{site.baseurl}}/programs#camps'><h3>Summer Camps</h3></a>
+    </div>
+  </div>
+  <div class = 'dull wide flex-in'>
+    <div class = 'child tripple'>
+      <p>{{page.summer-camps}}</p>
     </div>
   </div>
 </div>

@@ -32,7 +32,7 @@ published: true
     <br>
     <br>
 		<p>Our approach represents next-generation hands-on learning. Our practices, strategies, and programs are built upon a foundation of identified best practices designed to improve student exposure and understanding of the S.T.E.A.M. disciplines. Committed to the Community Currently, we are committed to serving Atlanta, GA , and surrounding areas.</p>
-    <h5>Products</h5>
+    <h3>Products</h3>
     <div>
       <a class = 'product' href = '{{site.baseurl}}/products/'>
       <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit' class = 'thumbnail'>

@@ -105,7 +105,8 @@ time{
   text-align:center;
   display:block;
   margin:25px auto;
-  max-width:250px;
+  max-width:275px;
+  border-radius:25px;
 }
 .bright,
 .dull,

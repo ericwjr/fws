@@ -1,5 +1,7 @@
 
 # Fun Weird Science SSG
+gem install jekyll bundler
+bundle exec jekyll serve
 
 ## Mainatining this site
 The following links will help the site owner to come into speed with the quirks of jekyll. I will list the basic parts.

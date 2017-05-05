@@ -146,6 +146,10 @@ video{
 a.product{
   text-decoration:underline;
 }
+.thumbs{
+  width: 200px;
+  display:block;
+}
 .flex,
 .flex-in{
   display:flex;

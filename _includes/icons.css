@@ -25,7 +25,7 @@
 .icon-scroll:before { content: '\e804'; }
 .icon-closes:before { content: '\e805'; }
 .icon-star:before { content: '\e806'; color: #0FBE7C;}
-.icon-menu:before { content: '\e807'; font-size: 1.8em; color: #0FBE7C; }
+.icon-menu:before { content: '\e807'; font-size: 1.85em; color: #0FBE7C; margin-top:2.5px;}
 .icon-article :before { content: '\e823'; color: #0FBE7C;}
 .icon-whatsapp:before { content: '\f232'; }
 .icon-twitter:before { content: '\f309'; }

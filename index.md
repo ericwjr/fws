@@ -20,22 +20,6 @@ science_parties: >-
 published: true
 ---
 
-<style>
-  video{
-    display: block;
-    width:100%;
-    margin:0 auto;}
-  .thumbnail{
-    width:120px;
-    border-radius:50%;
-    display:block;
-    margin:7.5px auto;}
-  .bold{
-    font-style:bold;
-    display:block;}
-  a.product{
-    text-decoration:underline;}
-</style>
 <video controls autoplay loop muted>
   <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
 </video>

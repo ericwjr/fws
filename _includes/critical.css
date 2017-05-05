@@ -354,6 +354,12 @@ footer p{
   bottom:50px;
   animation: shrink 1s 3s linear alternate infinite;
 }
+.about{
+  background-image:url({{site.baseurl}}/assets/about.jpg}});
+}
+.summer-camps{
+  background-image:url({{site.baseurl}}/assets/camps.jpg}});
+}
 .shows{
   background-image:url({{site.baseurl}}/assets/shows.jpg);
 }

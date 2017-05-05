@@ -34,7 +34,7 @@ published: true
     <p>{{page.story}}</p>
     <div class = 'left camps'>
     {% for camp in page.camps %}
-      <p><i class = 'icon icon-star mark'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }}</p>
+      <p><i class = 'icon icon-check'></i> <strong>{{ camp.name }}</strong> {{ camp.grade }}</p>
     {% endfor %}
     </div>
   </div>

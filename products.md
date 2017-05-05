@@ -6,19 +6,11 @@ dark: true
 
 <div class = 'bright'>
   <section class = 'flex'>
-    <div class = 'child duo products'>
-      <img src = '{{site.baseurl}}/assets/kit.png' alt = 'science kit'>
-      <div class = 'flex'>
-        <div class = 'child duo'>
-          <img src = '{{site.baseurl}}/assets/product.jpg' alt = 'product'>
-        </div>
-        <div class = 'child duo'>
-          <img src = '{{site.baseurl}}/assets/product-0.jpg' alt = 'product one'>
-        </div>
-      </div>
+    <div class = 'child duo'>
+      {% include p_gallery.md %}
     </div>
     <div class = 'child duo'>
-      <h1>Fun Weird Science Kit</h1>
+      <h1 class = 'left'>Fun Weird Science Kit</h1>
       <i class = 'icon icon-star'></i>
       <i class = 'icon icon-star'></i>
       <i class = 'icon icon-star'></i>

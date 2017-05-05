@@ -162,6 +162,7 @@ a.submit{
   transform:translate(-50%,-50%);
   z-index:2;
   animation: blink 7s 2s ease-in-out;
+  margin:0;
 }
 video{
   display: block;

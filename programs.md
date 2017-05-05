@@ -23,7 +23,7 @@ published: true
   </div>
 </div>
 <div class = 'bright flex-in'>
-  <div class = 'tripple'>
+  <div class = 'child tripple'>
     <h2><span id = 'stemsaturdays'>Stem Saturdays</span></h2>
     <p class = 'flex-in'>One Saturday a month, Fun Weird Science hosts elementary and middle school students for a themed STEM Day.</p>
   </div>

@@ -1,16 +1,26 @@
 ---
-permalink: "/programs/"
+permalink: /programs/
 layout: default
 top: true
-story: House on the Campus of Morehouse College our summer STEM enrichment camp engages
-  students through weekly themed learning experiences.
+story: >-
+  Housed on the Campus of Morehouse College our summer STEM enrichment camp
+  engages students through weekly themed learning experiences.
 camps:
-- name: Little Scientist
-  grade: "(1st-4th)"
-- name: Engineer in the Making
-  grade: "(3rd-5th)"
-- name: Innovator Apprentice
-  grade: "(6th-8th)"
+  - name: Little Scientist
+    grade: (1st-4th)
+  - name: Engineer in the Making
+    grade: (3rd-5th)
+  - name: Innovator Apprentice
+    grade: (6th-8th)
+published: true
+tickets:
+  - name: null
+    link: >-
+      https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-robotics-camp-tickets-34178810743
+    description: null
+  - name: null
+    link: null
+    description: null
 ---
 
 <div class = 'fulls workshops'>

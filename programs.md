@@ -13,6 +13,14 @@ camps:
   - name: Innovator Apprentice
     grade: (6th-8th)
 published: true
+tickets:
+  - name: null
+    link: >-
+      https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-robotics-camp-tickets-34178810743
+    description: null
+  - name: null
+    link: null
+    description: null
 ---
 
 <div class = 'fulls workshops'>

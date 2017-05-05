@@ -17,10 +17,11 @@ tickets:
   - name: null
     link: >-
       https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-robotics-camp-tickets-34178810743
-    description: null
+    description: Summer of innovation robotics camp tickets
   - name: null
-    link: null
-    description: null
+    link: >-
+      https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-maker-camp-tickets-34030108972?aff=erelpanelorg
+    description: Summer of innovation maker camp tickets
 ---
 
 <div class = 'fulls workshops'>

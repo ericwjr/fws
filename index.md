@@ -44,7 +44,7 @@ published: true
 <div class = 'flex'>
   <div class = 'fulls narrow shows'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/services/#shows'><h3>Science Shows</h3></a>
+      <a href = '{{site.baseurl}}/services#science-shows'><h3>Science Shows</h3></a>
     </div>
   </div>
   <div class = 'dull wide flex-in'>
@@ -88,7 +88,7 @@ published: true
   </div>
   <div class = 'fulls narrow teachers'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/services/#train'><h3>Teacher Workshops</h3></a>
+      <a href = '{{site.baseurl}}/services#teacher-workshops'><h3>Teacher Workshops</h3></a>
     </div>
   </div>
 </div>

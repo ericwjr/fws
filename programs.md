@@ -6,9 +6,9 @@ story: House on the Campus of Morehouse College our summer STEM enrichment camp 
   students through weekly themed learning experiences.
 tickets:
 - link: https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-robotics-camp-tickets-34178810743
-  description: Summer of innovation robotics camp tickets
+  description: Summer of innovation robotics camp
 - link: https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-maker-camp-tickets-34030108972?aff=erelpanelorg
-  description: Summer of innovation maker camp tickets
+  description: Summer of innovation maker camp
 ---
 
 <div class = 'fulls workshops'>

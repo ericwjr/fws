@@ -98,7 +98,7 @@ summer-camps: >-
 </div>
 
 <div class = 'flex'>
-  <div class = 'fulls narrow workshops'>
+  <div class = 'fulls narrow summer-camps'>
     <div class = 'flex-in after'>
       <a href = '{{site.baseurl}}/programs#camps'><h3>Summer Camps</h3></a>
     </div>

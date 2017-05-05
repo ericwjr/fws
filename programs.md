@@ -18,7 +18,7 @@ published: true
 <div class = 'fulls workshops' id = 'parties'>
   <div class = 'flex-in overlay'>
     <div class = 'tripple'>
-      <h2><span id = 'stemsaturdays'>Services</span></h2>
+      <h1>Programs</h1>
     </div>
   </div>
 </div>

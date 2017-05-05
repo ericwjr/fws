@@ -147,8 +147,8 @@ a.product{
   text-decoration:underline;
 }
 .thumbs{
-  width: 180px;
-  display:block;
+  width: 180px !important;
+  display: block !important;
 }
 .flex,
 .flex-in{

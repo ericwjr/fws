@@ -1,30 +1,24 @@
 ---
 layout: default
 dark: true
-story: >-
-  Our approach represents next-generation hands-on learning. Our
-  practices, strategies, and programs are built upon a foundation of
-  identified              best practices designed
-science_show: >-
-  What better way to excite your young scholars than with a Science
-  show...includes engaging Science demonstrations, experiments, and good music
-teacher_workshops: >-
-  Train your staff on the funweirdscience way of engaging your scholars with
-  STEM concepts and learning tools
-after_school: >-
-  Supplement your scholar's learning with STEM summer camps and after-school STEM workshops
-science_parties: >-
-  It's possible to have a blast while learning Science....let your next party be
-  a Funweirdscience party
-published: true
-summer-camps: >-
-  Housed on the Campus of Morehouse College our summer STEM enrichment camp
-  engages students through weekly themed learning experiences
+story: Our approach represents next-generation hands-on learning. Our         practices,
+  strategies, and programs are built upon a foundation of identified              best
+  practices designed
+science_show: What better way to excite your young scholars than with a Science show...includes
+  engaging Science demonstrations, experiments, and good music
+teacher_workshops: Train your staff on the funweirdscience way of engaging your scholars
+  with STEM concepts and learning tools
+after_school: Supplement your scholar's learning with after school STEM workshops
+  and activities
+science_parties: It's possible to have a blast while learning Science....let your
+  next party be a Funweirdscience party
 ---
-
-<video controls autoplay loop muted>
-  <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
-</video>
+<div class = 'film'>
+  <video controls autoplay loop muted>
+    <source src = '{{site.baseurl}}/assets/video.mp4' type = 'video/mp4' >
+  </video>
+  <a class = 'submit' href = '{{site.baseurl}}/programs#camps' target = '_blank'></a>
+</div>
 <div class = 'main green flex-in'>
   <div class = 'child tripple'>
     <h1>FUN WEIRD SCIENCE</h1>
@@ -95,20 +89,6 @@ summer-camps: >-
     </div>
   </div>
 </div>
-
-<div class = 'flex'>
-  <div class = 'fulls narrow summer-camps'>
-    <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/programs#camps'><h3>Summer Camps</h3></a>
-    </div>
-  </div>
-  <div class = 'dull wide flex-in'>
-    <div class = 'child tripple'>
-      <p>{{page.summer-camps}}</p>
-    </div>
-  </div>
-</div>
-
 <div class = 'main flex-in'>
   <div class = 'child tripple'>
     <div class = 'banner'>

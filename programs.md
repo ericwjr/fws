@@ -1,5 +1,5 @@
 ---
-permalink: /programs/
+permalink: "/programs/"
 layout: default
 top: true
 story: >-
@@ -7,14 +7,10 @@ story: >-
   engages students through weekly themed learning experiences.
 published: true
 tickets:
-  - name: null
-    link: >-
-      https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-robotics-camp-tickets-34178810743
-    description: Summer of innovation robotics camp tickets
-  - name: null
-    link: >-
-      https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-maker-camp-tickets-34030108972?aff=erelpanelorg
-    description: Summer of innovation maker camp tickets
+- link: https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-robotics-camp-tickets-34178810743
+  description: Summer of innovation robotics camp tickets
+- link: https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-maker-camp-tickets-34030108972?aff=erelpanelorg
+  description: Summer of innovation maker camp tickets
 ---
 
 <div class = 'fulls workshops'>

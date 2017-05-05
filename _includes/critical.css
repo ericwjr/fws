@@ -113,7 +113,7 @@ time{
   color:#fff;
 }
 .bright{
-  min-height:50vh;
+  min-height:64vh;
   background-color:#fff;
   text-align:left;
 }
@@ -122,7 +122,7 @@ time{
 }
 .dull{
   background-color:#2e3842;
-  min-height:400px;
+  min-height:480px;
 }
 .camps{
   display: block;

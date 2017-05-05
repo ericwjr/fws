@@ -20,7 +20,7 @@ top: true
 <div class = 'bright flex-in'>
   <div class = 'tripple'>
     <h2>Science Shows</h2>
-    <p>Who said Science can’t be fun? Invite Fun Weird Science to make your next party fun and full of STEM!</p>
+    <p class = 'center'>Who said Science can’t be fun? Invite Fun Weird Science to make your next party fun and full of STEM!</p>
   </div>
 </div>
 <div class = 'dull flex-in'>

@@ -60,7 +60,7 @@ science_parties: It's possible to have a blast while learning Science....let you
   </div>
   <div class = ' child fulls narrow parties'>
     <div class = 'flex-in after'>
-      <a href = '{{site.baseurl}}/programs#parties'><h3>Science Parties</h3></a>
+      <a href = '{{site.baseurl}}/services#science-parties'><h3>Science Parties</h3></a>
     </div>
   </div>
 </div>

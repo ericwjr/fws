@@ -1,5 +1,5 @@
 ---
-permalink: "/programs/"
+permalink: /programs/
 layout: default
 top: true
 story: Housed on the campus of Morehouse College our summer STEM enrichment camp engages
@@ -11,9 +11,8 @@ tickets:
   date: 6/19 - 6/23
 - link: https://www.eventbrite.com/e/fun-weird-science-summer-of-innovation-maker-camp-tickets-34030108972?aff=erelpanelorg
   description: Summer of Innovation
-  date: '6/12 - 6/16
-
-'
+  date: |
+    6/12 - 6/16
   subdescription: Maker Camp
 ---
 
@@ -35,6 +34,7 @@ tickets:
   <div class = 'child tripple'>
     <h2><span id = 'stemsaturdays'>Stem Saturdays</span></h2>
     <p class = 'center'>One Saturday a month, Fun Weird Science hosts elementary and middle school students for a themed STEM Day.</p>
+		<a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
   </div>
 </div>
   <div class = 'banner'>

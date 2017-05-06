@@ -21,7 +21,6 @@
 .icon-close,
 .icon-chat,
 .icon-opens,
-.icon-close,
 .icon-closes{
   font-size: 1.5em;
 }
@@ -38,7 +37,11 @@
 .icon-scroll:before { content: '\e804'; }
 .icon-closes:before { content: '\e805'; }
 .icon-star:before { content: '\e806'; }
-.icon-menu:before { content: '\e807'; font-size: 1.8em; margin-top:2.5px;}
+.icon-menu:before { 
+  content: '\e807'; 
+  font-size: 1.8em;
+  margin-top:2.5px;
+}
 .icon-article :before { content: '\e823'; }
 .icon-whatsapp:before { content: '\f232'; }
 .icon-twitter:before { content: '\f309'; }

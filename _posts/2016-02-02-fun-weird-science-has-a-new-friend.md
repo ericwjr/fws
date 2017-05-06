@@ -1,8 +1,9 @@
 ---
 title: Fun Weird Science Has A New Friend
-date: 2016-02-02 00:00:00 Z
-permalink: "/fun-weird-science-has-a-new-friend/"
+date: '2016-02-02 00:00:00 +0000'
+permalink: /fun-weird-science-has-a-new-friend/
 layout: post
+comments: 'true'
 ---
 
 Atlanta, Januray 27, 2016: Fun Weird Science has some great news to announce. You are about to see a new friend grace our website, Panasonic Automotive Systems of America. The global electronics Company has decided to sponsor Fun Weird Science with funds and support to further our mission.

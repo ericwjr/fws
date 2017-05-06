@@ -1,17 +1,23 @@
 ---
 layout: default
 dark: true
-story: Our approach represents next-generation hands-on learning. Our         practices,
-  strategies, and programs are built upon a foundation of identified              best
-  practices designed
-science_show: What better way to excite your young scholars than with a Science show...includes
-  engaging Science demonstrations, experiments, and good music
-teacher_workshops: Train your staff on the funweirdscience way of engaging your scholars
-  with STEM concepts and learning tools
-after_school: Supplement your scholar's learning with after school STEM workshops
-  and activities
-science_parties: It's possible to have a blast while learning Science....let your
-  next party be a Funweirdscience party
+story: >-
+  Our approach represents next-generation hands-on learning. Our        
+  practices, strategies, and programs are built upon a foundation of
+  identified              best practices designed
+science_show: >-
+  What better way to excite your young scholars than with a Science
+  show...includes engaging Science demonstrations, experiments, and good music
+teacher_workshops: >-
+  Train your staff on the funweirdscience way of engaging your scholars with
+  STEM concepts and learning tools
+after_school: >-
+  Supplement your scholar's learning with after school STEM workshops and
+  activities
+science_parties: >-
+  It's possible to have a blast while learning Science....let your next party be
+  a Funweirdscience party
+published: true
 ---
 
 <div class = 'film'>
@@ -93,9 +99,9 @@ science_parties: It's possible to have a blast while learning Science....let you
 <div class = 'main flex-in'>
   <div class = 'child tripple'>
     <div class = 'banner'>
-      <i class = 'icon icon-qoute' aria-hidden = 'true'></i>
-
-"African-Americans, American Indians, and Hispanics account for only 12% of all engineering undergraduate degrees."
+      <i class = 'icon icon-opens' aria-hidden = 'true'></i>
+      "African-Americans, American Indians, and Hispanics account for    only 12% of all engineering undergraduate degrees.
+      <i class = 'icon icon-closes' aria-hidden = 'true'></i>
     </div>
     <h2>Our Sponsors</h2>
     <h4><a href = 'https://www.google.ca' class = 'mark' target = '_blank'>Google</a></h4>

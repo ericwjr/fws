@@ -41,10 +41,11 @@ body{
   }
 </style>
 {% if page.news %}
+{% assign announcement = page.news %}
 <div class = 'seat'>
   <div class = 'board news'>
-    <p>{{page.news}}</p>
-    <img src = '{{site.baseurl}}/assets/{{page.new-image}}.jpg' alt = 'page.news-image'>
+    <p>{{announcement.title}}</p>
+    <img src = '{{site.baseurl}}/assets/{{announcement.image}}.jpg' alt = 'page.news-image'>
   </div>
 </div>
 {% endif %}

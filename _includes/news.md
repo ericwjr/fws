@@ -44,7 +44,7 @@ body{
 <div class = 'seat'>
   <div class = 'board news'>
     <p>{{page.news}}</p>
-    <img src = '{{page.new-image}}.jpg' alt = 'page.news-image'>
+    <img src = '{{site.baseurl}}/assets/{{page.new-image}}.jpg' alt = 'page.news-image'>
   </div>
 </div>
 {% endif %}

@@ -36,5 +36,5 @@ top: true
   </div>
 </div>
 <div class = 'bright flex-in'>
-  <p class = 'banner center'> {{ page.story }}</p>
+  <p class = 'banner center'> <i class = 'icon icon-opens' aria-hidden = 'true'></i>{{ page.story }}<i class = 'icon icon-closes' aria-hidden = 'true'></i></p>
 </div>

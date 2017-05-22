@@ -18,15 +18,31 @@
   line-height: 1em;
   margin-left: 0;
 }
-.icon-check:before { content: '\e800'; color: #0FBE7C;}
+.icon-close,
+.icon-chat,
+.icon-opens,
+.icon-closes{
+  font-size: 1.5em;
+}
+.icon-check,
+.icon-menu,
+.icon-article,
+.icon-star{
+   color: #0FBE7C;
+}
+.icon-check:before { content: '\e800'; }
 .icon-opens:before { content: '\e801'; }
-.icon-close:before { content: '\e802'; font-size: 1.5em; }
-.icon-chat:before { content: '\e803'; font-size: 1.5em; }
+.icon-close:before { content: '\e802'; }
+.icon-chat:before { content: '\e803'; }
 .icon-scroll:before { content: '\e804'; }
 .icon-closes:before { content: '\e805'; }
-.icon-star:before { content: '\e806'; color: #0FBE7C;}
-.icon-menu:before { content: '\e807'; font-size: 1.8em; color: #0FBE7C; margin-top:2.5px;}
-.icon-article :before { content: '\e823'; color: #0FBE7C;}
+.icon-star:before { content: '\e806'; }
+.icon-menu:before { 
+  content: '\e807'; 
+  font-size: 1.8em;
+  margin-top:2.5px;
+}
+.icon-article :before { content: '\e823'; }
 .icon-whatsapp:before { content: '\f232'; }
 .icon-twitter:before { content: '\f309'; }
 .icon-facebook:before { content: '\f30c'; }

@@ -45,7 +45,7 @@ comments: true
       {{ content }}
     </div>
 
-    {% if site.disqus.shortname %}
+    {% if page.comments %}
       {% include disqus.md %}
     {% endif %}
   </div>

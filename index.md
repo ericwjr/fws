@@ -12,6 +12,9 @@ after_school: Supplement your scholar's learning with STEM summer camps and afte
   workshops
 science_parties: It's possible to have a blast while learning Science....let your
   next party be a Funweirdscience party
+news:
+  "-title": FunWeirdScience on S3E9 of Mann & Wife
+  "-image": mannwife
 ---
 
 <div class = 'film'>
@@ -93,9 +96,9 @@ science_parties: It's possible to have a blast while learning Science....let you
 <div class = 'main flex-in'>
   <div class = 'child tripple'>
     <div class = 'banner'>
-      <i class = 'icon icon-qoute' aria-hidden = 'true'></i>
-
-"African-Americans, American Indians, and Hispanics account for only 12% of all engineering undergraduate degrees."
+      <i class = 'icon icon-opens' aria-hidden = 'true'></i>
+      "African-Americans, American Indians, and Hispanics account for    only 12% of all engineering undergraduate degrees.
+      <i class = 'icon icon-closes' aria-hidden = 'true'></i>
     </div>
     <h2>Our Sponsors</h2>
     <h4><a href = 'https://www.google.ca' class = 'mark' target = '_blank'>Google</a></h4>

@@ -39,6 +39,8 @@ tickets:
   </div>
 </div>
   <div class = 'banner'>
-    <p>There are over 600,000 high-paying technology jobs open across the U.S., and by 2018, 51 percent of all STEM jobs are projected to be in computer-related fields.</p>
+    <i class = 'icon icon-opens' aria-hidden = 'true'></i>
+    There are over 600,000 high-paying technology jobs open across the U.S., and by 2018, 51 percent of all STEM jobs are projected to be in computer-related fields.
+    <i class = 'icon icon-closes' aria-hidden = 'true'></i>
+    
   </div>
-

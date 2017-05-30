@@ -29,7 +29,7 @@
     var font = document.createElement('link');
     font.type = 'text/css'; 
     font.rel = 'stylesheet';
-    font.href = 'https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700';
+    font.href = 'https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700|Poppins:300,400';
     var s = document.getElementsByTagName('link')[0]; 
     s.parentNode.insertBefore(font, s);
   })();

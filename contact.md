@@ -3,6 +3,7 @@ permalink: "/contact/"
 layout: default
 dark: true
 ---
+
 <style>
   {% include contact.css %}
 </style>

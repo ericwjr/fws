@@ -27,10 +27,3 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
-options:
-- General Inquiry
-- Science Shows
-- After School Workshops
-- Stem Saturdays
-- Summer Camps
-- Teacher Workshops

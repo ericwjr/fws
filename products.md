@@ -3,11 +3,10 @@ permalink: "/products/"
 layout: default
 dark: true
 ---
-
 <div class = 'bright'>
   <section class = 'flex'>
     <div class = 'child duo'>
-      {% include p_gallery.md %}
+      {% include gallery.md %}
     </div>
     <div class = 'child duo'>
       <h1 class = 'left'>Fun Weird Science Kit</h1>
@@ -23,7 +22,7 @@ dark: true
       <p>Get ready to explore chemistry, aerospace, engineering, and sound!</p>
       <p>2 Bonus experiments for a limited time ... 7 total experiments!</p>
       <p>Free shipping!</p> 
-      <div class = 'cart'>  {% include shoppingCart.md %} </div>
+      <div class = 'cart'>  {% include cart.md %} </div>
     </div>   
   </section>
 </div>

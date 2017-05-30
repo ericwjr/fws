@@ -363,10 +363,10 @@ footer p{
   min-height:420px;
 }
 .noisy .wide{
-  background-color:rgba(0, 16, 26, 0.5);
+  background-color:rgba(0, 16, 26, 0.75);
 }
 .noisy .wider{
-  background-color:rgba(15,190,124,0.5);
+  background-color:rgba(15,190,124,0.75);
 }
 .fulls h3{
   position:relative;

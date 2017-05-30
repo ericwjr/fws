@@ -15,6 +15,7 @@ science_parties: It's possible to have a blast while learning Science....let you
 news_title: Watch us on the Mann & Wife Show, S3E9.
 news_image: mannwife
 ---
+
 <div class = 'film'>
   <video autoplay loop muted>
     <source src = 'https://funweirdscience.com/assets/video.mp4' type = 'video/mp4' >

@@ -3,6 +3,7 @@ permalink: "/products/"
 layout: default
 dark: true
 ---
+
 <div class = 'bright'>
   <section class = 'flex'>
     <div class = 'child duo'>

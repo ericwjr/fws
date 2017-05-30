@@ -23,11 +23,13 @@
 .icon-opens,
 .icon-closes{
   font-size: 1.5em;
+  color:#eee;
 }
 .icon-check,
 .icon-menu,
 .icon-article,
-.icon-star{
+.icon-star,
+.icon-chat{
    color: #0FBE7C;
 }
 .icon-check:before { content: '\e800'; }

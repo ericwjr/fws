@@ -1,5 +1,5 @@
 <div class = 'flex tickets'>
-  {% for ticket in page.tickets %}
+  {% for ticket in site.data.tickets %}
   <div class = 'child duo'>
     <p>{{ticket.description}}</p>
     <p>{{ticket.subdescription}}</p>

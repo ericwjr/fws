@@ -31,7 +31,8 @@ ol{
   list-style-type:none;
 }
 h1,h2,h3,h4{
-  font-weight: 500;
+  font-weight: 300;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   padding:5px 0;
   margin:15px 0;
   color:#000;
@@ -153,6 +154,7 @@ a.submit{
 }
 .film{
   position:relative;
+  perspective:700px;
 }
 .film a.submit{
   width:200px;
@@ -360,6 +362,12 @@ footer p{
   height:40vh;
   min-height:420px;
 }
+.noisy .wide{
+  background-color:rgba(46, 56, 66, 0.5);
+}
+.noisy .wider{
+  background-color:rgba(15,190,124,0.5);
+}
 .fulls h3{
   position:relative;
   display:inline-block;
@@ -426,12 +434,54 @@ footer p{
 .narrow{
   order:-1;
 }
+.noisy{
+  background-image:url({{site.baseurl}}/assets/noisy.png) !important;
+}
 .center{
   text-align: center;
 }
 .left{
   text-align: left;
 }
+/*
+==================================================
+  Image Gallery
+==================================================*/
+.image-gallery {
+    margin: 0 auto;
+    display: block;
+  }
+  .primary,
+  .thumbnails {
+    display:block;
+    margin:15px auto;
+  }
+  .thumbnails {
+    width: 300px;
+  }
+  .primary {
+    width: 300px;
+    height:300px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .thumbnail:hover .thumbnail-image, .selected .thumbnail-image {
+    border: 2px solid #0FBE7C;
+  }
+  .thumbnail-image {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin: 20px 3PX;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+/*
+===================================================================
+*/
+
 @media screen and (min-width: 768px){
   .nav-menu a{
     display:inline-block;

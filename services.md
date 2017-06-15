@@ -10,35 +10,38 @@ layout: default
 ---
 
 <div class = 'fulls shows'>
-  <div class = 'flex-in overlay'>
-    <h1>Services</h1>
-  </div>
+<div class = 'flex-in overlay'>
+<h1>Services</h1>
+</div>
 </div>
 <div class = 'bright flex-in'>
-  <div class = 'tripple'>
-    <h2 id = 'science-shows'>Science Shows</h2>
-    <p class = 'center'>A Science pep rally to get your scholars excited about making STEM fun!</p>
-		<a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
-  </div>
+<div class = 'tripple'>
+<h2 id = 'science-shows'>Science Shows</h2>
+<p class = 'center'>A Science pep rally to get your scholars excited about making STEM fun!</p>
+<a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
+</div>
 </div>
 <div class = 'dull flex-in'>
-  <div class = 'child tripple'>
-      <h3 id = 'teacher-workshops'>Teacher Workshops</h3>
-  <p class = 'flex-in'>FUN WEIRD SCIENCE provides customized STEM teacher implementation workshops with optional ongoing cohort learning, lesson planning assistance, and compilation of online resources for all teacher workshops.</p>
-	<a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
-  </div>
+<div class = 'child tripple'>
+<h3 id = 'teacher-workshops'>Teacher Workshops</h3>
+<p class = 'flex-in'>FUN WEIRD SCIENCE provides customized STEM teacher implementation workshops with optional ongoing cohort learning, lesson planning assistance, and compilation of online resources for all teacher workshops.</p>
+<a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
+</div>
 </div>
 <div class = 'bright flex-in'>
-  <div class = 'tripple'>
-    <h2 id = 'science-parties'>Science Parties</h2>
-    <p class = 'center'>Who said Science can’t be fun? Invite Fun Weird Science to make your next party fun and full of STEM!</p>
+<div class = 'tripple'>
+<h2 id = 'science-parties'>Science Parties</h2>
+<p class = 'center'>Who said Science can’t be fun? Invite Fun Weird Science to make your next party fun and full of STEM!</p>
+<div class = 'film'>
+ 
+        <video loop>
+            <source src = 'https://funweirdscience.com/assets/party.mp4' type = 'video/mp4' >
+        </video>
+        <a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
+</div>
 
-    	<video loop>
-    		<source src = 'https://funweirdscience.com/assets/party.mp4' type = 'video/mp4' >
-  		</video>
-		<a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
-  </div>
+</div>
 </div>
 <div class = 'bright flex-in'>
-  <p class = 'banner center'> <i class = 'icon icon-opens' aria-hidden = 'true'></i>{{ page.story }}<i class = 'icon icon-closes' aria-hidden = 'true'></i></p>
+<p class = 'banner center'> <i class = 'icon icon-opens' aria-hidden = 'true'></i>{{ page.story }}<i class = 'icon icon-closes' aria-hidden = 'true'></i></p>
 </div>

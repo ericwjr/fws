@@ -1,12 +1,15 @@
 ---
 title: Services
 permalink: services
-story: The highest-level thinking and "aha" moments are more likely to occur in an
-  atmosphere of "exuberant discovery", where students of all ages retain that kindergarten
-  enthusiasm of embracing each day with joy of learning.Who said Science can't be
-  fun? Invite Fun Weird Science to make your next party fun and full of STEM!
+story: >-
+  The highest-level thinking and "aha" moments are more likely to occur in an
+  atmosphere of "exuberant discovery", where students of all ages retain that
+  kindergarten enthusiasm of embracing each day with joy of learning.Who said
+  Science can't be fun? Invite Fun Weird Science to make your next party fun and
+  full of STEM!
 top: true
 layout: default
+published: true
 ---
 
 <div class = 'fulls shows'>
@@ -35,7 +38,7 @@ layout: default
 <div class = 'film'>
  
 
-        <video autoplay loop>
+        <video>
             <source src = 'https://funweirdscience.com/assets/party.mp4' type = 'video/mp4' >
         </video>
         <a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>

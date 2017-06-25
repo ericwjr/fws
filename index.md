@@ -1,19 +1,25 @@
 ---
 layout: default
 dark: true
-story: Our approach represents next-generation hands-on learning. Our         practices,
-  strategies, and programs are built upon a foundation of identified              best
-  practices designed
-science_show: What better way to excite your young scholars than with a Science show...includes
-  engaging Science demonstrations, experiments, and good music
-teacher_workshops: Train your staff on the funweirdscience way of engaging your scholars
-  with STEM concepts and learning tools
-after_school: Supplement your scholar's learning with STEM summer camps and after-school
+story: >-
+  Our approach represents next-generation hands-on learning. Our        
+  practices, strategies, and programs are built upon a foundation of
+  identified              best practices designed
+science_show: >-
+  What better way to excite your young scholars than with a Science
+  show...includes engaging Science demonstrations, experiments, and good music
+teacher_workshops: >-
+  Train your staff on the funweirdscience way of engaging your scholars with
+  STEM concepts and learning tools
+after_school: >-
+  Supplement your scholar's learning with STEM summer camps and after-school
   workshops
-science_parties: It's possible to have a blast while learning Science....let your
-  next party be a Funweirdscience party
-news_title: Watch us on the Mann & Wife Show, S3E9.
+science_parties: >-
+  It's possible to have a blast while learning Science....let your next party be
+  a Funweirdscience party
+news_title: 'Watch us on the Mann & Wife Show, S3E9.'
 news_image: mannwife
+published: true
 ---
 
 <div class = 'film'>
@@ -102,6 +108,12 @@ news_image: mannwife
       African-Americans, American Indians, and Hispanics account for    only 12% of all engineering undergraduate degrees.
       <i class = 'icon icon-closes' aria-hidden = 'true'></i>
     </div>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="MNA3NP4AHCM2E">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+     </form>
     <h2>Our Sponsors</h2>
     <h4><a href = 'https://www.google.ca' class = 'mark' target = '_blank'>Google</a></h4>
     <h4><a href = 'https://panasonic.com' class = 'mark' target = '_blank'>Panasonic</a></h4>

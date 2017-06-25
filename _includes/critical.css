@@ -278,6 +278,11 @@ footer{
   width:36px;
   cursor:pointer;
 }
+.donate{
+  position:fixed;
+  right:75px;
+  top:12.5px;
+}
 footer p{
   padding:15px 25px;
 }

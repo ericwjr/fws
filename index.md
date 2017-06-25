@@ -20,7 +20,6 @@ news_image: mannwife
   <video autoplay loop muted>
     <source src = 'https://funweirdscience.com/assets/video.mp4' type = 'video/mp4' >
   </video>
-  <a class = 'submit' href = '{{site.baseurl}}/programs#camps'>Register!</a>
   {% include news.md %}
 </div>
 <section class = 'noisy'>

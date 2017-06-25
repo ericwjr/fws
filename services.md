@@ -32,13 +32,11 @@ layout: default
 <div class = 'tripple'>
 <h2 id = 'science-parties'>Science Parties</h2>
 <p class = 'center'>Who said Science can’t be fun? Invite Fun Weird Science to make your next party fun and full of STEM!</p>
-<div class = 'film'>
- 
 
-        <video>
-            <source src = 'https://funweirdscience.com/assets/party.mp4' type = 'video/mp4' >
-        </video>
-        
+<div>
+    <video>
+       <source src = 'https://funweirdscience.com/assets/party.mp4' type = 'video/mp4' >
+    </video>   
 </div>
 <a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
 </div>

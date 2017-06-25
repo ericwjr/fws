@@ -1,26 +1,31 @@
 ---
 layout: default
 dark: true
-story: Our approach represents next-generation hands-on learning. Our         practices,
-  strategies, and programs are built upon a foundation of identified              best
-  practices designed
-science_show: What better way to excite your young scholars than with a Science show...includes
-  engaging Science demonstrations, experiments, and good music
-teacher_workshops: Train your staff on the funweirdscience way of engaging your scholars
-  with STEM concepts and learning tools
-after_school: Supplement your scholar's learning with STEM summer camps and after-school
+story: >-
+  Our approach represents next-generation hands-on learning. Our        
+  practices, strategies, and programs are built upon a foundation of
+  identified              best practices designed
+science_show: >-
+  What better way to excite your young scholars than with a Science
+  show...includes engaging Science demonstrations, experiments, and good music
+teacher_workshops: >-
+  Train your staff on the funweirdscience way of engaging your scholars with
+  STEM concepts and learning tools
+after_school: >-
+  Supplement your scholar's learning with STEM summer camps and after-school
   workshops
-science_parties: It's possible to have a blast while learning Science....let your
-  next party be a Funweirdscience party
-news_title: Watch us on the Mann & Wife Show, S3E9.
+science_parties: >-
+  It's possible to have a blast while learning Science....let your next party be
+  a Funweirdscience party
+news_title: 'Watch us on the Mann & Wife Show, S3E9.'
 news_image: mannwife
+published: true
 ---
 
 <div class = 'film'>
   <video autoplay loop muted>
     <source src = 'https://funweirdscience.com/assets/video.mp4' type = 'video/mp4' >
   </video>
-  <a class = 'submit' href = '{{site.baseurl}}/programs#camps'>Register!</a>
   {% include news.md %}
 </div>
 <section class = 'noisy'>

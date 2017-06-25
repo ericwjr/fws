@@ -12,6 +12,5 @@
     FUN WEIRD SCIENCE
     </a>
   </nav>
-
   {% include chat.md %}
 </header>

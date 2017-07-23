@@ -1,7 +1,6 @@
 ---
 layout: default
 comments: true
-published: true
 ---
 
 <article class = 'flex post blog'>

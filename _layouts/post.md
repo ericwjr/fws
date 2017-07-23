@@ -1,6 +1,7 @@
 ---
 layout: default
 comments: true
+published: true
 ---
 
 <article class = 'flex post blog'>
@@ -20,7 +21,7 @@ comments: true
                 {% if page.author %}
                   <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                     <span itemprop="name"><a href = '{{site.baseurl}}/author/'>{{ page.author }}</a></span>
-                    <a class = 'connect' href = 'https://mobile.twitter.com/onweru' target = '_blank'>Follow</a>
+                    <a class = 'connect' href = 'https://mobile.twitter.com/funweirdscience' target = '_blank'>Follow</a>
                   </span>
                   <span itemprop='author description' class = 'fade'>{{ page.a_status}}</span>
                 {% endif %}

@@ -139,8 +139,7 @@ a.submit{
   background-color:#2e3842;
   min-height:400px;
 }
-.camps,
-.links{
+.camps{
   width:96%;
   display: block;
   max-width:360px;
@@ -279,7 +278,7 @@ footer{
   cursor:pointer;
 }
 .donate{
-  position:fixed;
+  position:absolute;
   right:75px;
   top:12.5px;
 }
@@ -447,6 +446,14 @@ footer p{
 }
 .left{
   text-align: left;
+}
+.links{
+  padding:30px;
+}
+.left.links p {
+  background-color: rgba(0,0,0,0.1);
+  margin-bottom: 2px;
+  padding: 12.5px 15px;
 }
 /*
 ==================================================

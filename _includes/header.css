@@ -44,7 +44,7 @@ a.nav-brand{
   height:auto;
   z-index:125;
 }
-.closes{
+.open .closes{
   left: 225px;
 }
 .closes .icon-close{
@@ -89,10 +89,15 @@ a.nav-brand{
   opacity:0;
   height:100vh;
   overflow:hidden;
-  animation:closeMenu 0.5s ease-out forwards;
   box-shadow:-1px 2px 1px 2px rgba(0,0,0,0.05);
   background-color:#0FBE7C;
   z-index:101;
+}
+.close{
+  animation:closeMenu 0.5s ease-out forwards;
+}
+.open{
+  animation:openMenu 0.5s ease-out forwards;
 }
 .drop a{
   display:block;
@@ -120,9 +125,6 @@ a.nav-brand{
   border-right: 7.5px solid transparent;
   border-left:7.5px solid transparent;
   border-bottom:9px solid #fefefe;
-}
-.open{
-  animation:openMenu 0.5s ease-out forwards;
 }
 .logo{
   width:75px;

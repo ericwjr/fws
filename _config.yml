@@ -20,7 +20,7 @@ author: Eric
 excerpt_separator: Read More
 markdown: kramdown
 theme: minima
-gems:
+plugins:
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-paginate

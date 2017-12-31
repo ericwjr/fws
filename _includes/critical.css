@@ -280,7 +280,10 @@ footer{
 .donate{
   position:absolute;
   right:75px;
-  top:12.5px;
+  top:20px;
+}
+input[type="image"]{
+  cursor: pointer;
 }
 footer p{
   padding:15px 25px;

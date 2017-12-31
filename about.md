@@ -14,7 +14,7 @@ top: true
 </div>
 <div class = 'dull flex-in'>
   <div class = 'child tripple'>
-     <p>Ronnie Thomas applies his 15 years of STEM teaching experience to ensure that all learners are challenged. He leads the way in technology integration and has been recognized for his work:</p>
+     <p>Ronnie Thomas applies his 20 years of STEM teaching experience to ensure that all learners are challenged. He leads the way in technology integration and has been recognized for his work:</p>
     <div class = 'left links'>
      {% for achievement in site.data.ronnie %}
      <p><i class = 'icon icon-check point'></i><span class = 'point'>{{ achievement }}</span></p>

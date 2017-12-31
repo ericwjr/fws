@@ -61,7 +61,7 @@ comments: true
       {% endfor %}
     </ol>
     <h3><span class = 'pretty'>Twitter Feed</span></h3>
-    <a class="twitter-timeline" href="https://twitter.com/funweirdscience" data-tweet-limit="3"></a>
+    <a class="twitter-timeline" href="https://twitter.com/funweirdscience" data-tweet-limit="2"></a>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </aside>
 </article>

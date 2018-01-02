@@ -2,6 +2,12 @@
 permalink: "/products/"
 layout: default
 dark: true
+stars:
+- 1
+- 2
+- 3
+- 4
+- 5
 ---
 
 <div class = 'bright'>
@@ -11,11 +17,10 @@ dark: true
     </div>
     <div class = 'child duo'>
       <h1 class = 'left'>Fun Weird Science Kit</h1>
+      {% for item in page.stars %}
       <i class = 'icon icon-star'></i>
-      <i class = 'icon icon-star'></i>
-      <i class = 'icon icon-star'></i>
-      <i class = 'icon icon-star'></i>
-      <i class = 'icon icon-star'></i> <span class = 'mark'> (6 customer reviews)</span>
+      {% endfor %}
+      <span class = 'mark'> (6 customer reviews)</span>
       <div class = 'mark'>$30.00</div>
       <p>The Fun Weird Science Kit offers 5 engaging experiments aligned to Next Generation Science Standards that
         provide hours of excitement, engagement, engagement, and discovery. This kit provides parents an awesome
@@ -24,6 +29,8 @@ dark: true
       <p>2 Bonus experiments for a limited time ... 7 total experiments!</p>
       <p>Free shipping!</p> 
       <div class = 'cart'>  {% include cart.md %} </div>
+      <h1 class = 'left'>Download Book</h1>
+      <a href ='/assets/pre-order.txt' download class = 'pdf'><i class = "fas fa-file-pdf fa-2x"></i></a>
     </div>   
   </section>
 </div>

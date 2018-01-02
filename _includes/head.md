@@ -46,4 +46,5 @@
     {% include icons.css %}
     {% include critical.css %}
   </style>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 </head>

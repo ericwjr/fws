@@ -1,8 +1,12 @@
 'use strict';
 (function() {
+
   $('.menu-bar').on('click', function() {
     $('.before').toggleClass('shadow')
     $('.drop').toggleClass('open');
+    if($('.drop').hasClass('close')) {
+      $('.drop').toggleClass('close');
+    }
     $('.closes').toggleClass('opens');
     $(this).children().toggle('icon-menu');
   });
@@ -10,14 +14,14 @@
   $('.closes').on('click', function() {
     $(this).toggleClass('opens');
     $('.before').toggleClass('shadow')
-    $('.drop').toggleClass('open');
+    $('.drop').toggleClass('open').toggleClass('close');
     $('.menu-bar').children().toggle('icon-menu');
   });
 
   $('.before').on('click', function() {
     $(this).toggleClass('shadow')
     $('.closes').toggleClass('opens');
-    $('.drop').toggleClass('open');
+    $('.drop').toggleClass('open').toggleClass('close');
     $('.menu-bar').children().toggle('icon-menu');
   });
 

@@ -30,6 +30,8 @@ a.nav-brand{
   max-width:250px;
   margin-left:50px;
   padding-left:15px;
+  z-index: 9;
+  position: relative;
 }
 .brand{
   margin:0 0 25px 25px;

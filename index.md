@@ -12,15 +12,12 @@ after_school: Supplement your scholar's learning with STEM summer camps and afte
   workshops
 science_parties: It's possible to have a blast while learning Science....let your
   next party be a Funweirdscience party
-news_title: Watch us on the Mann & Wife Show, S3E9.
-news_image: mannwife
 ---
 
 <div class = 'film'>
   <video autoplay loop muted>
     <source src = 'https://funweirdscience.com/assets/video.mp4' type = 'video/mp4' >
   </video>
-  {% include news.md %}
 </div>
 <section class = 'noisy'>
     <div class = 'main green flex-in wider'>

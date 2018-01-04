@@ -170,6 +170,24 @@ video{
   width:100%;
   margin:0 auto;
 }
+.volume {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color:#0FBE7C;
+  opacity:0;
+}
+
+.film:hover .volume{
+  animation: fadeIn 0.3s ease-out forwards; 
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 .bold{
   font-style:bold;
   display:block;
@@ -519,6 +537,14 @@ footer p{
   .trio{
     width:30%;
     order:-1;
+  }
+  .grade{
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 54vh;
+  }
+  .grade-level {
+    width: 28%;
   }
   .child.quad{
     width:25%;

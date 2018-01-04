@@ -10,13 +10,15 @@ All images/videos should be uploaded into the **assets** folder. You may create 
 To link the images in the posts, use this syntax
 
 ```markdown
-![](path/filename)
+![image description](path/filename)
 ``` 
+
+The image description can be anything that briefly describes the image you're using. It's optional but great for SEO and web accessibiility.
 
 For example, if you have an image file inside the **articles** subfolder inside the **assets** folder, you would use it as follows:
 
 ```markdown
-![](/assets/articles/january-stories.jpg)
+![guys telling stories](/assets/articles/january-stories.jpg)
 ``` 
 ## Mainatining this site
 The following links will help the site owner to come into speed with the quirks of jekyll.

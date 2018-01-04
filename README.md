@@ -3,6 +3,20 @@
 gem install jekyll bundler
 bundle exec jekyll serve
 
+## Making posts with images
+All images/videos should be uploaded into the **assets** folder. You may create a *sub folder(s)*; feel free
+
+To link the images in the posts, use this syntax
+
+```markdown
+![]path/filename()
+``` 
+
+For example, if you have an image file inside the **articles** subfolder inside the **assets** folder, you would use it as follows:
+
+```markdown
+![](/assets/articles/january-stories.jpg)
+``` 
 ## Mainatining this site
 The following links will help the site owner to come into speed with the quirks of jekyll. I will list the basic parts.
 
@@ -10,12 +24,7 @@ The following links will help the site owner to come into speed with the quirks 
 * [Front Matter](https://learn.cloudcannon.com/jekyll-front-matter/) 
 * [Liquid syntax](https://learn.cloudcannon.com/jekyll-liquid/)
 * [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Includes](https://learn.cloudcannon.com/jekyll-includes/)
-
-## Resources
-
-* [Jekyll Official docs](https://jekyllrb.com/docs/)
-* [Jekyll Casts](https://learn.cloudcannon.com/)
+* [Includes](https://learn.cloudcannon.com/jekyll-includes/)th
 
 ## Plugins
 Jekyll has a rich pool of plugins to help with tasks such as: youtube embed videos, embed twitter feed, seo,  ... See [Jekyll plugins](https://jekyllrb.com/docs/plugins/)
@@ -38,8 +47,6 @@ or
      # show comments widget
   {% endif %}
 ```
-
-Notice the **if** and **for** blocks ... they are only unique in that they end with **endif** and **endfor** respectively.
 
 ## Conclusion
 

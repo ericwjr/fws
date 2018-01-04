@@ -18,6 +18,9 @@ layout: default
 <div class = 'tripple'>
 <h2 id = 'science-shows'>Science Shows</h2>
 <p class = 'center'>A Science pep rally to get your scholars excited about making STEM fun!</p>
+<div class = 'flex-in'>
+  <iframe allowFullScreen frameborder="0" height="480" mozallowfullscreen src="https://player.vimeo.com/video/248979833" webkitAllowFullScreen width="640"></iframe>
+</div>
 <a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
 </div>
 </div>
@@ -25,6 +28,9 @@ layout: default
 <div class = 'child tripple'>
 <h3 id = 'teacher-workshops'>Teacher Workshops</h3>
 <p class = 'flex-in'>FUN WEIRD SCIENCE provides customized STEM teacher implementation workshops with optional ongoing cohort learning, lesson planning assistance, and compilation of online resources for all teacher workshops.</p>
+<div class = 'flex-in'>
+  <iframe allowFullScreen frameborder="0" height="480" mozallowfullscreen src="https://player.vimeo.com/video/122393396" webkitAllowFullScreen width="640"></iframe>
+</div>
 <a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
 </div>
 </div>

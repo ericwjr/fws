@@ -20,7 +20,7 @@ For example, if you have an image file inside the **articles** subfolder inside 
 ```markdown
 ![guys telling stories](/assets/articles/january-stories.jpg)
 ``` 
-## Mainatining this site
+## Resources
 The following links will help the site owner to come into speed with the quirks of jekyll.
 
 Once you wrap your mind around Jekyll's base concepts

@@ -1,8 +1,3 @@
-
-# Fun Weird Science SSG
-gem install jekyll bundler
-bundle exec jekyll serve
-
 ## Making posts with images
 All images/videos should be uploaded into the **assets** folder. You may create a *sub folder(s)*; feel free
 

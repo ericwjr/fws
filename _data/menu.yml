@@ -1,0 +1,11 @@
+- name: About Us
+- name: Products
+- name: Services
+- name: Programs
+- name: Blog
+- name: FWS TV
+  url: https://www.youtube.com/channel/UCVBKOh5pJFY-4GnDqjEqu7A/featured
+  external: true
+- name: FWS Open Road Journeys
+  url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
+  external: true

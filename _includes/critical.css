@@ -172,17 +172,16 @@ video{
 }
 .volume {
   position: absolute;
-  bottom: 75px;
-  font-size: 2em;
-  right: 75px;
+  top: 30px;
+  right: 30px;
+  font-size: 1.5em;
   cursor: pointer;
   color:#0FBE7C;
   opacity:0;
 }
 
-@keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
+.film:hover .volume{
+  animation: fadeIn 0.3s ease-out forwards; 
 }
 
 @keyframes fadeIn {

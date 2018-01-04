@@ -13,11 +13,25 @@ story: Housed on the campus of Morehouse College our summer STEM enrichment camp
     </div>
   </div>
 </div>
+<div class = 'bright'>
+  <h2>Fun Weird Science Academy </h2>
+  <div class = 'flex-in grade'>
+    {% for level in site.data.academy %}
+      <div class = 'grade-level'>
+          <h3>{{ level.level }}</h3>
+          <p>{{ level.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 <div class = 'dull flex-in'>
   <div class = 'child tripple'>
     <h3 id = 'camps'>Summer Camps</h3>
     <p>{{page.story}}</p>
     {% include register.md %}
+    <h3>Summer Camp Plug In</h3>
+    <p> Let Fun Weird Science come out to your summer camp and provide hands on STEM learning experiences. All programs are totally FUN, totally hands-on and totally participatory for each student. All programs are geared for the Kindergarten through Fifth grade student, however we can customize programs to fit your needs. </p>
+		<a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
   </div>
 </div>
 <div class = 'bright flex-in'>
@@ -33,3 +47,5 @@ story: Housed on the campus of Morehouse College our summer STEM enrichment camp
     <i class = 'icon icon-closes' aria-hidden = 'true'></i>
     
   </div>
+<!-- 
+Summer Camp Plug In- Let Fun Weird Science come out to your summer camp and provide hands on STEM learning experiences. All programs are totally FUN, totally hands-on and totally participatory for each student. All programs are geared for the Kindergarten through Fifth grade student, however we can customize programs to fit your needs. -->

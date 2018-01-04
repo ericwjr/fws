@@ -26,7 +26,9 @@ Once you wrap your mind around Jekyll's base concepts
 **[Front Matter](https://learn.cloudcannon.com/jekyll-front-matter/)**,
 **[Liquid syntax](https://learn.cloudcannon.com/jekyll-liquid/)**,
 **[markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)**,
-**[Includes](https://learn.cloudcannon.com/jekyll-includes/)**), editing the site will be super easy. Notice that *prose.io* and *siteleaf* enable you to edit the site's front matter.
+**[Includes](https://learn.cloudcannon.com/jekyll-includes/)**), editing the site will be super easy. 
+
+Leverage the power of tools like *prose.io* and *siteleaf*  when making simple changes to your site.
 
 ## Plugins
 Jekyll has a rich pool of plugins to help with tasks such as: youtube embed videos, embed twitter feed, seo,  ... See [Jekyll plugins](https://jekyllrb.com/docs/plugins/)

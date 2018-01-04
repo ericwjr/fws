@@ -1,4 +1,4 @@
-## Making posts with images
+## Writing blog posts
 All posts recide inside the **_posts** directory and should be named in the **YEAR-MONTH-DATE-TITLE.md** format like so:
 
 ```markdown

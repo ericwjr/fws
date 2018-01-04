@@ -1,30 +1,36 @@
+## Writing blog posts
+All posts recide inside the **_posts** directory and should be named in the **YEAR-MONTH-DATE-TITLE.md** format like so:
 
-# Fun Weird Science SSG
-gem install jekyll bundler
-bundle exec jekyll serve
+```markdown
+  2018-01-04-gyms-are-floooded-in-january.md
+```
 
-## Making posts with images
 All images/videos should be uploaded into the **assets** folder. You may create a *sub folder(s)*; feel free
 
 To link the images in the posts, use this syntax
 
 ```markdown
-![]path/filename()
+![image description](path/filename)
 ``` 
+
+The image description can be anything that briefly describes the image you're using. It's optional but great for SEO and web accessibiility.
 
 For example, if you have an image file inside the **articles** subfolder inside the **assets** folder, you would use it as follows:
 
 ```markdown
-![](/assets/articles/january-stories.jpg)
+![guys telling stories](/assets/articles/january-stories.jpg)
 ``` 
-## Mainatining this site
-The following links will help the site owner to come into speed with the quirks of jekyll. I will list the basic parts.
+## Resources
+The following links will help the site owner to come into speed with the quirks of jekyll.
 
-* [Jekyll directory Structure](https://jekyllrb.com/docs/structure/)
-* [Front Matter](https://learn.cloudcannon.com/jekyll-front-matter/) 
-* [Liquid syntax](https://learn.cloudcannon.com/jekyll-liquid/)
-* [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Includes](https://learn.cloudcannon.com/jekyll-includes/)th
+Once you wrap your mind around Jekyll's base concepts
+(**[Jekyll directory Structure](https://jekyllrb.com/docs/structure/)**,
+**[Front Matter](https://learn.cloudcannon.com/jekyll-front-matter/)**,
+**[Liquid syntax](https://learn.cloudcannon.com/jekyll-liquid/)**,
+**[markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)**,
+**[Includes](https://learn.cloudcannon.com/jekyll-includes/)**), editing the site will be super easy. 
+
+Leverage the power of tools like *prose.io* and *siteleaf*  when making simple changes to your site.
 
 ## Plugins
 Jekyll has a rich pool of plugins to help with tasks such as: youtube embed videos, embed twitter feed, seo,  ... See [Jekyll plugins](https://jekyllrb.com/docs/plugins/)
@@ -47,7 +53,3 @@ or
      # show comments widget
   {% endif %}
 ```
-
-## Conclusion
-
-If you figure your way around **front matter, liquid syntax, includes and directory structure**, editing the site will be super easy. Notice that *prose.io* and *siteleaf* enable you to edit the site's front matter.

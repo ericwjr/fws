@@ -1,4 +1,10 @@
 ## Making posts with images
+All posts recide inside the **_posts** directory and should be named in the **YEAR-MONTH-DATE-TITLE.md** format like so:
+
+```markdown
+  2018-01-04-gyms-are-floooded-in-january.md
+```
+
 All images/videos should be uploaded into the **assets** folder. You may create a *sub folder(s)*; feel free
 
 To link the images in the posts, use this syntax
@@ -13,13 +19,14 @@ For example, if you have an image file inside the **articles** subfolder inside 
 ![](/assets/articles/january-stories.jpg)
 ``` 
 ## Mainatining this site
-The following links will help the site owner to come into speed with the quirks of jekyll. I will list the basic parts.
+The following links will help the site owner to come into speed with the quirks of jekyll.
 
-* [Jekyll directory Structure](https://jekyllrb.com/docs/structure/)
-* [Front Matter](https://learn.cloudcannon.com/jekyll-front-matter/) 
-* [Liquid syntax](https://learn.cloudcannon.com/jekyll-liquid/)
-* [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Includes](https://learn.cloudcannon.com/jekyll-includes/)
+Once you wrap your mind around Jekyll's base concepts
+(**[Jekyll directory Structure](https://jekyllrb.com/docs/structure/)**,
+**[Front Matter](https://learn.cloudcannon.com/jekyll-front-matter/)**,
+**[Liquid syntax](https://learn.cloudcannon.com/jekyll-liquid/)**,
+**[markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)**,
+**[Includes](https://learn.cloudcannon.com/jekyll-includes/)**), editing the site will be super easy. Notice that *prose.io* and *siteleaf* enable you to edit the site's front matter.
 
 ## Plugins
 Jekyll has a rich pool of plugins to help with tasks such as: youtube embed videos, embed twitter feed, seo,  ... See [Jekyll plugins](https://jekyllrb.com/docs/plugins/)
@@ -42,7 +49,3 @@ or
      # show comments widget
   {% endif %}
 ```
-
-## Conclusion
-
-If you figure your way around **front matter, liquid syntax, includes and directory structure**, editing the site will be super easy. Notice that *prose.io* and *siteleaf* enable you to edit the site's front matter.

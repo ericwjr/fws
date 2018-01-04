@@ -30,7 +30,6 @@ stars:
       <p>Free shipping!</p> 
       <div class = 'cart'>  {% include cart.md %} </div>
       <h1 class = 'left'>Download Book</h1>
-      <a href ='/assets/pre-order.txt' download class = 'pdf'><i class = "fas fa-file-pdf fa-2x"></i></a>
     </div>   
   </section>
 </div>

@@ -1,5 +1,14 @@
 'use strict';
 (function() {
+ 
+  $('.volume').on('click', function (e) {
+    $(this)
+      .children()
+      .toggleClass('fa-volume-off')
+      .toggleClass('fa-volume-up');
+    
+      $(this).siblings()[0].muted = $(this).siblings()[0].muted ? false : true;
+  });
 
   $('.menu-bar').on('click', function() {
     $('.before').toggleClass('shadow')

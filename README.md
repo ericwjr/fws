@@ -24,7 +24,7 @@ The following links will help the site owner to come into speed with the quirks 
 * [Front Matter](https://learn.cloudcannon.com/jekyll-front-matter/) 
 * [Liquid syntax](https://learn.cloudcannon.com/jekyll-liquid/)
 * [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Includes](https://learn.cloudcannon.com/jekyll-includes/)th
+* [Includes](https://learn.cloudcannon.com/jekyll-includes/)
 
 ## Plugins
 Jekyll has a rich pool of plugins to help with tasks such as: youtube embed videos, embed twitter feed, seo,  ... See [Jekyll plugins](https://jekyllrb.com/docs/plugins/)

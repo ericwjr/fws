@@ -10,7 +10,7 @@ All images/videos should be uploaded into the **assets** folder. You may create 
 To link the images in the posts, use this syntax
 
 ```markdown
-![]path/filename()
+![](path/filename)
 ``` 
 
 For example, if you have an image file inside the **articles** subfolder inside the **assets** folder, you would use it as follows:

@@ -35,7 +35,10 @@ layout: default
 <div class = 'film'>
     <video autoplay loop muted>
        <source src = 'https://funweirdscience.com/assets/party.mp4' type = 'video/mp4' >
-    </video>   
+    </video>
+    <div class = 'volume'>
+    <i class="fas fa-volume-up"></i>
+  </div>   
 </div>
 <a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
 </div>

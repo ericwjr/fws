@@ -538,6 +538,14 @@ footer p{
     width:30%;
     order:-1;
   }
+  .grade{
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 54vh;
+  }
+  .grade-level {
+    width: 28%;
+  }
   .child.quad{
     width:25%;
     background-color:rgba(255,255,255,0.09);

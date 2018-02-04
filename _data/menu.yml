@@ -9,3 +9,7 @@
 - name: FWS Open Road Journeys
   url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
   external: true
+- name: FWS Online Academy
+  url: https://www.eventbrite.com/e/fun-weird-science-online-academy-april-2018-tickets-42724293512?ref=ebtn
+  external: true
+  image: https://www.eventbrite.com/custombutton?eid=42724293512

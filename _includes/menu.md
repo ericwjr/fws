@@ -7,9 +7,22 @@
      <div class = 'closes'>
       <i class = 'icon icon-close' aria-hidden = 'true'></i>
      </div>
-     <a href='{{ '/' | relative_url}}'><img class = 'logo' src = '{{site.baseurl}}/assets/logo.png' alt = 'fun weird science logo'></a>
+     <a href='{{ "/" | relative_url}}'><img class = 'logo' src = '{{site.baseurl}}/assets/logo.png' alt = 'fun weird science logo'></a>
     {% for item in site.data.menu %}
-      <a href='{% if item.url %} {{ item.url }} {% else %}{{site.baseurl}}/{{ item.name | replace: ' ', '-' | downcase }} {% endif %}' {% if item.external %} target = '_blank' rel='noopener' {% endif%}> {{ item.name }}</a>
+      <a href="{% if item.url %} 
+        {{ item.url }} 
+      {% else %}
+        {{site.baseurl}}/{{ item.name | replace: ' ', '-' | downcase }}
+      {% endif %}"
+      {% if item.external %} 
+        target = '_blank' rel='noopener' 
+      {% endif%}> 
+        {% if item.image %}
+          <img src = '{{ item.image }}' alt = '{{ item.name}}'/>
+        {% else %}
+          {{ item.name }}
+        {% endif %}
+      </a>
     {% endfor %}
     </div>
 </div>

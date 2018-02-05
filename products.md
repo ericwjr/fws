@@ -2,12 +2,6 @@
 permalink: "/products/"
 layout: default
 dark: true
-stars:
-- 1
-- 2
-- 3
-- 4
-- 5
 ---
 
 <div class = 'bright'>
@@ -17,7 +11,7 @@ stars:
     </div>
     <div class = 'child duo'>
       <h1 class = 'left'>Fun Weird Science Kit</h1>
-      {% for item in page.stars %}
+      {% for star in (1..5) %}
       <i class = 'icon icon-star'></i>
       {% endfor %}
       <span class = 'mark'> (6 customer reviews)</span>

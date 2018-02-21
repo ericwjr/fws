@@ -104,18 +104,21 @@ a.nav-brand{
 .drop a{
   display:block;
   width:100%;
-  padding:12.5px 25px;
+  padding:12.5px 10px;
   margin-bottom:2px;
   color:#fff;
-  font-size:1.1em;
+  font-size:1rem;
   transition:color 0.25s ease-in-out;
-  border-bottom:1px solid rgba(0,0,0,0.1);
+  border-bottom:1px solid rgba(255,255,255,0.1);
 }
 .drop a:first-child{
   margin-bottom:20px;
 }
 .drop a:hover{
   color: #fefefe;
+}
+.drop a:last-child{
+  border-bottom:none;
 }
 .drop:before{
   content:'';
@@ -132,6 +135,16 @@ a.nav-brand{
   width:75px;
   margin:0 auto 15px auto !important;
   padding:0;
+}
+.register{
+  background: #FFB236;
+  color: #fff;
+  font-size:0.8rem;
+  padding: 7.5px 15px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 @keyframes delays{
   0% { opacity: 0; }

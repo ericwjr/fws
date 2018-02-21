@@ -16,12 +16,12 @@
       {% endif %}"
       {% if item.external %} 
         target = '_blank' rel='noopener' 
-      {% endif%}> 
-        {% if item.image %}
-          <img src = '{{ item.image }}' alt = '{{ item.name}}'/>
+      {% endif%}>
+        {% if item.class %} 
+          <span class = '{{ item.class }}'>{{ item.name }}</span>
         {% else %}
           {{ item.name }}
-        {% endif %}
+        {% endif%}
       </a>
     {% endfor %}
     </div>

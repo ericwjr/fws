@@ -22,9 +22,6 @@ science_parties: It's possible to have a blast while learning Science....let you
     <i class="fas fa-volume-up"></i>
   </div>
 </div>
-<div class = 'flex-in'>
-  <iframe allowFullScreen frameborder="0" height="480" mozallowfullscreen src="https://player.vimeo.com/video/253267948" webkitAllowFullScreen width="640"></iframe>
-</div>
 <section class = 'noisy'>
     <div class = 'main green flex-in wider'>
       <div class = 'child tripple'>
@@ -47,6 +44,9 @@ science_parties: It's possible to have a blast while learning Science....let you
       </div>
     </div>
 </section>
+<div class = 'flex-in'>
+  <iframe allowFullScreen frameborder="0" height="480" mozallowfullscreen src="https://player.vimeo.com/video/253267948" webkitAllowFullScreen width="640"></iframe>
+</div>
 <div class = 'flex noisy'>
   <div class = 'fulls narrow shows'>
     <div class = 'flex-in after'>

@@ -15,7 +15,7 @@ science_parties: It's possible to have a blast while learning Science....let you
 ---
 
 <div class = 'film'>
-  <video loop controls poster="https://funweirdscience.com/assets/video.png">
+  <video autoplay loop muted poster="https://funweirdscience.com/assets/video.png">
     <source src = 'https://funweirdscience.com/assets/video.mp4' type = 'video/mp4' >
   </video>
   <div class = 'volume'>

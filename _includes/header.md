@@ -1,6 +1,3 @@
-<style>
-  {% include header.css %}
-</style>
 {% if page.top %}
   <header id = 'header'>
 {% else %}

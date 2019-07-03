@@ -77,10 +77,9 @@ a.nav-brand{
 #header{
   background-color:transparent;
   position:absolute;
-}
-#header .chat,
-#header .menu-bar{
-  position:absolute;
+  .menu-bar{
+    position:absolute;
+  }
 }
 .drop{
   position:fixed;

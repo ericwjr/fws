@@ -23,7 +23,8 @@ article{
     padding-top:12.5px;
   }
   &s {
-    margin-top:-60px;
+    margin:-60px 0 0;
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
     grid-gap: 2rem;

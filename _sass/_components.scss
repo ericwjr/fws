@@ -209,6 +209,7 @@ footer{
   width:36px;
   cursor:pointer;
   @media screen and (max-width: 667px) {
+    position: fixed;
     top: 90vh;
     right: 1.5rem;
   }

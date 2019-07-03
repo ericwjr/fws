@@ -41,10 +41,6 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include analytics.md %}
   {% endif %}
-  <style>
-    {% include posts.css %}
-    {% include icons.css %}
-    {% include critical.css %}
-  </style>
+  <link rel = 'stylesheet' href = '/main.css'>
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 </head>

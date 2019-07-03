@@ -4,9 +4,6 @@ layout: default
 dark: true
 ---
 
-<style>
-  {% include contact.css %}
-</style>
 <section class = 'form flex-in'>
   <div class = 'widget'>
     <form  action = 'https://formspree.io/info@funweirdscience.com' method = 'POST' id = 'form'>

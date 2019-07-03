@@ -24,7 +24,7 @@ layout: default
         <span><a href = '{{member.linkedin}}' target = '_blank' class = 'linkedin'><i class = 'icon icon-linkedin'></i></a></span>
         <span><a href = '{{member.twitter}}' target = '_blank' class = 'twitter'><i class = 'icon icon-twitter'></i></a></span>
       </div>
-      <p class = ' mt-1'>{{member.description}}</p>
+      <p class = ' mt-1'>{{ member.description | markdownify }}</p>
     </div> 
     {% endfor %}
   </div>

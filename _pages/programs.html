@@ -7,16 +7,16 @@ story: Housed on the campus of Morehouse College our summer STEM enrichment camp
 
 <div class = 'fulls workshops'>
   <div class = 'flex-in overlay'>
-    <div class = 'tripple'>
+    <div class = 'card'>
       <h1>Programs</h1>
     </div>
   </div>
 </div>
 <div class = 'bright'>
-  <h2>Fun Weird Science Academy </h2>
+  <h2 class = 'center'>Fun Weird Science Academy </h2>
   <div class = 'flex-in grade'>
     {% for level in site.data.academy %}
-      <div class = 'grade-level'>
+      <div class = 'grade-level center'>
           <h3>{{ level.level }}</h3>
           <p>{{ level.description }}</p>
       </div>
@@ -24,7 +24,7 @@ story: Housed on the campus of Morehouse College our summer STEM enrichment camp
   </div>
 </div>
 <div class = 'dull flex-in'>
-  <div class = 'child tripple'>
+  <div class = 'card'>
     <h3 id = 'camps'>Summer Camps</h3>
     <p>{{page.story}}</p>
     {% include register.md %}
@@ -33,17 +33,17 @@ story: Housed on the campus of Morehouse College our summer STEM enrichment camp
 		<a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
   </div>
 </div>
-<div class = 'bright'>
+<div class = 'wrap_min ma-2'>
   <div class = 'flex-in'>
-    <div class = 'child tripple'>
+    <div class = 'card'>
       <h2><span id = 'stemsaturdays'>Stem Saturdays</span></h2>
       <p class = 'center'>One Saturday a month, Fun Weird Science hosts elementary and middle school students for a themed STEM Day.</p>
       <a class = 'submit' target = '_blank' href = 'https://www.google.com/url?q=https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink%3Dcamps-registration%23/selectSessions/2631608&sa=D&source=hangouts&ust=1562257517923000&usg=AFQjCNH5VfmSo040A_IcvHGdfxqP758RyA'>STEM Field Trips</a>
     </div>
   </div>
-  <div class = 'banner'>
+  <blockquote>
     <i class = 'icon icon-opens' aria-hidden = 'true'></i>
     There are over 600,000 high-paying technology jobs open across the U.S., and by 2018, 51 percent of all STEM jobs are projected to be in computer-related fields.
     <i class = 'icon icon-closes' aria-hidden = 'true'></i>
-  </div>
+  </blockquote>
 </div>

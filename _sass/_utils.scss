@@ -1,0 +1,63 @@
+.wrap {
+  max-width: 100%;
+  margin: 0 auto;
+  &_min {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@for $i from 1 through 4 {
+  $size: $i * 12.5px;
+  // margin bottom
+  .mb-#{$i} {
+    margin-bottom: $size !important;
+  }
+  // margin top
+  .mt-#{$i} {
+    margin-top: $size !important;
+  }
+  // padding around
+  .ma-#{$i} {
+    padding: $size !important;
+  }
+  .pt-#{$i} {
+    padding-top: $size !important;
+  }
+  .pb-#{$i} {
+    padding-bottom: $size !important;
+  }
+}
+
+$emojis: (
+  wave: "\1F44B",
+  mail: "\1F4E7",
+  write: "\270D",
+  smile: "\1F642",
+  sad: "\1F61E"
+);
+
+@each $emoji, $code in $emojis {
+  .em_#{$emoji}:after {
+    content: $code;
+  }
+}
+
+[class^=em_] {
+  display: inline-grid;
+  justify-self: center;
+  background: transparent;
+}
+
+[class^=em_]:after {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@for $i from 1 through 5 {
+  $margin : $i * 25px; 
+  .em-#{$i} {
+    font-size: $margin;
+  }
+}

@@ -3,17 +3,17 @@ layout: default
 comments: true
 ---
 
-<article class = 'flex post blog'>
-  <div class = 'child strip'>
+<article class = 'mt-4 wrap_min post_main'>
+  <div class = 'strip'>
     <div class = 'tablet'>
       {% include share.md %}
     </div>
   </div>
-  <div class = 'child tripple'>
-    <div class="post-header">
+  <div>
+    <div class = 'post_header'>
       <div class = 'preview'>
         <div class = 'cover'>
-          <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+          <h1 class="post_title" itemprop="name headline">{{ page.title | escape }}</h1>
           <div class = 'flex'>
             <div>
               <div class = 'author-info'>
@@ -28,7 +28,7 @@ comments: true
               <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                 <span class = 'duration fade'>
                 {{ page.date | date_to_long_string }} .
-                {% assign time = content| number_of_words | divided_by:170 %}{{ time }} min read
+                {% assign time = content| number_of_words | divided_by:170 %}{% if time >= 1  %}{{ time }}{% else %}1{% endif %} min read
                 </span>
               </time>
             </div>
@@ -36,26 +36,26 @@ comments: true
         </div>
       </div>
     </div>
-    <div class="post-content" itemprop="articleBody">
+    <div class="post_content mt-2" itemprop="articleBody">
       {% if page.image %}
         <div class = 'featured'>
           <img src = '{{site.baseurl}}/assets/posts/{{page.image}}' alt = 'Featured image'>
         </div>
       {% endif %}
       {{ content }}
-    </div>
+    </div> 
 
     {% if page.comments %}
       {% include disqus.md %}
     {% endif %}
   </div>
-  <aside class = 'child trio'>
+  <aside class = 'post_section'>
     <h3><span class = 'pretty'>Recent Posts</span></h3>
-    <ol class="post-list">
+    <ol class="post_list">
       {% for post in site.posts limit:6 %}
       {% if post != page %}
         <li>
-          <a class="post-link" href="{{ post.url | relative_url }}"><i class="icon icon-article mark" aria-hidden = 'true'></i>{{ post.title | escape }}</a>
+          <a class="post_link" href="{{ post.url | relative_url }}"><i class="icon icon-article mark" aria-hidden = 'true'></i>{{ post.title | escape }}</a>
         </li>
       {% endif %}
       {% endfor %}

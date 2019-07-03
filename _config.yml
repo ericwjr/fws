@@ -2,10 +2,10 @@ title: Fun Weird Science
 timezone: UTC
 collections:
   posts:
-    title: Posts
+    title: posts
     output: true
   uploads:
-    title: Uploads
+    title: pages
     output: true
 description: Fun Weird Science is the programming brand for Georgia Science & Robotics Academy, Inc.
 baseurl: ''
@@ -24,3 +24,16 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+include: 
+  - _pages
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      author: Eric
+      permalink: /:title/

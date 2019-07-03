@@ -2,8 +2,7 @@
 permalink: "/programs/"
 layout: default
 top: true
-story: Housed on the campus of Morehouse College our summer STEM enrichment camp engages
-  students through weekly themed learning experiences.
+story: Housed on the campus of Morehouse College our summer STEM enrichment camp engages students through weekly themed learning experiences.
 ---
 
 <div class = 'fulls workshops'>
@@ -39,7 +38,7 @@ story: Housed on the campus of Morehouse College our summer STEM enrichment camp
     <div class = 'child tripple'>
       <h2><span id = 'stemsaturdays'>Stem Saturdays</span></h2>
       <p class = 'center'>One Saturday a month, Fun Weird Science hosts elementary and middle school students for a themed STEM Day.</p>
-      <a class = 'submit' href = '{{site.baseurl}}/contact'>Get More Info</a>
+      <a class = 'submit' target = '_blank' href = 'https://www.google.com/url?q=https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink%3Dcamps-registration%23/selectSessions/2631608&sa=D&source=hangouts&ust=1562257517923000&usg=AFQjCNH5VfmSo040A_IcvHGdfxqP758RyA'>STEM Field Trips</a>
     </div>
   </div>
   <div class = 'banner'>

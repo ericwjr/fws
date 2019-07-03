@@ -12,6 +12,7 @@ after_school: Supplement your scholar's learning with STEM summer camps and afte
   workshops
 science_parties: It's possible to have a blast while learning Science....let your
   next party be a Funweirdscience party
+permalink: /
 ---
 
 <div class = 'film'>
@@ -95,15 +96,13 @@ science_parties: It's possible to have a blast while learning Science....let you
     </div>
   </div>
 </div>
-<div class = 'main flex-in'>
-  <div class = 'child tripple'>
-    <div class = 'banner'>
-      <i class = 'icon icon-opens' aria-hidden = 'true'></i>
-      African-Americans, American Indians, and Hispanics account for    only 12% of all engineering undergraduate degrees.
-      <i class = 'icon icon-closes' aria-hidden = 'true'></i>
-    </div>
-    <h2>Our Sponsors</h2>
-    <h4><a href = 'https://www.google.ca' class = 'mark' target = '_blank'>Google</a></h4>
-    <h4><a href = 'https://panasonic.com' class = 'mark' target = '_blank'>Panasonic</a></h4>
-  </div>
+<div class = 'ma-2 wrap_min'>
+  <blockquote>
+    <i class = 'icon icon-opens' aria-hidden = 'true'></i>
+    African-Americans, American Indians, and Hispanics account for    only 12% of all engineering undergraduate degrees.
+    <i class = 'icon icon-closes' aria-hidden = 'true'></i>
+  </blockquote>
+  <h2 class = 'mt-2'>Our Sponsors</h2>
+  <h4><a href = 'https://www.google.ca' class = 'mark' target = '_blank'>Google</a></h4>
+  <h4><a href = 'https://panasonic.com' class = 'mark' target = '_blank'>Panasonic</a></h4>
 </div>

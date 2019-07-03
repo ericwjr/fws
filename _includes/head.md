@@ -33,14 +33,14 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="@{{site.twitter}}" />
   {% endif %}
-  <link rel = 'icon' type = 'image/ico' sizes = '32X32' href = "{{site.baseurl}}/favicon.ico">
+  <link rel = 'icon' type = 'image/ico' sizes = '32X32' href = "{{site.baseurl}}/assets/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/apple.png">
-  <link rel="mask-icon" href="{{site.baseurl}}/safari.svg" color="#5bbad5">
+  <link rel="mask-icon" href="{{site.baseurl}}/assets/safari.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="{{ page.url | replace:'index.htm l','' | absolute_url }}">
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include analytics.md %}
   {% endif %}
-  <link rel = 'stylesheet' href = '/main.css'>
+  <link rel = 'stylesheet' href = '/assets/main.css'>
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 </head>

@@ -7,7 +7,7 @@
   min-height:360px;
 }
 .green {
-  color:#fff;
+  color:$light;
   h1{
     color:inherit;
   }
@@ -18,7 +18,7 @@
 }
 a.submit{
   background-color:#0FBE7C;
-  color:#fff;
+  color:$light;
   padding:10px;
   text-align:center;
   display:block;
@@ -43,11 +43,11 @@ a.submit{
 }
 .green,
 .dull{
-  color:#fff;
+  color:$light;
 }
 .bright{
   min-height:48vh;
-  background-color:#fff;
+  background-color:$light;
   text-align:left;
 }
 .green{
@@ -72,7 +72,7 @@ a.submit{
 .film{
   position:relative;
   perspective:700px;
-  margin: 1rem 0;
+  margin: 0.9rem 0 0;
 }
 .film a.submit{
   width:200px;
@@ -136,12 +136,12 @@ a.product{
   overflow:hidden; 
 }
 .overlay{
-  background:linear-gradient(-45deg,rgba(50,50,75,0.4), rgba(0,0,0,0.6));
+  background:linear-gradient(-45deg,rgba(50,50,75,0.4), rgba($dark,0.6));
   position:absolute;
   top:0;
   bottom:0;
   width:100%;
-  color:#fff;
+  color:$light;
 } 
 .tickets {
   align-items: center;
@@ -152,7 +152,7 @@ a.product{
   font-size:120%;
 }
 .tickets .duo{
-  background-color:rgba(0,0,0,0.3);
+  background-color:rgba($dark,0.3);
   padding:25px 10px;
   min-height: 150px;
 }
@@ -161,7 +161,7 @@ footer{
   width:100%;
   position:relative;
   background-color:#2e3842;
-  color:#fff;
+  color:$light;
 }
 .icons{
   width:100%;
@@ -175,7 +175,7 @@ footer{
   align-items:center;
   width:40px;
   height:40px;
-  color:#fff;
+  color:$light;
   font-size:1.2em;
   border-radius:50%;
 }
@@ -220,16 +220,7 @@ input[type="image"]{
 footer p{
   padding:15px 25px;
 }
-.banner{
-  background-color:#0FBE7C;
-  color:#fff;
-  font-size:1.2em;
-  padding:25px;
-  width:100%;
-  max-width:750px;
-  display:block;
-  margin:15px auto;
-}
+
 .trio{
   text-align:left;
 }
@@ -254,9 +245,10 @@ footer p{
 }
 .member {
   display: grid;
-  box-shadow: 0 1rem 4rem rgba(0,0,0,0.12);
-  padding: 1.5rem;
+  box-shadow: 0 1rem 4rem rgba($dark,0.12);
+  padding: 1rem;
   border-radius: 1rem;
+  text-align: center;
   &s {
     display: grid;
     grid-gap: 2.5rem;
@@ -265,11 +257,11 @@ footer p{
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   }
   &_avatar {
-    width:72%;
+    width: 72%;
     height: auto;
-    max-width:250px;
+    max-width: 10rem;
     border-radius:50%;
-    margin:15px auto;
+    margin: 0 auto;
     display: inline-block;
   }
 }
@@ -292,7 +284,7 @@ footer p{
   display:none;
 }
 .dull h3{
-  color:#fff;
+  color:$light;
   font-size:150%;
   text-transform:capitalize;
   text-align:center;
@@ -310,7 +302,7 @@ footer p{
   background-repeat:no-repeat;
 }
 .fulls .after{
-  background:linear-gradient(-45deg, rgba(0,0,0,0.5), rgba(255,255,255,0.25));
+  background:linear-gradient(-45deg, rgba($dark,0.5), rgba($light,0.25));
   width:100%;
   padding:25px;
   height:40vh;
@@ -327,7 +319,7 @@ footer p{
   display:inline-block;
   font-size:125%;
   margin:12.5px auto;
-  color:#fff;
+  color:$light;
   text-transform:uppercase;
 }
 .fulls h3:after,
@@ -338,7 +330,7 @@ footer p{
   right:0;
   width:100%;
   padding:1px;
-  background-color:#fff;
+  background-color:$light;
   overflow-x:hidden; 
 }
 .fulls h3:after{
@@ -395,15 +387,7 @@ footer p{
   text-align: center;
 }
 .left{
-  text-align: left;
-}
-.links{
-  padding:30px;
-}
-.left.links p {
-  background-color: rgba(0,0,0,0.1);
-  margin-bottom: 2px;
-  padding: 12.5px 15px;
+  text-align: left !important;
 }
 
 // Image Gallery
@@ -438,9 +422,6 @@ footer p{
   background-position: center center;
   background-repeat: no-repeat;
 }
-/*
-===================================================================
-*/
 
 @media screen and (min-width: 768px){
   .nav-menu a{
@@ -458,8 +439,9 @@ footer p{
   .duo{
     width:48%;
   }
-  .tripple{
+  .card {
     width:60%;
+    text-align: center;
   }
   .trio{
     width:30%;
@@ -475,7 +457,7 @@ footer p{
   }
   .child.quad{
     width:25%;
-    background-color:rgba(255,255,255,0.09);
+    background-color:rgba($light,0.09);
     border-radius:25px;
     text-align:center;
   }
@@ -517,7 +499,7 @@ footer p{
   a{
     margin:2.5px 17.5px 12px 0;
     padding:10px;
-    color:#fff;
+    color:$light;
     opacity:1;
     transition:opacity 0.3s ease-in-out;
     border-radius:50%;
@@ -531,4 +513,32 @@ h4.share{
   text-align:left;
   color:#555;
   font-size:1em;
+}
+
+.ronnie {
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+  align-items: center;
+  p {
+    padding: 1.5rem 0;
+  }
+}
+
+.links  {
+  position: relative;
+  @media screen and (min-width: 35rem) {
+    &::before {
+      content: '';
+      position: absolute;
+      width: 1px;
+      top: 10%;
+      bottom: 10%;
+      background: linear-gradient(to bottom, transparent, #fff, transparent);
+      right: -1.5rem;
+    }
+  }
+  p {
+    padding: 5px 0;
+  }
 }

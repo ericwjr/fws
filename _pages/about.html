@@ -1,0 +1,46 @@
+---
+title: About Us
+permalink: "/about-us/"
+layout: default
+<!-- top: true -->
+---
+
+<!-- <div class = 'overview fulls'>
+  <div class = 'flex-in overlay'>
+    
+  </div>
+</div> -->
+
+
+<div class = 'bright mt-4'>
+  <!-- <h1 class = 'center'>About Us</h1> -->
+  <h2 class = 'center'>Our Team</h2>
+  <div class = 'members'>
+    {% for member in site.data.team %}
+    <div class = 'member'>
+      <img src = '{{site.baseurl}}/assets/{{member.avatar}}' alt = '{{member.name}}' class = 'member_avatar'>
+      <h3>{{member.name}}</h3>
+      <div class = 'icons'>
+        <span><a href = '{{member.linkedin}}' target = '_blank' class = 'linkedin'><i class = 'icon icon-linkedin'></i></a></span>
+        <span><a href = '{{member.twitter}}' target = '_blank' class = 'twitter'><i class = 'icon icon-twitter'></i></a></span>
+      </div>
+      <p class = ' mt-1'>{{member.description}}</p>
+    </div> 
+    {% endfor %}
+  </div>
+</div>
+{% assign ronnie = site.data.ronnie %}
+<div class = 'dull'>
+  <div class = 'wrap_min ma-2 ronnie'>
+    <div class = 'left links'>
+      <h3 class = 'left'>Achievements</h3>
+      {% for achievement in ronnie.achievements %}
+      <p><i class = 'icon icon-check point'></i><span class = 'point'>{{ achievement }}</span></p>
+      {% endfor %}
+    </div>
+    <div>
+      {{ ronnie.about | markdownify }}
+    </div>
+  </div>
+</div>
+

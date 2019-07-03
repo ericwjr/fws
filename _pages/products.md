@@ -5,7 +5,7 @@ dark: true
 ---
 
 <div class = 'bright'>
-  <section class = 'flex'>
+  <section class = 'flex mt-4'>
     <div class = 'child duo'>
       {% include gallery.md %}
     </div>

@@ -5,60 +5,79 @@ article{
   width:100%;
 }
 .post{
-  margin:0 auto;
-  padding:15px 25px;
-}
-.blog h1,
-.blog h2,
-.blog h3{
-  margin:15px auto;
-  text-align:left;
-  padding:5px 0 0 0;
-}
-.blog,
-.post{
-  min-height:52vh;
-}
-.post{
   padding:30px 20px;
-}
-.blog .flex{
-  padding:0;
-}
-.post-list h3{
-  text-align:left;
-  color:inherit;
-  padding-left:0;
-  transition:color 0.25s ease-in-out;
-}
-.post-list li{
-  padding:10px 0;
-  margin:7.5px 0 0;
-  border-bottom:1px solid rgba(0,0,0,0.08);
-  transition:color 0.25s ease-in;
-}
-.post-list li:hover{
-  color: #47CF73;
-}
-.post-collection{
-  margin-top:-60px;
-}
-.post-collection li{
-  background-color:#fff;
-  box-shadow:0 0 6px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 1rem 4rem rgba($dark, 0.17);
+  background-color: $light;
   padding:15px;
   margin-top:7.5px;
+  margin:0 auto;
+  padding:15px 25px;
+  display: grid;
+  h1,h2, h3{
+    margin:15px auto;
+    text-align:left;
+    padding:5px 0 0 0;
+  }
+  p{
+    padding-bottom:12.5px;
+    padding-top:12.5px;
+  }
+  &s {
+    margin-top:-60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+    grid-gap: 2rem;
+    h3:hover{
+      color: #47CF73;
+    }
+  }
+  &_list {
+    h3{
+      text-align:left;
+      color:inherit;
+      padding-left:0;
+      transition:color 0.25s ease-in-out;
+    }
+    li{
+      padding:10px 0;
+      margin:7.5px 0 0;
+      border-bottom:1px solid rgba(0,0,0,0.08);
+      transition:color 0.25s ease-in;
+      &:hover{
+        color: #47CF73;
+      }
+    }
+  } 
+  &_main {
+    grid-gap: 2.25rem;
+    display: grid;
+    @media screen and (min-width: 769px) {
+      grid-template-columns: 4rem auto;
+    }
+  }
+  &_section {
+    grid-column: 1/-1;
+  }
+  &_content {
+    h4{
+      margin:5px 0;
+      text-align:left;
+    }
+    a{
+      color:#47CF73;
+      padding-bottom:7.5px;
+      text-decoration:underline;
+    }
+  }
+  &_title{
+    margin:5px 0;;
+  }
+  &_link{
+    padding:2.5px 0;
+    margin:2.5px 0;
+  }
 }
-.post-collection  h3:hover{
-  color: #47CF73;
-}
-.blog .tripple{
-  padding:0;
-}
-.post p{
-  padding-bottom:12.5px;
-  padding-top:12.5px;
-}
+
 .fade{
   color:#888 !important;
   display:block;
@@ -85,13 +104,6 @@ article{
   padding:0 10px;
   font-size:0.9em;
   border-radius:12.5px;
-}
-h1.post-title{
-  margin:5px 0;;
-}
-h3.post-link{
-  padding:2.5px 0;
-  margin:2.5px 0;
 }
 .pretty{
   min-width:150px;
@@ -125,13 +137,4 @@ aside h3{
   left:0;
   border-bottom:22.5px solid rgba(0,0,0,0.8);
   border-radius:3.5px;
-}
-.post-content h4{
-  margin:5px 0;
-  text-align:left;
-}
-.post-content a{
-  color:#47CF73;
-  padding-bottom:7.5px;
-  text-decoration:underline;
 }

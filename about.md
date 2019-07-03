@@ -25,7 +25,7 @@ top: true
 </div>
 <div class = 'bright'>
   <h2>Our Team</h2>
-  <div class = 'flex members'>
+  <div class = 'members'>
     {% for member in site.data.team %}
       <div class = 'member'>
         <img src = '{{site.baseurl}}/assets/{{member.avatar}}' alt = '{{member.name}}' class = 'member_avatar'>

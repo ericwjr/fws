@@ -15,7 +15,10 @@
   0% { transform:rotate(0deg); }
   100%{ transform:rotate(360deg); }
 }
-.form{min-height:72vh;}
+.form{
+  margin-top: 4rem;
+  min-height:72vh;
+}
 .widget{
   padding:0;
   color:#111;

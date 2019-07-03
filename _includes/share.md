@@ -1,27 +1,3 @@
-<style>
-  .share-panel{
-    display: flex;
-    align-items:center;
-    flex-flow:row wrap;
-    justify-content:flex-start;
-  }
-  .share-panel a{
-     margin:2.5px 17.5px 12px 0;
-     padding:10px;
-     color:#fff;
-     opacity:1;
-     transition:opacity 0.3s ease-in-out;
-     border-radius:50%;
-  }
-  .share-panel a:hover{
-          opacity:0.84;
-  }
-  h4.share{
-    text-align:left;
-    color:#555;
-    font-size:1em;
-  }
-</style>
 <h4 class = 'share'>{{ 'Share' | upcase }}</h4>
 <div class = 'share-panel icons'> 
   <span>

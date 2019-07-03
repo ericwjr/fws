@@ -25,10 +25,10 @@ top: true
 </div>
 <div class = 'bright'>
   <h2>Our Team</h2>
-  <div class = 'flex team'>
+  <div class = 'flex members'>
     {% for member in site.data.team %}
-      <div class = 'duo member'>
-        <img src = '{{site.baseurl}}/assets/{{member.avatar}}' alt = '{{member.name}}'>
+      <div class = 'member'>
+        <img src = '{{site.baseurl}}/assets/{{member.avatar}}' alt = '{{member.name}}' class = 'member_avatar'>
         <h3>{{member.name}}</h3>
         <div class = 'icons'>
           <span><a href = '{{member.linkedin}}' target = '_blank' class = 'linkedin'><i class = 'icon icon-linkedin'></i></a></span>

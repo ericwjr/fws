@@ -10,10 +10,14 @@
   url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
   external: true
 - name: STEM Field Trips
-  url: https://www.google.com/url?q=https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink%3Dcamps-registration%23/selectSessions/2631608&sa=D&source=hangouts&ust=1562257517923000&usg=AFQjCNH5VfmSo040A_IcvHGdfxqP758RyA
+  url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
   external: true
   class: register
-- name: CLICK AND REGISTER
-  url: https://www.eventbrite.com/e/fun-weird-science-online-academy-april-2018-tickets-42724293512?ref=ebtn
+- name: Online STEM Courses
+  url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+  external: true
+  class: register
+- name: STEM Saturdays
+  url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
   external: true
   class: register

@@ -22,7 +22,7 @@ permalink: /
 </div>
 <section class = 'noisy'>
     <div class = 'main green flex-in wider'>
-      <div class = 'child tripple'>
+      <div class = 'child tripple wrap_min'>
         <h1>FUN WEIRD SCIENCE</h1>
         <span class = 'border'></span>
         <p>

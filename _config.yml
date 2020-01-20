@@ -10,6 +10,7 @@ collections:
 description: Fun Weird Science is the programming brand for Georgia Science & Robotics Academy, Inc.
 baseurl: ''
 url: http://funweirdscience.com
+logo: /assets/logo.png
 twitter: funweirdscience
 environment: production
 disqus:

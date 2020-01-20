@@ -1,0 +1,41 @@
+<header>
+  <div class = 'nav-top'>
+    <a href = '/' class = 'nav-logo xl'><img src = '{{ site.logo }}' alt = '{{ site.title }} logo'></a>
+    <a href = '/' class = 'nav-brand'>{{ site.title }}</a>
+    {%- include chat.html %}
+    <div class = 'nav-toggle'></div>
+  </div>
+  <nav class = 'nav'>
+  <a href = '/' class = 'nav-logo xs'><img src = '{{ site.logo }}' alt = '{{ site.title }} logo'></a>
+  {%- for item in site.data.menu %}
+  {%- assign $url = (item.name | replace: ' ', '-' | downcase | prepend: "/" | append: "/") %}
+  {%- if item.url %}
+    {% assign $url = .item.url %}
+  {%- endif %}
+  {%- if item.submenu %}
+  <div class = 'nav-item'>
+    <span class = 'nav-parent'>{{ item.name }}</span>
+    <div class = 'nav-submenu'>
+    {%- for item in item.submenu %}
+      <a href="{% if item.url %}{{ item.url }}{% else %}{{ $url }}{% endif %}"{% if item.external %} target = '_blank' rel='noopener' {% endif%} class = 'nav-item{% if $url == page.url %} nav-active{% endif %}'>
+        {%- if item.class %} 
+        <span class = '{{ item.class }}'>{{ item.name }}</span>
+        {%- else %}
+        {{ item.name }}
+        {%- endif %}
+      </a>
+    {%- endfor %}
+    </div>
+  </div>
+  {%- else %}
+    <a href="{% if item.url %}{{ item.url }}{% else %}{{ $url }}{% endif %}"{% if item.external %} target = '_blank' rel='noopener' {% endif%} class = 'nav-item{% if $url == page.url %} nav-active{% endif %}'>
+      {%- if item.class %} 
+      <span class = '{{ item.class }}'>{{ item.name }}</span>
+      {%- else %}
+      {{ item.name }}
+      {%- endif %}
+    </a>
+  {%- endif -%}
+  {%- endfor %}
+  </nav>
+</header>

@@ -15,6 +15,7 @@ p, blockquote, ol, ul{
 body{
   width:100%;
   margin:0 auto;
+  max-width: 1440px;
   position: relative;
   font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
   color:#333;
@@ -72,7 +73,9 @@ em{
 }
 main{
   padding: 0;
-  min-height:84vh;
+  min-height: 84vh;
+  transition: transform 0.5s $ease;
+  background-color: $light;
 }
 img{
   width:90%;

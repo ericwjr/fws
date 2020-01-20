@@ -72,7 +72,6 @@ a.submit{
 .film{
   position:relative;
   perspective:700px;
-  margin: 0.9rem 0 0;
 }
 .film a.submit{
   width:200px;
@@ -199,9 +198,6 @@ footer{
   background-color: #fb3958;
 }
 .chat{
-  position:fixed;
-  right:25px;
-  top:7.5px;
   border-radius:50%;
   font-size:1.25em;
   color:#0FBE7C;
@@ -215,9 +211,13 @@ footer{
   }
 }
 .donate{
-  position:absolute;
   right:75px;
   top:20px;
+  img {
+    width: 1px;
+    height: 1px;
+    margin: 0;
+  }
   @media screen and (max-width: 667px) {
     right: 1.5rem;
   }
@@ -317,10 +317,10 @@ footer p{
   min-height:420px;
 }
 .noisy .wide{
-  background-color:rgba(0, 16, 26, 0.75);
+  background-color: $theme;
 }
 .noisy .wider{
-  background-color:rgba(15,190,124,0.75);
+  background-color: $tint;
 }
 .fulls h3{
   position:relative;
@@ -330,25 +330,26 @@ footer p{
   color:$light;
   text-transform:uppercase;
 }
-.fulls h3:after,
-.fulls h3:before{
+.fulls h3:after {
   content:'';
   position:absolute;
   left:0;
   right:0;
   width:100%;
-  padding:1px;
-  background-color:$light;
+  padding: 2px;
+  background-color: $tint;
   overflow-x:hidden; 
 }
 .fulls h3:after{
-  animation: grow 1s 3s linear alternate infinite;
-  top:50px;
+  width: 25%;
+  max-width: 7rem;
+  // animation: grow 1s 3s linear alternate infinite;
+  top: 2.5rem;
 }
-.fulls h3:before{
-  bottom:50px;
-  animation: shrink 1s 3s linear alternate infinite;
-}
+// .fulls h3:before{
+//   bottom:50px;
+//   animation: shrink 1s 3s linear alternate infinite;
+// }
 .shows{
   background-image:url(/assets/shows.jpg);
 }

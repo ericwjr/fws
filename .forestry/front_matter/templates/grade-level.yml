@@ -9,6 +9,12 @@ fields:
   - type: text
     name: level
     label: level
-  - type: text
-    name: description
-    label: description
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description

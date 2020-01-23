@@ -94,7 +94,6 @@
   
   $('.previous').on('click', function() {
     window.history.back();
-    console.log('I want to go back');
   });
   
   $(".select").each(function() {
@@ -137,7 +136,6 @@
   $('.thumbnail').on('click', function() {
     var clicked = $(this);
     var newSelection = clicked.data('big');
-    console.log('clicked', newSelection);
     var $img = $('.primary').css("background-image","url(" + newSelection + ")");
     clicked.parent().find('.thumbnail').removeClass('selected');
     clicked.addClass('selected');
@@ -435,7 +433,6 @@ function fileClosure() {
   function menuHeight(nav) {
     const height = nav.offsetHeight
     nav.dataset.height = height;
-    console.log(`action ${height}`);
     return nav;
   }
 

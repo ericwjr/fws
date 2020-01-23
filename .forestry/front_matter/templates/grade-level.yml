@@ -1,0 +1,14 @@
+---
+label: Grade Level
+hide_body: true
+fields:
+- type: field_group_list
+  name: Academy
+  label: Academy
+  fields:
+  - type: text
+    name: level
+    label: level
+  - type: text
+    name: description
+    label: description

@@ -1,7 +1,6 @@
 ---
+title: Products
 permalink: "/products/"
-layout: default
-dark: true
 ---
 
 <div class = 'bright'>

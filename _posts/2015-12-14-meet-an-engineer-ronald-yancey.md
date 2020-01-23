@@ -1,8 +1,6 @@
 ---
 title: 'Meet An Engineer: Ronald Yancey'
 date: 2015-12-14 00:00:00 Z
-permalink: "/meet-an-engineer-ronald-yancey/"
-layout: post
 comments: true
 ---
 

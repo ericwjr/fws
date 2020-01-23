@@ -38,3 +38,11 @@ defaults:
       layout: "post"
       author: Eric
       permalink: /:title/
+  -
+    scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "default"
+      author: Eric
+      permalink: /:title/

@@ -1,8 +1,6 @@
 ---
 title: Fun Weird Science Has A New Friend
 date: 2016-02-02 00:00:00 Z
-permalink: "/fun-weird-science-has-a-new-friend/"
-layout: post
 comments: true
 ---
 

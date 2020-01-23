@@ -1,6 +1,5 @@
 ---
-layout: default
-dark: true
+title: Home
 story: Our approach represents next-generation hands-on learning. Our         practices,
   strategies, and programs are built upon a foundation of identified              best
   practices designed

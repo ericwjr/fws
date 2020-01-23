@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: _data/team.yaml
-  label: Team
-  match: "**/*"
 - type: heading
   label: Regular Pages
 - type: directory
@@ -31,6 +27,9 @@ sections:
 - type: document
   path: _data/ronnie.yaml
   label: Ronnie
+- type: document
+  path: _data/team.yaml
+  label: Team
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''

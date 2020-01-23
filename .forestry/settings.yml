@@ -19,7 +19,6 @@ sections:
 - type: document
   path: _data/academy.yaml
   label: Academy
-  match: "**/*"
 - type: document
   path: _data/menu.yaml
   label: Menu

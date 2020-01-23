@@ -21,3 +21,5 @@ fields:
   - type: file
     name: avatar
     label: avatar
+pages:
+- _data/team.yaml

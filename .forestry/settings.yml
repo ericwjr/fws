@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/menu.yaml
+  label: Menu
+  match: "**/*"
+- type: document
   path: _data/ronnie.yaml
   label: Ronnie
   match: "**/*"

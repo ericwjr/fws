@@ -8,12 +8,6 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: permalink
-  label: permalink
-- type: text
-  name: layout
-  label: layout
 - type: boolean
   name: comments
   label: comments

@@ -120,6 +120,13 @@ header{
       background-position: center;
       background-repeat: no-repeat;
       background-size: 75%;
+      &::before {
+        content: "MENU";
+        position: absolute;
+        top: -1rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
     }
     &-logo {
       &.xl {

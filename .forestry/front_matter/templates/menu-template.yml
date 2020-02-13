@@ -1,0 +1,104 @@
+---
+label: Menu Template
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: timezone
+  label: timezone
+- type: field_group
+  name: collections
+  label: collections
+  fields:
+  - type: field_group
+    name: posts
+    label: posts
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: boolean
+      name: output
+      label: output
+  - type: field_group
+    name: uploads
+    label: uploads
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: boolean
+      name: output
+      label: output
+- type: text
+  name: description
+  label: description
+- type: text
+  name: baseurl
+  label: baseurl
+- type: text
+  name: url
+  label: url
+- type: file
+  name: logo
+  label: logo
+- type: text
+  name: twitter
+  label: twitter
+- type: text
+  name: environment
+  label: environment
+- type: field_group
+  name: disqus
+  label: disqus
+  fields:
+  - type: text
+    name: shortname
+    label: shortname
+- type: text
+  name: author
+  label: author
+- type: text
+  name: excerpt_separator
+  label: excerpt_separator
+- type: text
+  name: markdown
+  label: markdown
+- type: list
+  name: plugins
+  label: plugins
+- type: list
+  name: exclude
+  label: exclude
+- type: list
+  name: include
+  label: include
+- type: field_group_list
+  name: defaults
+  label: defaults
+  fields:
+  - type: field_group
+    name: scope
+    label: scope
+    fields:
+    - type: text
+      name: path
+      label: path
+    - type: text
+      name: type
+      label: type
+  - type: field_group
+    name: values
+    label: values
+    fields:
+    - type: text
+      name: layout
+      label: layout
+    - type: text
+      name: author
+      label: author
+    - type: text
+      name: permalink
+      label: permalink

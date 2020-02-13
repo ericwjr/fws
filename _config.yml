@@ -1,3 +1,4 @@
+---
 title: Fun Weird Science
 timezone: UTC
 collections:
@@ -7,10 +8,11 @@ collections:
   uploads:
     title: pages
     output: true
-description: Fun Weird Science is the programming brand for Georgia Science & Robotics Academy, Inc.
+description: Fun Weird Science is the programming brand for Georgia Science & Robotics
+  Academy, Inc.
 baseurl: ''
 url: http://funweirdscience.com
-logo: /assets/logo.png
+logo: "/assets/Fun Weird Science Logo-01 (2).png"
 twitter: funweirdscience
 environment: production
 disqus:
@@ -19,30 +21,26 @@ author: Eric
 excerpt_separator: Read More
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-paginate
 exclude:
-  - Gemfile
-  - Gemfile.lock
-
-include: 
-  - _pages
-
+- Gemfile
+- Gemfile.lock
+include:
+- _pages
 defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "post"
-      author: Eric
-      permalink: /:title/
-  -
-    scope:
-      path: "_pages"
-      type: "pages"
-    values:
-      layout: "default"
-      author: Eric
-      permalink: /:title/
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    author: Eric
+    permalink: "/:title/"
+- scope:
+    path: _pages
+    type: pages
+  values:
+    layout: default
+    author: Eric
+    permalink: "/:title/"

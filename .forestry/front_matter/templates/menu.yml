@@ -19,5 +19,16 @@ fields:
       max: 
       labelField: 
     label: submenu
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+- name: url
+  type: text
+  config:
+    required: false
+  label: link
 pages:
 - _data/menu.yaml

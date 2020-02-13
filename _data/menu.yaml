@@ -1,49 +1,44 @@
+---
 - name: Home
-  url: /
+  url: "/"
 - name: About Us
 - name: Programs
-- name: Products
 - name: Parents
   submenu:
-    - name: FWS TV
-      url: https://www.youtube.com/channel/UCVBKOh5pJFY-4GnDqjEqu7A/featured
-      external: true
-    - name: Join Our Meetup Group!
-      url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
-      external: true
-    - name: STEM Field Trips
-      url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
-      external: true
-      # class: register
-    - name: Online STEM Courses
-      url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
-      external: true
-      # class: register
-    - name: STEM Saturdays
-      url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
-      external: true
-      # class: register
+  - name: FWS TV
+    url: https://www.youtube.com/channel/UCVBKOh5pJFY-4GnDqjEqu7A/featured
+    external: true
+  - name: Join Our Meetup Group!
+    url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
+    external: true
+  - name: STEM Field Trips
+    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    external: true
+  - name: Online STEM Courses
+    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    external: true
+  - name: STEM Saturdays
+    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    external: true
 - name: Schools
   submenu:
-    - name: FWS TV
-      url: https://www.youtube.com/channel/UCVBKOh5pJFY-4GnDqjEqu7A/featured
-      external: true
-    - name: Join Our Meetup Group!
-      url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
-      external: true
-    - name: STEM Field Trips
-      url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
-      external: true
-      # class: register
-    - name: Online STEM Courses
-      url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
-      external: true
-      # class: register
-    - name: STEM Saturdays
-      url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
-      external: true
-      # class: register
+  - name: FWS TV
+    url: https://www.youtube.com/channel/UCVBKOh5pJFY-4GnDqjEqu7A/featured
+    external: true
+  - name: Join Our Meetup Group!
+    url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
+    external: true
+  - name: STEM Field Trips
+    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    external: true
+  - name: Online STEM Courses
+    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    external: true
+  - name: STEM Saturdays
+    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    external: true
 - name: Services
 - name: Blog
 - name: Contact
-  url: /contact/
+  url: "/contact/"
+- name: Products

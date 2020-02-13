@@ -22,7 +22,7 @@ fields:
       min: 
       max: 
       labelField: 
-    label: submenu
+    label: submenu links
     description: Add Dropdown Links
     fields:
     - name: name

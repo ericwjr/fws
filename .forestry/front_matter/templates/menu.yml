@@ -12,5 +12,12 @@ fields:
   - type: text
     name: url
     label: url
+- name: submenu
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: submenus
 pages:
 - _data/menu.yaml

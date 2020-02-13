@@ -1,6 +1,4 @@
 ---
-- name: birthdays
-  url: "#"
 - name: Home
   url: "/"
 - name: About Us

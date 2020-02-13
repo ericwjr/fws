@@ -11,7 +11,7 @@ fields:
     label: name
   - type: text
     name: url
-    label: url
+    label: link
   - name: submenu
     type: field_group_list
     config:

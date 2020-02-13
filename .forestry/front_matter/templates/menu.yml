@@ -12,6 +12,10 @@ fields:
   - type: text
     name: url
     label: link
+  - name: external
+    type: boolean
+    label: external
+    description: Is this an external link?
   - name: submenu
     type: field_group_list
     config: {}
@@ -37,11 +41,5 @@ fields:
       type: boolean
       label: external
       description: Is this an external link?
-  - name: external
-    type: text
-    config:
-      required: false
-    label: external
-    description: Is this an external link?
 pages:
 - _data/menu.yaml

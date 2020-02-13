@@ -3,7 +3,6 @@
   url: "/"
 - name: About Us
   url: https://www.google.com/url?q=https://spark.adobe.com/page/WnYnzRUfaXB
-- name: Programs
 - name: Parents
   submenu:
   - name: FWS TV

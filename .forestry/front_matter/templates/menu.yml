@@ -25,10 +25,10 @@ fields:
       config:
         required: false
       label: name
-- name: url
-  type: text
-  config:
-    required: false
-  label: link
+    - name: url
+      type: text
+      config:
+        required: false
+      label: link
 pages:
 - _data/menu.yaml

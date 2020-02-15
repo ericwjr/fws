@@ -34,6 +34,9 @@
   external: false
 - name: Schools
   submenu:
+  - name: Live Science Show Assembly
+    url: ''
+    external: true
   - name: Teacher Workshops
     url: ''
     external: true

@@ -9,11 +9,14 @@
   submenu: []
 - name: Parents
   submenu:
-  - name: Summer Camps
+  - name: STEM Birthday Parties
     url: ''
     external: true
   - name: Online STEM Courses
     url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    external: true
+  - name: Summer Camps
+    url: ''
     external: true
   - name: STEM Saturdays
     url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration

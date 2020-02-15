@@ -37,10 +37,7 @@
   - name: FWS TV
     url: https://www.youtube.com/channel/UCVBKOh5pJFY-4GnDqjEqu7A/featured
     external: true
-  - name: Join Our Meetup Group!
-    url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
-    external: true
-  - name: STEM Field Trips
+  - name: In-School STEM Field Trips
     url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
     external: true
   - name: Online STEM Courses

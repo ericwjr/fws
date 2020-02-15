@@ -9,16 +9,19 @@
   submenu: []
 - name: Parents
   submenu:
-  - name: STEM Birthday Parties
-    url: ''
-    external: true
   - name: Online STEM Courses
+    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    external: true
+  - name: STEM Saturdays
     url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
     external: true
   - name: Summer Camps
     url: ''
     external: true
-  - name: STEM Saturdays
+  - name: STEM Birthday Parties
+    url: ''
+    external: true
+  - name: STEM Travel Trips
     url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
     external: true
   - name: FWS TV
@@ -26,9 +29,6 @@
     external: true
   - name: Join Our Meetup Group!
     url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
-    external: true
-  - name: STEM Travel Trips
-    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
     external: true
   url: ''
   external: false

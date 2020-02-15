@@ -34,6 +34,9 @@
   external: false
 - name: Schools
   submenu:
+  - name: Summer Camp Plugin
+    url: ''
+    external: true
   - name: Live Science Show Assembly
     url: ''
     external: true

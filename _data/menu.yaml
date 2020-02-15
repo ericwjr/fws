@@ -1,9 +1,12 @@
 ---
 - name: Home
   url: "/"
+  external: false
+  submenu: []
 - name: About Us
   url: https://spark.adobe.com/page/WnYnzRUfaXBK3/
   external: true
+  submenu: []
 - name: Parents
   submenu:
   - name: FWS TV
@@ -12,7 +15,7 @@
   - name: Join Our Meetup Group!
     url: https://www.meetup.com/Fun-Weird-Science-Open-Road-Journeys/
     external: true
-  - name: STEM Field Trips
+  - name: STEM Travel Trips
     url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
     external: true
   - name: Online STEM Courses
@@ -21,6 +24,8 @@
   - name: STEM Saturdays
     url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
     external: true
+  url: ''
+  external: false
 - name: Schools
   submenu:
   - name: FWS TV
@@ -38,8 +43,21 @@
   - name: STEM Saturdays
     url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
     external: true
+  url: ''
+  external: false
 - name: Services
+  url: ''
+  external: false
+  submenu: []
 - name: Blog
+  url: ''
+  external: false
+  submenu: []
 - name: Contact
   url: "/contact/"
+  external: false
+  submenu: []
 - name: Products
+  url: ''
+  external: false
+  submenu: []

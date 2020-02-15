@@ -34,23 +34,23 @@
   external: false
 - name: Schools
   submenu:
+  - name: Teacher Workshops
+    url: ''
+    external: true
+  - name: Live Science Show Assembly
+    url: ''
+    external: true
+  - name: In-School STEM Field Trips
+    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    external: true
   - name: After School STEM Program
     url: ''
     external: true
   - name: Summer Camp Plugin
     url: ''
     external: true
-  - name: Live Science Show Assembly
-    url: ''
-    external: true
-  - name: Teacher Workshops
-    url: ''
-    external: true
   - name: FWS TV
     url: https://www.youtube.com/channel/UCVBKOh5pJFY-4GnDqjEqu7A/featured
-    external: true
-  - name: In-School STEM Field Trips
-    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
     external: true
   url: ''
   external: false

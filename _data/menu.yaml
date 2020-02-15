@@ -9,7 +9,7 @@
   submenu: []
 - name: Parents
   submenu:
-  - name: STEM Summer Camps
+  - name: Summer Camps
     url: ''
     external: true
   - name: Online STEM Courses

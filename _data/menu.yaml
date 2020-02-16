@@ -7,6 +7,10 @@
   url: https://spark.adobe.com/page/WnYnzRUfaXBK3/
   external: true
   submenu: []
+- name: Products
+  url: ''
+  external: false
+  submenu: []
 - name: Parents
   submenu:
   - name: Online STEM Courses
@@ -64,9 +68,5 @@
   submenu: []
 - name: Contact
   url: "/contact/"
-  external: false
-  submenu: []
-- name: Products
-  url: ''
   external: false
   submenu: []

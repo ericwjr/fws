@@ -59,7 +59,7 @@
   url: ''
   external: false
 - name: Blog
-  url: ''
+  url: '/blog/'
   external: false
   submenu: []
 - name: Contact

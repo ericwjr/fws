@@ -39,8 +39,8 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="{{ page.url | replace:'index.htm l','' | absolute_url }}">
   {%- if jekyll.environment == 'production' and site.google_analytics %}
-  {%- include analytics.html %}
-  {%- include facebook.html %}
+    {%- include analytics.html %}
+    {%- include facebook.html %}
   {%- endif %}
   <link rel = 'stylesheet' href = '/assets/main.css'>
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>

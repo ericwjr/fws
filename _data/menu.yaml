@@ -1,4 +1,8 @@
 ---
+- name: Services
+  url: "/services"
+  external: false
+  submenu: []
 - name: Home
   url: "/"
   external: false
@@ -8,7 +12,7 @@
   external: true
   submenu: []
 - name: Products
-  url: '/products/'
+  url: "/products/"
   external: false
   submenu: []
 - name: Parents
@@ -59,7 +63,7 @@
   url: ''
   external: false
 - name: Blog
-  url: '/blog/'
+  url: "/blog/"
   external: false
   submenu: []
 - name: Contact

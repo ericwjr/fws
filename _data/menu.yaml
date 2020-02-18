@@ -58,10 +58,6 @@
     external: true
   url: ''
   external: false
-- name: Services
-  url: "/services/"
-  external: false
-  submenu: []
 - name: Blog
   url: ''
   external: false

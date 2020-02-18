@@ -1,12 +1,4 @@
 ---
-- name: Programs
-  url: "/programs/"
-  external: false
-  submenu: []
-- name: Services
-  url: "/services"
-  external: false
-  submenu: []
 - name: Home
   url: "/"
   external: false
@@ -54,7 +46,7 @@
     external: true
   - name: In-School STEM Field Trips
     url: "/programs/#field-trips"
-    # external: true
+    external: false
   - name: After School STEM Program
     url: ''
     external: true

@@ -1,4 +1,8 @@
 ---
+- name: Programs
+  url: "/programs/"
+  external: false
+  submenu: []
 - name: Services
   url: "/services"
   external: false

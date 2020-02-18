@@ -8,7 +8,7 @@
   external: true
   submenu: []
 - name: Products
-  url: ''
+  url: '/products/'
   external: false
   submenu: []
 - name: Parents

@@ -38,9 +38,10 @@
   <link rel="mask-icon" href="{{site.baseurl}}/assets/safari.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="{{ page.url | replace:'index.htm l','' | absolute_url }}">
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include analytics.md %}
-  {% endif %}
+  {%- if jekyll.environment == 'production' and site.google_analytics %}
+  {%- include analytics.md %}
+  {%- endif %}
+  {%- include facebook.html %}
   <link rel = 'stylesheet' href = '/assets/main.css'>
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 </head>

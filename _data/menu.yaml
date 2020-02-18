@@ -54,7 +54,7 @@
     external: true
   - name: In-School STEM Field Trips
     url: "/programs/#field-trips"
-    external: true
+    # external: true
   - name: After School STEM Program
     url: ''
     external: true

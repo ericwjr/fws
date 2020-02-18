@@ -12,7 +12,7 @@
   {%- if item.url %}
     {% assign $url = .item.url %}
   {%- endif %}
-  {%- if item.submenu.length %}
+  {%- if item.submenu.size >= 1 %}
   <div class = 'nav-item'>
     <span class = 'nav-parent'>{{ item.name }}</span>
     <div class = 'nav-submenu'>

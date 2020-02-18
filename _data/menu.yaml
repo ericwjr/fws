@@ -53,7 +53,7 @@
     url: ''
     external: true
   - name: In-School STEM Field Trips
-    url: https://campscui.active.com/orgs/FunWeirdScienceLLC?orglink=camps-registration
+    url: "/programs/#field-trips"
     external: true
   - name: After School STEM Program
     url: ''

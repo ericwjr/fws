@@ -38,7 +38,7 @@
   <link rel="mask-icon" href="{{site.baseurl}}/assets/safari.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="{{ page.url | replace:'index.htm l','' | absolute_url }}">
-  {%- if jekyll.environment == 'production' and site.google_analytics %}
+  {%- if jekyll.environment == 'production' and site.google_analytics_id %}
     {%- include analytics.html %}
     {%- include facebook.html %}
   {%- endif %}

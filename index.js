@@ -62,7 +62,7 @@
     message = document.getElementById('message').value.toLowerCase();
     e.preventDefault();
     $.ajax({
-      url: '//formspree.io/f/info@funweirdscience.com',
+      url: '//formspree.io/f/xjvjqovn',
       method: 'POST',
       data: $(this).serialize(),
       dataType: 'json',

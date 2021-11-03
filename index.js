@@ -423,7 +423,7 @@ function fileClosure() {
       const form = forms[0];
       form.addEventListener('submit', function(event) {
         event.preventDefault();
-        submitButton.disabled = true;
+        // submitButton.disabled = true;
         // submitSignUp(form);
         return false;
       });

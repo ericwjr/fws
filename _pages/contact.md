@@ -2,11 +2,11 @@
 title: Contact Us
 permalink: "/contact/"
 dark: true
----
 
+---
 <section class = 'form flex-in'>
   <div class = 'widget'>
-    <form  action = 'https://formspree.io/info@funweirdscience.com' method = 'POST' id = 'form'>
+    <form  action = 'https://formspree.io/f/info@funweirdscience.com' method = 'POST' id = 'form'>
        {% include options.md %}
       <input name = 'name' type = 'text' required placeholder = 'Name' id = 'name'>
       <input name = 'email' type = 'email' required placeholder = 'Email' id = 'email'>
